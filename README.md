@@ -1,18 +1,42 @@
-# IMT Pulse (pilot), by Raj Srivastava
+# IMT Pulse, by Raj Srivastava
 
-Created 21 Oct 2026.
+**An AI-generated daily business brief and quiz app for MBA students preparing for campus placements.**
+Built for IMT Ghaziabad in October 2026 and piloted with real students.
 
-A daily business-news brief + quiz PWA for IMT Ghaziabad students during placement season.
-Every morning: the 5 most useful AI-summarised stories for your track, a Company of the Day brief, and a quiz (5 track questions, one per story, plus 2–3 on the company)
-that feeds daily and weekly leaderboards. Only `@imt.ac.in` emails can sign up.
+Every morning at 05:30 IST a serverless pipeline reads ~450 headlines from Indian business news RSS feeds and
+uses LLMs on Amazon Bedrock to produce, for each of 5 career tracks (Marketing, Finance, Consulting/Strategy,
+Ops/Analytics, HR):
+- the **5 most relevant stories**, each with an original 2–3 line summary and a "why it matters for placements" line,
+- a **5-question multiple-choice quiz** built from those stories, and
+- a **Company of the Day** brief (business lines, recent news, likely interview talking points) for a company recruiting on campus.
 
-> **Status (22 Oct 2026): shut down.** Everything on AWS was deleted on purpose. The code, a data backup and
-> these instructions are all that's needed to bring it back. See [Restart from scratch](#restart-from-scratch).
+Students sign in with their college email, read the brief, take the timed quiz, and compete on daily and weekly leaderboards.
 
-**Former app URL:** https://d3csy05k0pa2ub.cloudfront.net (gone; a restart gets a new URL)  ·  **AWS region:** `ap-southeast-2` (Sydney)
+## Where AI/ML is used
 
-> Why Sydney and not Mumbai: this AWS account sits in an AWS-managed Organization whose policy blocks every
-> region except `ap-southeast-2`. CloudFront still serves the app from edge locations in India.
+| Step | What the model does | How it's made reliable |
+|---|---|---|
+| **Classify and rank** (Claude Haiku 4.5) | Tags every headline to 0–2 career tracks and scores importance 1–5 | Batched in parallel; code then de-duplicates stories about the same event (LLM event labels + keyword-overlap check) |
+| **Summarise and explain** (Claude Sonnet 4.6) | Writes original summaries and "why it matters" lines; rates each story's fit for the track | Prompted to use only facts in the source; full article text is never stored (copyright) |
+| **Generate the quiz** (Claude Sonnet 4.6) | Writes MCQs with 4 options, the answer and an explanation, one per story shown | Forced JSON via tool use + a schema validator; one automatic retry with the validator's feedback; options are shuffled in code |
+| **Company brief** (Claude Sonnet 4.6) | Segments, flagship brands, news, interview talking points | Optional admin-verified notes treated as ground truth; marked in the app as "AI-written, double-check" |
+| **Human in the loop** | Admin page to review, edit and approve each day's drafts before 08:00 | Regeneration never overwrites approved or edited content |
+
+Model choice came from side-by-side tests: Haiku alone was cheap but made factual slips in company briefs and wrote
+easy-to-guess quiz options, so Haiku does the bulk tagging and Sonnet writes everything students read (~$0.30/day).
+Bedrock capacity errors fall back automatically from the regional profile to the global one, then to the other model.
+
+**Pilot:** 9 students signed up within the first day of a soft launch. Paused after the pilot to save cost; it can be redeployed in about 10 minutes.
+
+**Tech:** Python 3.12, Amazon Bedrock (Claude Haiku 4.5, Sonnet 4.6, Converse API with tool use), AWS Lambda,
+API Gateway, DynamoDB, Cognito, EventBridge Scheduler, S3 + CloudFront, AWS SAM; vanilla JS PWA with no framework or build step.
+
+**Code map:** [backend/content/](backend/content/) (the AI pipeline: feeds, prompts, schemas, validation), [backend/api/app.py](backend/api/app.py) (quiz and leaderboard API),
+[frontend/](frontend/) (the app), [samples/review.html](samples/review.html) (a generated day you can open in a browser), [template.yaml](template.yaml) (all infrastructure).
+
+> **Status:** the AWS deployment was deleted after the pilot. Everything needed to bring it back is in this repo.
+> AWS region is `ap-southeast-2` (Sydney) because the account's organization policy only allows that region;
+> CloudFront serves the app from edge locations in India.
 
 ## Restart from scratch
 
