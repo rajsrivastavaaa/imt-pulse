@@ -1,0 +1,282 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: IMT Pulse - daily business news + quiz PWA for IMT Ghaziabad (pilot)
+
+Parameters:
+  FastModelId:
+    Type: String
+    Default: au.anthropic.claude-haiku-4-5-20251001-v1:0
+    Description: Bedrock inference profile for bulk tagging
+  WriteModelId:
+    Type: String
+    Default: au.anthropic.claude-sonnet-4-6
+    Description: Bedrock inference profile for summaries, quizzes and company briefs
+
+Globals:
+  Function:
+    Runtime: python3.12
+    Architectures: [arm64]
+    CodeUri: backend/
+    MemorySize: 256
+    Timeout: 15
+    Environment:
+      Variables:
+        TABLE: !Ref Table
+
+Resources:
+  # ---------- data ----------
+  Table:
+    Type: AWS::DynamoDB::Table
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - { AttributeName: PK, AttributeType: S }
+        - { AttributeName: SK, AttributeType: S }
+        - { AttributeName: GSI1PK, AttributeType: S }
+        - { AttributeName: GSI1SK, AttributeType: S }
+      KeySchema:
+        - { AttributeName: PK, KeyType: HASH }
+        - { AttributeName: SK, KeyType: RANGE }
+      GlobalSecondaryIndexes:
+        - IndexName: GSI1
+          KeySchema:
+            - { AttributeName: GSI1PK, KeyType: HASH }
+            - { AttributeName: GSI1SK, KeyType: RANGE }
+          Projection: { ProjectionType: ALL }
+      TimeToLiveSpecification: { AttributeName: ttl, Enabled: true }
+
+  # ---------- auth ----------
+  UserPool:
+    Type: AWS::Cognito::UserPool
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      UserPoolName: imt-pulse-users
+      UserPoolTier: LITE
+      DeletionProtection: INACTIVE
+      UsernameAttributes: [email]
+      AutoVerifiedAttributes: [email]
+      UsernameConfiguration: { CaseSensitive: false }
+      AccountRecoverySetting:
+        RecoveryMechanisms: [{ Name: verified_email, Priority: 1 }]
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 8
+          RequireLowercase: false
+          RequireUppercase: false
+          RequireNumbers: true
+          RequireSymbols: false
+      Schema:
+        - { Name: email, AttributeDataType: String, Required: true, Mutable: true }
+        - { Name: given_name, AttributeDataType: String, Required: true, Mutable: true }
+        - { Name: family_name, AttributeDataType: String, Required: false, Mutable: true }
+        - Name: batch
+          AttributeDataType: String
+          Mutable: true
+          StringAttributeConstraints: { MinLength: "0", MaxLength: "20" }
+      EmailConfiguration: { EmailSendingAccount: COGNITO_DEFAULT }
+      VerificationMessageTemplate:
+        DefaultEmailOption: CONFIRM_WITH_CODE
+        EmailSubject: Your IMT Pulse verification code
+        EmailMessage: "Your IMT Pulse verification code is {####}. Enter it in the app to finish signing up."
+
+  UserPoolClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      UserPoolId: !Ref UserPool
+      ClientName: imt-pulse-web
+      GenerateSecret: false
+      ExplicitAuthFlows: [ALLOW_USER_PASSWORD_AUTH, ALLOW_REFRESH_TOKEN_AUTH]
+      PreventUserExistenceErrors: ENABLED
+      EnableTokenRevocation: true
+      RefreshTokenValidity: 365
+      IdTokenValidity: 60
+      AccessTokenValidity: 60
+      TokenValidityUnits: { RefreshToken: days, IdToken: minutes, AccessToken: minutes }
+
+  AdminGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      UserPoolId: !Ref UserPool
+      GroupName: admin
+      Description: Can review content, schedule companies and see stats
+
+  PreSignUpFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: auth.presignup.handler
+      Timeout: 5
+      Events:
+        PreSignUp:
+          Type: Cognito
+          Properties:
+            UserPool: !Ref UserPool
+            Trigger: PreSignUp
+
+  # ---------- API ----------
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 50
+        ThrottlingRateLimit: 20
+      CorsConfiguration:
+        AllowOrigins: ["*"]
+        AllowHeaders: [authorization, content-type]
+        AllowMethods: [GET, POST, PUT, DELETE, OPTIONS]
+        MaxAge: 3600
+      Auth:
+        DefaultAuthorizer: CognitoJwt
+        Authorizers:
+          CognitoJwt:
+            IdentitySource: $request.header.Authorization
+            JwtConfiguration:
+              issuer: !Sub https://cognito-idp.${AWS::Region}.amazonaws.com/${UserPool}
+              audience: [!Ref UserPoolClient]
+
+  ApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: api.app.handler
+      MemorySize: 512
+      Environment:
+        Variables:
+          GENERATE_FN: !Ref GenerateFunction
+      Policies:
+        - DynamoDBCrudPolicy: { TableName: !Ref Table }
+        - LambdaInvokePolicy: { FunctionName: !Ref GenerateFunction }
+      Events:
+        GetMe: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /me, Method: GET } }
+        PutMe: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /me, Method: PUT } }
+        Today: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /today, Method: GET } }
+        QuizStart: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /quiz/start, Method: POST } }
+        QuizAnswer: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /quiz/answer, Method: POST } }
+        QuizResult: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /quiz/result, Method: GET } }
+        Leaderboard: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /leaderboard, Method: GET } }
+        Events: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /events, Method: POST } }
+        AdminDay: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /admin/day, Method: GET } }
+        AdminSection: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /admin/section, Method: PUT } }
+        AdminGenerate: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /admin/generate, Method: POST } }
+        AdminScheduleGet: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /admin/schedule, Method: GET } }
+        AdminSchedulePut: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /admin/schedule, Method: PUT } }
+        AdminScheduleDel: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /admin/schedule, Method: DELETE } }
+        AdminStats: { Type: HttpApi, Properties: { ApiId: !Ref HttpApi, Path: /admin/stats, Method: GET } }
+
+  # ---------- daily content job ----------
+  GenerateFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: content.job.handler
+      MemorySize: 512
+      Timeout: 600
+      Environment:
+        Variables:
+          BEDROCK_REGION: !Ref AWS::Region
+          BEDROCK_FAST_MODEL: !Ref FastModelId
+          BEDROCK_WRITE_MODEL: !Ref WriteModelId
+      Policies:
+        - DynamoDBCrudPolicy: { TableName: !Ref Table }
+        - Statement:
+            - Effect: Allow
+              Action: [bedrock:InvokeModel]
+              Resource:
+                - !Sub arn:aws:bedrock:${AWS::Region}:${AWS::AccountId}:inference-profile/au.anthropic.*
+                - arn:aws:bedrock:*::foundation-model/anthropic.*
+      Events:
+        Daily:
+          Type: ScheduleV2
+          Properties:
+            ScheduleExpression: cron(30 5 * * ? *)
+            ScheduleExpressionTimezone: Asia/Kolkata
+            RetryPolicy: { MaximumRetryAttempts: 1 }
+
+  # Keep logs 14 days instead of forever.
+  ApiLogs:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Delete
+    Properties: { LogGroupName: !Sub "/aws/lambda/${ApiFunction}", RetentionInDays: 14 }
+  GenerateLogs:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Delete
+    Properties: { LogGroupName: !Sub "/aws/lambda/${GenerateFunction}", RetentionInDays: 14 }
+  PreSignUpLogs:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Delete
+    Properties: { LogGroupName: !Sub "/aws/lambda/${PreSignUpFunction}", RetentionInDays: 14 }
+
+  # ---------- web hosting ----------
+  WebBucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      OwnershipControls:
+        Rules: [{ ObjectOwnership: BucketOwnerEnforced }]
+
+  WebOAC:
+    Type: AWS::CloudFront::OriginAccessControl
+    Properties:
+      OriginAccessControlConfig:
+        Name: !Sub "${AWS::StackName}-oac"
+        OriginAccessControlOriginType: s3
+        SigningBehavior: always
+        SigningProtocol: sigv4
+
+  WebDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Enabled: true
+        Comment: IMT Pulse
+        DefaultRootObject: index.html
+        HttpVersion: http2and3
+        PriceClass: PriceClass_200
+        Origins:
+          - Id: web
+            DomainName: !GetAtt WebBucket.RegionalDomainName
+            OriginAccessControlId: !GetAtt WebOAC.Id
+            S3OriginConfig: { OriginAccessIdentity: "" }
+        DefaultCacheBehavior:
+          TargetOriginId: web
+          ViewerProtocolPolicy: redirect-to-https
+          Compress: true
+          CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6   # Managed-CachingOptimized
+
+  WebBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref WebBucket
+      PolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal: { Service: cloudfront.amazonaws.com }
+            Action: s3:GetObject
+            Resource: !Sub "${WebBucket.Arn}/*"
+            Condition:
+              StringEquals:
+                AWS:SourceArn: !Sub "arn:aws:cloudfront::${AWS::AccountId}:distribution/${WebDistribution}"
+
+Outputs:
+  AppUrl:
+    Value: !Sub "https://${WebDistribution.DomainName}"
+  ApiUrl:
+    Value: !Sub "https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com"
+  UserPoolId:
+    Value: !Ref UserPool
+  UserPoolClientId:
+    Value: !Ref UserPoolClient
+  WebBucketName:
+    Value: !Ref WebBucket
+  DistributionId:
+    Value: !Ref WebDistribution
+  GenerateFunctionName:
+    Value: !Ref GenerateFunction
+  TableName:
+    Value: !Ref Table
