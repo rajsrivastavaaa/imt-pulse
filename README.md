@@ -6,6 +6,17 @@ Built for IMT Ghaziabad in October 2026 and piloted with real students.
 **▶ Live demo: https://rajsrivastavaaa.github.io/imt-pulse/** (a real edition from the pilot with all 5 tracks,
 the Company of the Day brief and a playable quiz). The full app is paused for updates.
 
+### At a glance
+| | |
+|---|---|
+| **Problem** | MBA students preparing for placements need a quick daily read of business news that's relevant to *their* role, plus prep on companies coming to campus |
+| **What it does** | Reads ~450 Indian business headlines every morning and publishes, per career track (Marketing, Finance, Consulting/Strategy, Ops/Analytics, HR), the 5 most relevant stories with AI summaries and "why it matters for interviews", a quiz built from those stories, and a Company of the Day brief. Students compete on daily and weekly leaderboards. |
+| **AI/ML** | Claude Haiku 4.5 classifies and ranks headlines; Claude Sonnet 4.6 writes summaries, quizzes and company briefs (Amazon Bedrock, Converse API). Output is forced to JSON via tool use and checked by a schema validator, with automatic retries and model fallback. A human reviews drafts before they go live. |
+| **Model choice** | Compared Haiku-only vs Haiku + Sonnet on the same news days: [Haiku-only output](https://rajsrivastavaaa.github.io/imt-pulse/samples/haiku-only/review.html) vs [Haiku + Sonnet output](https://rajsrivastavaaa.github.io/imt-pulse/samples/review.html). Sonnet fixed factual slips and weak quiz options for about $0.30/day in total. |
+| **Pilot** | 9 IMT Ghaziabad students signed up on day one of a soft launch (sign-up limited to verified `@imt.ac.in` emails) |
+| **Stack** | Python, AWS Lambda, API Gateway, DynamoDB, Cognito, EventBridge Scheduler, S3 + CloudFront, AWS SAM; vanilla JS PWA |
+| **Code** | AI pipeline: [backend/content/](backend/content/) · quiz/leaderboard API: [backend/api/app.py](backend/api/app.py) · app: [frontend/](frontend/) · infrastructure: [template.yaml](template.yaml) |
+
 Every morning at 05:30 IST a serverless pipeline reads ~450 headlines from Indian business news RSS feeds and
 uses LLMs on Amazon Bedrock to produce, for each of 5 career tracks (Marketing, Finance, Consulting/Strategy,
 Ops/Analytics, HR):
