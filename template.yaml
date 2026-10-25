@@ -183,6 +183,7 @@ Resources:
               Action: [bedrock:InvokeModel]
               Resource:
                 - !Sub arn:aws:bedrock:${AWS::Region}:${AWS::AccountId}:inference-profile/au.anthropic.*
+                - !Sub arn:aws:bedrock:${AWS::Region}:${AWS::AccountId}:inference-profile/global.anthropic.*
                 - arn:aws:bedrock:*::foundation-model/anthropic.*
       Events:
         Daily:

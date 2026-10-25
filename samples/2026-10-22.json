@@ -3,40 +3,40 @@
   "marketing": {
    "stories": [
     {
-     "id": "cbb3332f46",
-     "headline": "Eternal, Swiggy Q2 Results Preview: Food delivery growth steady, Quick commerce to grow faster",
-     "link": "https://www.thehindubusinessline.com/companies/eternal-swiggy-q2-results-preview-food-delivery-growth-steady-quick-commerce-to-grow-faster/article71606640.ece",
+     "id": "50129e0d97",
+     "headline": "Eternal Q2 net profit up 92%, revenue up 77%",
+     "link": "https://www.thehindubusinessline.com/companies/eternal-q2-net-profit-up-92-revenue-up-77/article71607974.ece",
      "source": "Hindu BusinessLine",
-     "published": "2026-10-21T07:54:16+00:00",
-     "summary": "Analysts expect both Eternal (Zomato) and Swiggy to report steady growth in food delivery for Q2, while quick commerce is forecast to expand at a faster clip. However, the two companies are likely to show different profitability trajectories as their business mixes evolve.",
-     "why_it_matters": "Illustrates diverging unit economics between food delivery and quick commerce — a key concept for FMCG and retail placement discussions."
+     "published": "2026-10-21T14:14:04+00:00",
+     "summary": "Eternal, the parent company of Zomato and Blinkit, posted a sharp jump in quarterly net profit and revenue. Its quick-commerce arm Blinkit is targeting 3,500 dark stores by March 2027 and plans to scale further to 5,000 stores by March 2028. The aggressive expansion signals a major push in the quick-commerce space.",
+     "why_it_matters": "Illustrates dark-store-led distribution strategy and hyper-growth in India's quick-commerce sector — a hot placement topic."
     },
     {
-     "id": "f4321ceb60",
-     "headline": "Netflix India revenue grew 18% in July-September, view hours grew 24%",
-     "link": "https://www.business-standard.com/companies/quarterly-results/netflix-india-q3-revenue-viewing-hours-flipkart-bundle-126102100517_1.html",
+     "id": "afe76af104",
+     "headline": "Prosus-backed Ixigo aims to lead India's budget-to-mid hotel OTA market",
+     "link": "https://www.business-standard.com/industry/news/prosus-backed-ixigo-aims-to-lead-india-s-budget-to-mid-hotel-ota-market-126102101227_1.html",
      "source": "Business Standard",
-     "published": "2026-10-21T07:52:00+00:00",
-     "summary": "Netflix India posted an 18% rise in revenue and a 24% increase in viewing hours during the July–September quarter. The platform recorded its biggest-ever quarter for paid subscriber additions in India, helped by a strong content lineup and a bundling arrangement with Flipkart's loyalty programme.",
-     "why_it_matters": "Demonstrates how distribution partnerships and content strategy together drive subscriber growth — relevant for media and D2C marketing roles."
+     "published": "2026-10-21T14:08:31+00:00",
+     "summary": "Travel platform Ixigo, backed by Prosus, wants to become the largest online booking platform for budget and mid-market hotels in India within four to five years. The company plans to more than double its hotel business over the next four quarters as it targets an underserved segment of travellers.",
+     "why_it_matters": "Shows D2C/OTA growth strategy targeting value-segment consumers — relevant for discussing market segmentation and competitive positioning."
     },
     {
-     "id": "3f1869b402",
-     "headline": "Flipkart to challenge Zomato and Swiggy with ‘Eat-in by Minutes’: Launch date, features explained",
-     "link": "https://www.livemint.com/companies/news/flipkart-to-challenge-zomato-and-swiggy-with-eat-in-by-minutes-launch-date-features-explained-11792488539637.html",
-     "source": "Mint",
-     "published": "2026-10-20T10:13:28+00:00",
-     "summary": "Flipkart is piloting a food-delivery service called 'Eat-in by Minutes' among roughly 8,000 of its own employees in Bengaluru. A wider public launch is expected by the end of October 2026, putting Flipkart in direct competition with Zomato and Swiggy.",
-     "why_it_matters": "Shows how e-commerce platforms are expanding into adjacent categories — a classic diversification and competitive strategy talking point."
+     "id": "f3e9f66b65",
+     "headline": "SLMG Beverages eyes ₹20,000 cr turnover in 5 years, IPO in 3-4 years",
+     "link": "https://www.thehindubusinessline.com/markets/slmg-beverages-eyes-20000-cr-turnover-in-5-years-ipo-in-3-4-years/article71603673.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T14:00:04+00:00",
+     "summary": "SLMG Beverages, which bottles Coca-Cola products in Uttar Pradesh and Bihar, has set a target of reaching ₹20,000 crore in turnover within five years and is planning an IPO in three to four years. The company also intends to explore international markets while riding India's growing consumption wave.",
+     "why_it_matters": "Highlights franchise bottling as a distribution model and how FMCG companies scale through regional partners targeting consumption growth."
     },
     {
-     "id": "8d2f4af51a",
-     "headline": "Navratri vehicle sales hit a speed bump, but EVs race ahead 27%: FADA",
-     "link": "https://economictimes.indiatimes.com/industry/auto/auto-news/navratri-vehicle-sales-hit-a-speed-bump-but-evs-race-ahead-27-fada/articleshow/135092324.cms",
+     "id": "68cceb6f50",
+     "headline": "Technology overtakes brand in influencing India’s car-buying decisions: Report",
+     "link": "https://economictimes.indiatimes.com/industry/auto/auto-news/technology-overtakes-brand-in-influencing-indias-car-buying-decisions-report/articleshow/135093617.cms",
      "source": "Economic Times",
-     "published": "2026-10-21T12:33:23+00:00",
-     "summary": "Vehicle retail sales during Navratri fell 6.52% compared to the same festival period last year, which was a high base. Despite this, sales were up nearly 27% versus the Navratri period in 2024, and electric vehicles stood out with 27% growth, according to dealer body FADA.",
-     "why_it_matters": "Highlights base-effect distortions in festive-season data and the accelerating EV shift — important for consumer durables and automotive marketing discussions."
+     "published": "2026-10-21T13:37:00+00:00",
+     "summary": "A Bain & Co survey finds that technology and advanced features have become more important than brand loyalty in driving car purchases among Indian consumers. About 68% of premium car buyers still prefer established brands, and roughly 80% of buyers now use AI tools during their purchase journey.",
+     "why_it_matters": "Key consumer behaviour shift — technology over brand loyalty — directly relevant to marketing strategy and brand management discussions."
     },
     {
      "id": "67765bc7ef",
@@ -44,294 +44,210 @@
      "link": "https://www.thehindubusinessline.com/economy/agri-business/indian-farmers-fetch-record-prices-for-premium-paddy-as-el-nino-impacts-production/article71600779.ece",
      "source": "Hindu BusinessLine",
      "published": "2026-10-21T11:44:07+00:00",
-     "summary": "Premium paddy varieties are fetching prices more than ₹1,000 per quintal above the government's minimum support price, driven by supply constraints linked to El Niño. This cost pressure is expected to push up retail rice prices for consumers in the coming months.",
-     "why_it_matters": "Illustrates commodity-driven input cost inflation and its downstream effect on consumer pricing — a key FMCG supply-chain concept."
-    },
-    {
-     "id": "8a47ce7bcb",
-     "headline": "SLMG Beverages eyes Rs 20,000 cr turnover in 5 yrs, IPO in 3-4 years",
-     "link": "https://economictimes.indiatimes.com/industry/indl-goods/svs/packaging/slmg-beverages-eyes-rs-20000-cr-turnover-in-5-yrs-ipo-in-3-4-years/articleshow/135090798.cms",
-     "source": "Economic Times",
-     "published": "2026-10-21T11:31:32+00:00",
-     "summary": "SLMG Beverages, one of Coca-Cola's largest bottlers in India, aims to more than double its gross turnover from roughly ₹9,000 crore to ₹20,000 crore within five years. The company also plans to go public within three to four years as part of its growth strategy.",
-     "why_it_matters": "Highlights the scale and ambition of FMCG distribution infrastructure, and the role of bottlers in beverage brand growth in India."
-    },
-    {
-     "id": "10f7f0aa27",
-     "headline": "Mint explainer: Why are consumer brands resorting to cross-industry marketing?",
-     "link": "https://www.livemint.com/industry/mint-explainer-why-are-consumer-brands-resorting-to-cross-industry-marketing-11792566303921.html",
-     "source": "Mint",
-     "published": "2026-10-21T09:42:24+00:00",
-     "summary": "Consumer brands are increasingly forming marketing partnerships with companies from entirely different industries, moving beyond traditional same-sector collaborations. These cross-category tie-ups allow brands to reach new consumer segments and share marketing costs.",
-     "why_it_matters": "Cross-industry co-branding is a growing marketing strategy — directly relevant for brand management and advertising roles in placement interviews."
-    },
-    {
-     "id": "9d5e8826a2",
-     "headline": "Vishal Mega Mart shares sink 8% as Q2 margin takes a hit despite profit growth",
-     "link": "https://economictimes.indiatimes.com/markets/stocks/news/vishal-mega-mart-shares-sink-8-as-q2-margin-takes-a-hit-despite-profit-growth/articleshow/135087535.cms",
-     "source": "Economic Times",
-     "published": "2026-10-21T09:09:13+00:00",
-     "summary": "Vishal Mega Mart's shares dropped about 8% after the retailer disclosed that its EBITDA margin shrank by 110 basis points to 12.1% in Q2FY27, even as net profit grew 3.7% and revenue rose 14%. The company indicated that a shift in its product mix was responsible for the margin squeeze.",
-     "why_it_matters": "Shows how product-mix decisions directly affect retail margins — a core pricing and category management concept for retail track interviews."
-    },
-    {
-     "id": "afa9a6d0fc",
-     "headline": "How Bajaj Consumer Care is defying an FMCG slowdown",
-     "link": "https://www.livemint.com/companies/news/bajaj-consumer-care-share-price-growth-earnings-outlook-fmcg-11792558827613.html",
-     "source": "Mint",
-     "published": "2026-10-21T08:51:39+00:00",
-     "summary": "Bajaj Consumer Care is achieving over 25% revenue growth despite a broader slowdown in the FMCG sector. The company credits affordable entry-level price points, a restructured direct distribution network, and a more diversified product portfolio for this outperformance.",
-     "why_it_matters": "Demonstrates how pricing strategy, distribution redesign, and portfolio diversification can drive growth even in a sluggish FMCG environment."
-    },
-    {
-     "id": "744787fd54",
-     "headline": "Inditex's Bershka turns profitable in first full year in India as Zara growth stalls",
-     "link": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/inditexs-bershka-turns-profitable-in-first-full-year-in-india-as-zara-growth-stalls/articleshow/135085826.cms",
-     "source": "Economic Times",
-     "published": "2026-10-21T07:41:19+00:00",
-     "summary": "Inditex's Bershka brand turned profitable in its first complete financial year in India, posting a net profit of ₹2.92 crore on revenues of ₹80.34 crore in FY26. Meanwhile, Zara — which operates through a joint venture with the Tata Group — saw both revenue and profit decline as competition in the Indian fashion retail market intensified.",
-     "why_it_matters": "Contrasts two market-entry models (direct subsidiary vs. JV) and their outcomes — a strong talking point for retail and brand strategy interviews."
+     "summary": "Indian farmers growing premium paddy varieties are receiving prices well above the government's minimum support price, with premiums exceeding ₹1,000 per quintal. This is partly due to supply constraints linked to El Niño affecting production. Consumers are likely to face higher rice prices in the months ahead.",
+     "why_it_matters": "Illustrates how supply shocks affect commodity pricing and pass-through to consumer prices — relevant for FMCG pricing strategy discussions."
     }
    ],
    "quiz": [
     {
-     "question": "What is the primary reason Bajaj Consumer Care is outgrowing most FMCG peers?",
+     "question": "What is Blinkit's stated dark-store target by March 2028?",
      "options": [
-      "Affordable pricing, revamped distribution, and portfolio diversification",
-      "Heavy television advertising and celebrity endorsements",
-      "Acquiring smaller regional hair-oil brands at scale",
-      "Aggressive international expansion into new export markets"
+      "5,000 dark stores across India",
+      "3,500 dark stores across India",
+      "4,000 dark stores across India",
+      "2,500 dark stores across India"
      ],
+     "story_id": "50129e0d97",
      "answer_index": 0,
-     "explanation": "The story explicitly attributes Bajaj Consumer Care's 25%+ revenue growth to low entry-level price points, a restructured direct distribution setup, and a more diversified product portfolio — not advertising or acquisitions."
+     "explanation": "Blinkit plans to reach 3,500 stores by March 2027 and then scale up to 5,000 stores by March 2028, making 5,000 the correct March 2028 target."
     },
     {
-     "question": "Why did Vishal Mega Mart's EBITDA margin contract in Q2FY27 despite revenue growth?",
+     "question": "Which distribution model does SLMG Beverages use to sell Coca-Cola products?",
      "options": [
-      "A change in the mix of products sold",
-      "Increased spending on digital marketing campaigns",
-      "A sharp rise in store rental and employee costs",
-      "Higher logistics costs due to supply-chain disruptions"
+      "Company-owned direct distribution",
+      "Third-party contract manufacturing",
+      "Regional franchise bottling rights",
+      "Joint venture with a local FMCG firm"
      ],
-     "answer_index": 0,
-     "explanation": "The company itself attributed the 110-basis-point margin contraction to a shift in its product mix, not to cost overruns in rent, marketing, or logistics."
+     "story_id": "f3e9f66b65",
+     "answer_index": 2,
+     "explanation": "SLMG Beverages holds Coca-Cola's bottling rights for high-density markets in UP and Bihar, which is a regional franchise bottling arrangement."
     },
     {
-     "question": "How did Netflix India achieve its largest-ever quarter of paid subscriber additions?",
+     "question": "According to the Bain & Co survey, what now influences Indian car buyers more than brand loyalty?",
      "options": [
-      "Partnering with Jio for bundled mobile data plans",
-      "Strong content offerings combined with a Flipkart loyalty bundle",
-      "A steep price cut across all subscription tiers",
-      "Exclusive live sports broadcasting rights in India"
+      "Fuel efficiency and running costs",
+      "Competitive pricing and discounts",
+      "Technology and advanced features",
+      "After-sales service quality"
      ],
+     "story_id": "68cceb6f50",
+     "answer_index": 2,
+     "explanation": "The survey explicitly found that technology and advanced features have overtaken brand loyalty as the primary driver of car-purchase decisions among Indian consumers."
+    },
+    {
+     "question": "What growth target has Ixigo set for its hotel business in the next four quarters?",
+     "options": [
+      "Around 50% growth",
+      "More than 100% growth",
+      "At least 200% growth",
+      "Approximately 75% growth"
+     ],
+     "story_id": "afe76af104",
      "answer_index": 1,
-     "explanation": "Netflix credited a strong content slate and its bundling deal with Flipkart's loyalty programme for driving record paid net additions in India — not price cuts or telecom tie-ups."
+     "explanation": "Ixigo has specifically stated a plan to grow its hotel booking business by over 100% in the next four quarters as it targets the budget-to-mid-market segment."
     },
     {
-     "question": "What does Bershka's India performance reveal about its market-entry approach versus Zara's?",
+     "question": "Why are premium paddy farmers currently receiving prices above the minimum support price?",
      "options": [
-      "Bershka's direct subsidiary model turned profitable as Zara's JV declined",
-      "Bershka targeted only metro cities while Zara went pan-India",
-      "Bershka undercut Zara on pricing to capture younger consumers",
-      "Bershka relied on online-only sales while Zara used physical stores"
+      "Export demand from abroad has surged sharply",
+      "Government has raised the support price significantly",
+      "Supply has tightened due to El Niño effects",
+      "Retailers are stocking up ahead of festive season"
      ],
-     "answer_index": 0,
-     "explanation": "The story contrasts Bershka's direct-subsidiary structure, which became profitable in FY26, with Zara's Tata Group joint venture, which saw both revenue and profit fall — illustrating how entry models affect outcomes."
-    },
-    {
-     "question": "What strategic intent lies behind Flipkart launching 'Eat-in by Minutes'?",
-     "options": [
-      "Offering meal kits as a new private-label product category",
-      "Entering the food-delivery space to compete with Zomato and Swiggy",
-      "Reducing dependence on third-party grocery suppliers",
-      "Expanding its cloud-kitchen network across tier-2 cities"
-     ],
-     "answer_index": 1,
-     "explanation": "Flipkart is piloting the service specifically to enter food delivery and take on established players Zomato and Swiggy — a classic adjacent-category diversification move."
+     "story_id": "67765bc7ef",
+     "answer_index": 2,
+     "explanation": "El Niño has constrained production of premium paddy varieties, reducing supply and pushing farm-gate prices more than ₹1,000 per quintal above the minimum support price."
     }
    ],
    "dropped": [
     {
-     "headline": "Eternal, Swiggy expected to report strong Q2 growth",
+     "headline": "Eternal revises Blinkit store target as Q2 net profit rises 92%",
      "reason": "same event as another pick"
     },
     {
-     "headline": "Netflix’s India revenue grows 18% as viewing hours rise 24% in Q3",
+     "headline": "Eternal plans to launch privacy-focused AI assistant dark.ai this year",
      "reason": "same event as another pick"
     },
     {
-     "headline": "Netflix reports largest ever subscriber net adds in India in Q3",
-     "reason": "same event as another pick"
+     "headline": "India-New Zealand FTA comes into effect, removes tariffs on Indian exports",
+     "reason": "not in the top 5 (fit: weak)"
     },
     {
-     "headline": "Mahindra Holidays & Resorts Q2 consolidated net profit rises 16.42% to ₹19.71 crore",
-     "reason": "same event as another pick"
-    },
-    {
-     "headline": "Vishal Mega Mart falls 6% as festive shift weighs on margins, SSSG in Q2",
-     "reason": "same event as another pick"
-    },
-    {
-     "headline": "Mahindra Holidays & Resorts Q2 profit rises 16.4% to ₹19.71 crore",
-     "reason": "already 10 stories"
-    },
-    {
-     "headline": "The LaLiT announces ₹600 crore expansion plan, targets 1,000 additional hotel rooms",
-     "reason": "fit: off-track"
+     "headline": "Eternal plans global launch of privacy-focused AI platform Dark.AI in 2026",
+     "reason": "not in the top 5 (fit: weak)"
     }
    ]
   },
   "finance": {
    "stories": [
     {
-     "id": "6e97eef951",
-     "headline": "Rs 30,213 crore, 100 minutes, Rs 2.5 lakh crore: How Jio IPO broke 3 records even before listing",
-     "link": "https://economictimes.indiatimes.com/markets/stocks/news/rs-30213-crore-100-minutes-rs-2-5-lakh-crore-how-jio-ipo-broke-3-records-even-before-listing/articleshow/135085644.cms",
-     "source": "Economic Times",
-     "published": "2026-10-21T07:31:37+00:00",
-     "summary": "Jio Platforms launched India's largest-ever IPO at Rs 30,213 crore, surpassing Hyundai Motor India's Rs 27,870 crore issue from 2024. The offering was fully subscribed within just 100 minutes of opening. At the upper price band, the company's implied valuation reached Rs 2.5 lakh crore.",
-     "why_it_matters": "Largest Indian IPO ever — a must-know benchmark for capital markets and primary market discussions in finance interviews."
-    },
-    {
-     "id": "c68af17c8b",
-     "headline": "Rupee rises 46 paise to 94.45 on India-US trade deal hopes; oil prices cap gains",
-     "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-46-paise-to-94-45-on-india-us-trade-deal-hopes-oil-prices-cap-gains/articleshow/135092741.cms",
-     "source": "Economic Times",
-     "published": "2026-10-21T12:37:12+00:00",
-     "summary": "The Indian rupee strengthened by 46 paise to reach 94.45 against the US dollar, driven by optimism around a possible India-US trade agreement and supportive steps by the RBI. Despite this gain, high crude oil prices, foreign fund outflows, and global financial pressures remain headwinds for the currency.",
-     "why_it_matters": "Illustrates how trade deal expectations and central bank actions jointly influence exchange rate movements — a core forex concept."
-    },
-    {
-     "id": "31f5b7ac92",
-     "headline": "Two senior HDFC Bank executives leaked secrets? What internal probe found? What's next?",
-     "link": "https://www.livemint.com/industry/banking/hdfc-banks-internal-probe-finds-two-senior-executives-leaked-confidential-business-strategies-market-data-11792573699692.html",
+     "id": "4a9778f025",
+     "headline": "Reliance Jio IPO subscription status day 1: QIB, NII, Retail, Employees, RIL Shareholders; category wise investor detail",
+     "link": "https://www.livemint.com/market/ipo/reliance-jio-ipo-subscription-status-day-1-qib-nii-retail-employees-ril-shareholders-category-wise-investor-detail-11792584622711.html",
      "source": "Mint",
-     "published": "2026-10-21T09:18:03+00:00",
-     "summary": "An internal investigation at HDFC Bank, India's most valuable bank by market capitalisation, found that two senior executives allegedly shared confidential business strategies and potentially market-sensitive information with people outside the organisation. The matter is still developing and next steps are being determined.",
-     "why_it_matters": "Raises governance, insider trading risk, and information-barrier issues — critical compliance topics for banking and finance roles."
+     "published": "2026-10-21T14:04:42+00:00",
+     "summary": "Jio Platforms' IPO was subscribed 3.16 times on its opening day, with institutional buyers (QIBs) showing the strongest appetite at 9.42 times their allotted quota. Non-institutional investors and RIL shareholders also crossed the threshold, while retail investors remained below full subscription at 0.73 times.",
+     "why_it_matters": "Illustrates IPO subscription dynamics and investor category behaviour — a core concept in equity capital markets interviews."
     },
     {
-     "id": "70aab853ce",
-     "headline": "Carlsberg said to near public filing for $700 million India IPO",
-     "link": "https://www.thehindubusinessline.com/markets/carlsberg-said-to-near-public-filing-for-700-million-india-ipo/article71606779.ece",
-     "source": "Hindu BusinessLine",
-     "published": "2026-10-21T08:20:54+00:00",
-     "summary": "Carlsberg India, the country's second-largest brewer, is reportedly close to filing publicly for an IPO targeting around 700 million US dollars. The company is expected to begin roadshows with investors shortly, with a possible launch as early as December.",
-     "why_it_matters": "A notable upcoming IPO in the consumer sector — relevant for discussions on primary markets and cross-sector listing trends."
+     "id": "9b54598537",
+     "headline": "Rate cuts off table as RBI MPC flags inflation risks, two dissent on stance",
+     "link": "https://www.business-standard.com/industry/banking/rate-cuts-off-table-as-rbi-mpc-flags-inflation-risks-two-dissent-on-stance-126102101194_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T13:57:30+00:00",
+     "summary": "Minutes of the RBI Monetary Policy Committee's latest meeting reveal that members are worried about inflation spreading across more sectors. The committee unanimously backed a 25-basis-point rate increase, though two members disagreed with the shift to a calibrated tightening stance.",
+     "why_it_matters": "Tests understanding of MPC decision-making, monetary policy stances, and the distinction between rate action and policy stance."
+    },
+    {
+     "id": "e916fb6ee3",
+     "headline": "Eternal Q2FY27 net profit jumps 92% to ₹125 crore, revenue rises 78%",
+     "link": "https://www.business-standard.com/companies/quarterly-results/eternal-q2fy27-net-profit-jumps-92-to-125-crore-revenue-rises-78-126102101130_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T13:21:42+00:00",
+     "summary": "Eternal, the parent company of Zomato and Blinkit, reported a 92% jump in net profit to ₹125 crore for Q2FY27, with revenue growing nearly 78% to ₹24,138 crore. Consolidated adjusted EBITDA surged 197%, reflecting strong operating leverage across both its food-delivery and quick-commerce businesses.",
+     "why_it_matters": "Strong earnings growth and EBITDA expansion are key talking points for valuation, profitability analysis, and consumer-tech sector discussions."
+    },
+    {
+     "id": "44c5cde297",
+     "headline": "IMF urges currency flexibility as RBI steps up rupee defence amid oil price pressures, foreign outflows",
+     "link": "https://www.livemint.com/economy/imf-urges-currency-flexibility-as-rbi-steps-up-rupee-defence-amid-oil-price-pressures-foreign-outflows-11792582226312.html",
+     "source": "Mint",
+     "published": "2026-10-21T11:41:58+00:00",
+     "summary": "The IMF has advised that foreign-exchange intervention provides only short-term relief and that currencies should be allowed to absorb global shocks through natural adjustment. This comes as the RBI has been actively defending the rupee against pressure from falling oil prices and capital outflows.",
+     "why_it_matters": "Highlights the policy tension between currency stability and market flexibility — relevant for macro, forex, and central banking discussions."
     },
     {
      "id": "d5e1b9a17f",
      "headline": "AI-led IPOs may add up to $100 billion to India's market-cap: Goldman Sachs",
      "link": "https://www.business-standard.com/markets/news/ai-led-ipos-may-add-up-to-100-billion-to-india-s-market-cap-goldman-sachs-126102100382_1.html",
      "source": "Business Standard",
-     "published": "2026-10-21T06:45:24+00:00",
-     "summary": "Goldman Sachs estimates that between 25 and 50 per cent of roughly 70 mid-to-late-stage private AI companies in India could go public within the next two to five years. If this plays out, AI-driven listings could add as much as 100 billion US dollars to India's overall stock market capitalisation.",
-     "why_it_matters": "Connects the AI investment theme directly to capital markets — useful for discussing future IPO pipelines and market-cap growth."
-    },
-    {
-     "id": "9cf072f9c7",
-     "headline": "SBI hit by cyberattack: All you need to know",
-     "link": "https://economictimes.indiatimes.com/tech/technology/sbi-hit-by-cyberattack-customer-data-leaked-on-dark-web-all-you-need-to-know/articleshow/135084283.cms",
-     "source": "Economic Times",
-     "published": "2026-10-21T06:33:02+00:00",
-     "summary": "State Bank of India was reportedly hit by a cyberattack. Details of the nature and scale of the breach are still emerging, and the bank is assessing the situation.",
-     "why_it_matters": "Cybersecurity risk at a systemically important bank highlights operational risk management — a key concern for banking sector interviews."
-    },
-    {
-     "id": "75bac7c2a7",
-     "headline": "SBI probes suspected dark web leak involving 3,897 customer records",
-     "link": "https://www.business-standard.com/industry/banking/sbi-customer-data-dark-web-cybersecurity-pii-cert-in-126102100304_1.html",
-     "source": "Business Standard",
-     "published": "2026-10-21T05:35:22+00:00",
-     "summary": "SBI is investigating a suspected data leak on the dark web involving personal information from 3,897 customer records, identified after scanning roughly 375,000 dark web entries. The bank has confirmed that a detailed investigation is currently under way.",
-     "why_it_matters": "Data breach at India's largest public sector bank underscores cybersecurity and reputational risk — key operational risk concepts for banking interviews."
-    },
-    {
-     "id": "19d1b1a63e",
-     "headline": "Buoyed by blockbuster IPO, ESDS bets on AI chip rentals for $5 billion revenue scope in 5 years",
-     "link": "https://www.livemint.com/companies/news/buoyed-by-blockbuster-ipo-esds-bets-on-ai-chip-rentals-for-5-billion-revenue-in-5-years-11792473076889.html",
-     "source": "Mint",
-     "published": "2026-10-21T00:30:31+00:00",
-     "summary": "ESDS Software Solution, buoyed by its recent IPO, is pursuing an AI chip rental business model with the aim of reaching a 5 billion US dollar revenue opportunity over five years. The company's CMD targets compounding revenue 2.5 times annually, though analysts note this growth rate is exceptionally rare even in the technology sector.",
-     "why_it_matters": "Illustrates post-IPO growth strategy and the challenge of sustaining hyper-growth projections — relevant for valuation and startup finance discussions."
-    },
-    {
-     "id": "9dca319611",
-     "headline": "Akash Ambani: from building Jio to selling its story",
-     "link": "https://www.livemint.com/companies/akash-ambani-from-building-jio-to-selling-its-story-11792500314399.html",
-     "source": "Mint",
-     "published": "2026-10-20T13:56:48+00:00",
-     "summary": "As Jio Platforms moves toward its landmark IPO, chairman Akash Ambani faces the task of persuading investors that he can build on the company's massive scale rather than simply inherit his father's legacy. The central challenge is demonstrating how Jio's reach can be converted into lasting shareholder value.",
-     "why_it_matters": "Highlights leadership credibility and investor relations as critical factors in large IPO success — a strong talking point for capital markets roles."
-    },
-    {
-     "id": "6232561779",
-     "headline": "OYO-parent PRISM to nearly halve IPO fresh issue size to up to ₹3,350 cr: Sources",
-     "link": "https://www.thehindubusinessline.com/markets/oyo-parent-prism-to-nearly-halve-ipo-fresh-issue-size-to-up-to-3350-cr-sources/article71604229.ece",
-     "source": "Hindu BusinessLine",
-     "published": "2026-10-20T11:18:35+00:00",
-     "summary": "OYO's parent company PRISM is planning to cut the fresh issue size of its IPO to around Rs 3,350 crore, nearly halving the originally planned amount. The reduction is attributed to stronger-than-expected cash generation and an improved balance sheet, meaning the company needs less external capital than initially anticipated.",
-     "why_it_matters": "Shows how improved financial health directly influences IPO structuring decisions — a practical capital-raising concept for finance interviews."
+     "published": "2026-10-21T06:21:24+00:00",
+     "summary": "Goldman Sachs estimates that AI-focused companies could add up to $100 billion to India's stock market capitalisation through public listings. The bank believes 25–50% of roughly 70 mid-to-late-stage private AI firms in India could go public within the next two to five years.",
+     "why_it_matters": "Links the AI investment theme to IPO markets and market-cap growth — a forward-looking talking point for capital markets and tech-sector roles."
     }
    ],
    "quiz": [
     {
-     "question": "What was the primary reason Jio Platforms' IPO set a record in India's primary market?",
+     "question": "Which investor category showed the weakest demand in the Jio Platforms IPO on Day 1?",
      "options": [
-      "It raised funds entirely through an offer for sale",
-      "It was the first tech company to list on NSE",
-      "It was the largest public offering ever in India",
-      "It was subscribed across the most retail investors"
+      "RIL shareholders at 1.46x",
+      "Non-institutional investors at 1.68x",
+      "Retail individual investors at 0.73x",
+      "Employee category at 1.36x"
      ],
+     "story_id": "4a9778f025",
      "answer_index": 2,
-     "explanation": "At Rs 30,213 crore, the Jio IPO surpassed Hyundai Motor India's Rs 27,870 crore issue to become India's largest-ever public offering."
+     "explanation": "Retail investors were the only category that did not fully subscribe their portion, coming in at 0.73 times, below the full-subscription mark of 1x."
     },
     {
-     "question": "Why did the rupee strengthen against the dollar on the day reported?",
+     "question": "What was the key point of disagreement among RBI MPC members in the latest minutes?",
      "options": [
-      "RBI announcing a cut in the repo rate",
-      "Optimism over a possible India-US trade agreement",
-      "A sharp fall in global crude oil prices",
-      "Strong foreign institutional investor inflows into equities"
+      "The shift to a calibrated tightening stance",
+      "The size of the interest rate increase decided",
+      "Whether to pause rates rather than hike them",
+      "The inflation forecast used in the decision"
      ],
-     "answer_index": 1,
-     "explanation": "The rupee's 46-paise gain was driven by positive sentiment around a potential India-US trade deal along with supportive RBI measures, not a crude price drop or rate cut."
-    },
-    {
-     "question": "What did HDFC Bank's internal probe conclude about the two senior executives?",
-     "options": [
-      "They manipulated quarterly earnings disclosures",
-      "They approved loans without proper credit checks",
-      "They shared confidential strategies with external parties",
-      "They transferred client funds to personal accounts"
-     ],
-     "answer_index": 2,
-     "explanation": "The probe found evidence that the two executives disclosed confidential business strategies and possibly market-sensitive information to people outside the bank."
-    },
-    {
-     "question": "Why is PRISM planning to reduce the fresh issue size of its IPO?",
-     "options": [
-      "Weak investor demand forced a smaller offering",
-      "Better cash flows reduced the capital it needs to raise",
-      "Regulatory caps limited the permissible issue size",
-      "Promoters chose to increase the offer-for-sale portion"
-     ],
-     "answer_index": 1,
-     "explanation": "Continued strong cash generation and an improved balance sheet meant PRISM required less external capital than originally planned, leading to the reduced fresh issue size."
-    },
-    {
-     "question": "What does Goldman Sachs estimate AI-led IPOs could contribute to India's stock market?",
-     "options": [
-      "Up to 100 billion dollars in additional market capitalisation",
-      "Around 50 billion dollars in fresh equity fundraising",
-      "Nearly 70 new listings on Indian exchanges",
-      "About 25 billion dollars in foreign institutional investment"
-     ],
+     "story_id": "9b54598537",
      "answer_index": 0,
-     "explanation": "Goldman Sachs estimates that if 25–50 per cent of roughly 70 mid-to-late-stage private AI companies go public, it could add as much as 100 billion dollars to India's overall market capitalisation."
+     "explanation": "While all members agreed on the 25-basis-point rate hike, two members dissented specifically on the change in policy stance to calibrated tightening, not on the rate action itself."
+    },
+    {
+     "question": "Which metric showed the sharpest percentage growth in Eternal's Q2FY27 results?",
+     "options": [
+      "Consolidated adjusted EBITDA, up close to 200%",
+      "Total revenue, which grew around 78%",
+      "Net profit, which nearly doubled year-on-year",
+      "Gross order value across Zomato and Blinkit"
+     ],
+     "story_id": "e916fb6ee3",
+     "answer_index": 0,
+     "explanation": "Consolidated adjusted EBITDA surged 197%, outpacing both net profit growth of 92% and revenue growth of approximately 78%, reflecting strong operating leverage."
+    },
+    {
+     "question": "What is the IMF's core advice to the RBI regarding the rupee?",
+     "options": [
+      "Allow the exchange rate to adjust to external shocks",
+      "Increase foreign reserves to defend the currency",
+      "Raise interest rates to attract foreign capital inflows",
+      "Coordinate with other central banks on intervention"
+     ],
+     "story_id": "44c5cde297",
+     "answer_index": 0,
+     "explanation": "The IMF's position is that forex intervention has limited benefits beyond the short term and that currencies should be permitted to adjust naturally to global shocks."
+    },
+    {
+     "question": "According to Goldman Sachs, what share of India's private AI firms may list publicly?",
+     "options": [
+      "Up to three-quarters within the next decade",
+      "Nearly all firms within the next two years",
+      "Between one-quarter and one-half in two to five years",
+      "Fewer than one in ten over the next five years"
+     ],
+     "story_id": "d5e1b9a17f",
+     "answer_index": 2,
+     "explanation": "Goldman Sachs estimates that 25–50% of roughly 70 mid-to-late-stage private AI companies in India could go public within the next two to five years."
     }
    ],
    "dropped": [
+    {
+     "headline": "Jio Platforms IPO fully subscribed in less than 100 minutes of opening",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Rs 30,213 crore, 100 minutes, Rs 2.5 lakh crore: How Jio IPO broke 3 records even before listing",
+     "reason": "same event as another pick"
+    },
     {
      "headline": "Reliance Industries shares jump 3% as Jio’s Rs 30,213 crore IPO gets fully subscribed on Day 1. What lies ahead?",
      "reason": "same event as another pick"
@@ -349,241 +265,179 @@
      "reason": "same event as another pick"
     },
     {
-     "headline": "Jio Platforms IPO fully subscribed in less than 35 minutes of opening",
-     "reason": "same event as another pick"
-    },
-    {
      "headline": "Jio IPO: What brokerages say about Jio Platforms’ ₹30,213 cr IPO",
      "reason": "same event as another pick"
     },
     {
-     "headline": "Jio IPO or Reliance shares? What's better deal for future money gains if you've ₹14000 to invest — Experts suggest",
+     "headline": "Akash Ambani: from building Jio to selling its story",
      "reason": "same event as another pick"
     },
     {
-     "headline": "Jio Platforms' IPO-linked inflows boost rupee; elevated oil prices spur caution",
+     "headline": "Jio IPO is a landmark for Indian capital markets, says Akash Ambani",
      "reason": "same event as another pick"
     },
     {
-     "headline": "Rupee jumps 0.5% to 94.46/$ on Jio IPO-linked inflows; elevated oil prices spur caution",
+     "headline": "Jio is a technology company, not just a telco: Akash Ambani ahead of IPO",
      "reason": "same event as another pick"
     },
     {
-     "headline": "From Dhirubhai to Akash Ambani, Reliance made stocks popular with Indians",
-     "reason": "same event as another pick"
+     "headline": "Carlsberg said to near public filing for $700 million India IPO",
+     "reason": "not in the top 5 (fit: strong)"
     },
     {
-     "headline": "Aye Finance Q2 Results: Net profit more than doubles to Rs 87 crore",
-     "reason": "already 10 stories"
-    },
-    {
-     "headline": "Eternal Q2 profit jumps 92% to ₹125 crore but falls short of estimates",
-     "reason": "already 10 stories"
+     "headline": "SBI hit by cyberattack: All you need to know",
+     "reason": "not in the top 5 (fit: weak)"
     }
    ]
   },
   "consulting": {
    "stories": [
     {
-     "id": "559f44f85b",
-     "headline": "Over 100 Japanese companies expand GCCs in India, shift focus to AI and engineering",
-     "link": "https://www.thehindubusinessline.com/economy/over-100-japanese-companies-expand-gccs-in-india-shift-focus-to-ai-and-engineering/article71606665.ece",
-     "source": "Hindu BusinessLine",
-     "published": "2026-10-21T07:48:45+00:00",
-     "summary": "More than 100 Japanese companies have expanded their Global Capability Centres in India, moving well beyond routine back-office work. These centres are now being used to build expertise in artificial intelligence and advanced engineering. The shift signals that India is becoming a strategic technology hub for Japanese multinationals, not just a cost-saving destination.",
-     "why_it_matters": "Illustrates the GCC evolution from cost arbitrage to strategic value creation — a key consulting talking point on India's services sector."
-    },
-    {
-     "id": "d5e1b9a17f",
-     "headline": "AI-led IPOs may add up to $100 billion to India's market-cap: Goldman Sachs",
-     "link": "https://www.business-standard.com/markets/news/ai-led-ipos-may-add-up-to-100-billion-to-india-s-market-cap-goldman-sachs-126102100382_1.html",
+     "id": "9b54598537",
+     "headline": "Rate cuts off table as RBI MPC flags inflation risks, two dissent on stance",
+     "link": "https://www.business-standard.com/industry/banking/rate-cuts-off-table-as-rbi-mpc-flags-inflation-risks-two-dissent-on-stance-126102101194_1.html",
      "source": "Business Standard",
-     "published": "2026-10-21T06:45:24+00:00",
-     "summary": "Goldman Sachs estimates that AI-led initial public offerings could add as much as $100 billion to India's stock market capitalisation. The bank believes that between a quarter and half of roughly 70 mid-to-late-stage private AI companies in India may list within the next two to five years. This points to a significant wave of capital market activity driven by the AI sector.",
-     "why_it_matters": "Links AI industry growth to capital markets strategy — relevant for consulting roles advising on IPO readiness, valuation and market entry timing."
+     "published": "2026-10-21T13:57:30+00:00",
+     "summary": "The RBI's Monetary Policy Committee unanimously raised the policy rate by 25 basis points, but two members disagreed with the shift to a calibrated tightening stance. The minutes reveal that the committee is worried about inflation becoming more widespread across the economy. The split on stance signals that future rate decisions could remain contentious.",
+     "why_it_matters": "Illustrates MPC decision-making dynamics and the inflation-growth trade-off central to macro strategy discussions."
     },
     {
-     "id": "1e19c07690",
-     "headline": "MHI leadership reshuffle puts ₹38,000-crore auto and EV push to policy continuity test",
-     "link": "https://www.thehindubusinessline.com/companies/mhi-leadership-reshuffle-puts-38000-crore-auto-and-ev-push-to-policy-continuity-test/article71597718.ece",
-     "source": "Hindu BusinessLine",
-     "published": "2026-10-21T06:28:52+00:00",
-     "summary": "A leadership reshuffle at the Ministry of Heavy Industries has raised questions about continuity in India's flagship electric vehicle and automobile manufacturing programmes. The PM E-DRIVE scheme and the Auto PLI programme are both at critical stages of implementation. Observers are watching whether the new leadership will maintain the same pace of subsidy disbursement and compliance enforcement.",
-     "why_it_matters": "Tests knowledge of industrial policy risk — how leadership transitions can disrupt subsidy-linked programmes, a common theme in strategy and public policy consulting."
-    },
-    {
-     "id": "19eb5e7d30",
-     "headline": "Mint Explainer | Why India wants to corporatize its major ports and what it means",
-     "link": "https://www.livemint.com/industry/infrastructure/india-corporatize-major-ports-financial-autonomy-tariffs-listings-11792557264859.html",
-     "source": "Mint",
-     "published": "2026-10-21T05:38:04+00:00",
-     "summary": "The Indian government intends to convert 11 major ports into corporate entities by 2030, replacing the current trust-based structure with a landlord model. Under this approach, private operators would lease port infrastructure and tariffs would be set by the market rather than by regulation. The plan also envisages eventual stock market listings to draw in private capital and sharpen global competitiveness.",
-     "why_it_matters": "Demonstrates privatisation and infrastructure monetisation strategy — a high-frequency topic in consulting interviews covering logistics, policy reform and investment."
-    },
-    {
-     "id": "e791324d00",
-     "headline": "Rubio kicks off India visit with trade deal, Russian oil on agenda",
-     "link": "https://www.thehindubusinessline.com/news/rubio-kicks-off-india-visit-with-trade-deal-russian-oil-on-agenda/article71603927.ece",
-     "source": "Hindu BusinessLine",
-     "published": "2026-10-21T05:27:02+00:00",
-     "summary": "US Secretary of State Marco Rubio arrived in India with a bilateral trade agreement and the question of Indian purchases of Russian crude oil both on the agenda. He was scheduled to meet External Affairs Minister Jaishankar as well as Reliance Industries Chairman Mukesh Ambani during his two-day visit to Mumbai and Jamnagar.",
-     "why_it_matters": "Highlights the intersection of geopolitics and trade policy — how energy sourcing decisions become leverage in bilateral deal-making, relevant for strategy and policy consulting."
-    },
-    {
-     "id": "1c2879d0a2",
-     "headline": "US wants a $500 billion bonanza with India in 3 years",
-     "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-targets-500-bn-bilateral-trade-with-india-in-three-years-says-ambassador-sergio-gor/articleshow/135079166.cms",
+     "id": "b914ca6f4f",
+     "headline": "Jio IPO strengthens Reliance’s financial flexibility; capex funding remains key: Moody’s",
+     "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-strengthens-reliances-financial-flexibility-capex-funding-remains-key-moodys/articleshow/135094225.cms",
      "source": "Economic Times",
-     "published": "2026-10-21T01:01:24+00:00",
-     "summary": "The United States has set an ambitious target of reaching $500 billion in bilateral trade with India within three years. This goal reflects Washington's broader effort to deepen economic ties with India as part of its strategic repositioning in Asia. Achieving the target would require significant expansion across goods, services and investment flows.",
-     "why_it_matters": "A macro trade strategy data point — useful for discussing India's positioning in global supply chains and US-India commercial diplomacy in interviews."
+     "published": "2026-10-21T14:02:53+00:00",
+     "summary": "Moody's has described the planned IPO of Jio Platforms as a credit-positive event for its parent, Reliance Industries. The roughly Rs 30,200 crore fundraise is expected to help Reliance pay down debt and maintain financial flexibility while the company continues to spend heavily on capital projects. Better leverage management is the key benefit Moody's highlights.",
+     "why_it_matters": "Links IPO strategy to credit ratings and capital structure management — core concepts in corporate strategy and deals."
     },
     {
-     "id": "270d28a219",
-     "headline": "India Inc braces for muted salary hikes in 2027 as costs rise, hiring slows",
-     "link": "https://www.livemint.com/industry/india-inc-muted-salary-hikes-in-2027-as-costs-rise-hiring-slows-11792480770238.html",
-     "source": "Mint",
-     "published": "2026-10-20T10:52:39+00:00",
-     "summary": "Indian companies are expected to offer more restrained salary increases in 2027 compared to recent years, as geopolitical uncertainty, higher operating costs and sluggish consumer demand weigh on business confidence. Consulting firms are projecting average hikes of around 9 per cent, but actual rewards are likely to be skewed towards high performers and employees with AI-related skills. Employers may also shift towards one-time bonuses rather than permanent pay increases.",
-     "why_it_matters": "Directly relevant to placement preparation — signals what compensation structures and skill premiums candidates should expect when negotiating offers."
-    },
-    {
-     "id": "fa34ca6f51",
-     "headline": "FIA seeks extension of 7% VAT on aviation fuel in Delhi",
-     "link": "https://www.thehindubusinessline.com/economy/logistics/fia-seeks-extension-of-7-vat-on-aviation-fuel-in-delhi/article71607374.ece",
+     "id": "9e5217da0b",
+     "headline": "Core sector grew at 7.9% in September; industrial outlook remains uncertain",
+     "link": "https://www.thehindubusinessline.com/economy/core-sector-grew-at-79-in-september-industrial-outlook-remains-uncertain/article71607847.ece",
      "source": "Hindu BusinessLine",
-     "published": "2026-10-21T12:23:47+00:00",
-     "summary": "The Federation of Indian Airlines has asked for an extension of the reduced 7 per cent value-added tax on aviation turbine fuel in Delhi. Airlines argue that fuel costs have become increasingly burdensome, with the volume of ATF uplifted at Delhi rising by 40 per cent since the tax cut was first introduced.",
-     "why_it_matters": "Illustrates how sector-specific tax policy directly affects airline cost structures and profitability — relevant for consulting work in aviation or policy advisory."
+     "published": "2026-10-21T13:57:04+00:00",
+     "summary": "India's core sector output expanded by 7.9 percent in September, driven mainly by iron ore, electricity, and cement. However, analysts are divided on what this means for the broader Index of Industrial Production going forward. The mixed expert views point to continued uncertainty in the industrial outlook.",
+     "why_it_matters": "Core sector data is a leading macro indicator; understanding its link to IIP is a standard consulting interview talking point."
     },
     {
-     "id": "c5c14a30e7",
-     "headline": "Rubio tours Jamnagar as US courts Reliance",
-     "link": "https://economictimes.indiatimes.com/industry/energy/oil-gas/marco-rubio-tours-jamnagar-as-washington-courts-reliances-refining-muscle/articleshow/135091948.cms",
-     "source": "Economic Times",
-     "published": "2026-10-21T12:04:39+00:00",
-     "summary": "US Secretary of State Marco Rubio visited the Jamnagar refinery complex in Gujarat, which is operated by Reliance Industries and is the largest single-site refinery in the world. The Ambani family received him at the facility. The visit came a day after Rubio described India as a major refining hub for Russian crude oil.",
-     "why_it_matters": "Reinforces the energy-geopolitics nexus — how a private industrial asset becomes a diplomatic focal point in US-India trade negotiations."
+     "id": "510738fc5a",
+     "headline": "India-US 'pretty close' to signing a different kind of trade deal: Trump",
+     "link": "https://www.business-standard.com/external-affairs-defence-security/news/india-us-pretty-close-to-signing-a-different-kind-of-trade-deal-trump-126102100099_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T02:59:25+00:00",
+     "summary": "Both American and Indian officials have expressed optimism that the two countries are close to finalising a trade agreement, which could end years of deadlock. The deal being discussed is described as different in structure from conventional free trade agreements. Progress on this front would mark a significant shift in bilateral trade relations.",
+     "why_it_matters": "A potential India-US trade deal reshapes competitive dynamics for multiple industries — critical for strategy and policy discussions."
     },
     {
-     "id": "82bc624c37",
-     "headline": "India launches state-level outreach to help MSMEs, farmers tap FTA export opportunities",
-     "link": "https://www.thehindubusinessline.com/economy/india-launches-state-level-outreach-to-help-msmes-farmers-tap-fta-export-opportunities/article71607022.ece",
+     "id": "b8be3b071d",
+     "headline": "RBI steps up overseas investment checks as rupee slides",
+     "link": "https://www.thehindubusinessline.com/markets/forex/rbi-steps-up-overseas-investment-checks-as-rupee-slides/article71603230.ece",
      "source": "Hindu BusinessLine",
-     "published": "2026-10-21T10:25:37+00:00",
-     "summary": "The Indian government has begun engaging directly with state governments to help small businesses and farmers make better use of existing free trade agreements. The outreach covers trade pacts with 38 countries and aims to raise the currently low utilisation rate among MSMEs and agricultural exporters. State-level coordination is seen as essential to translating FTA benefits into actual export growth.",
-     "why_it_matters": "Highlights the implementation gap in trade policy — a nuanced point on why signing FTAs is not enough without ground-level capacity building."
+     "published": "2026-10-20T04:02:09+00:00",
+     "summary": "The RBI last week sent a standardised checklist to leading banks asking for detailed disclosures on overseas direct investments above one billion dollars and other transactions that breach regulatory thresholds. This move comes as the rupee has been under pressure. The step signals tighter regulatory oversight of capital outflows.",
+     "why_it_matters": "Tighter ODI scrutiny affects cross-border deal structuring — directly relevant for strategy and M&A consulting conversations."
     }
    ],
    "quiz": [
     {
-     "question": "What strategic shift does the expansion of Japanese GCCs in India primarily represent?",
+     "question": "What does the split within the RBI MPC primarily reveal about future monetary policy?",
      "options": [
-      "Shifting manufacturing supply chains away from China",
-      "Moving from cost arbitrage to technology and capability building",
-      "Replacing domestic R&D labs with cheaper offshore units",
-      "Outsourcing customer service to reduce headcount in Japan"
+      "All members agree inflation has already peaked",
+      "Future rate decisions may remain contested and uncertain",
+      "The next meeting will definitely cut rates by 25 bps",
+      "The MPC will shift to a neutral stance immediately"
      ],
+     "story_id": "9b54598537",
      "answer_index": 1,
-     "explanation": "The story explicitly states that Japanese firms are now using Indian centres for AI and advanced engineering, going well beyond traditional cost-driven outsourcing — a classic GCC evolution narrative."
+     "explanation": "Two members dissented on the stance even while agreeing on the rate hike, signalling that the committee is not aligned on direction, making future decisions unpredictable."
     },
     {
-     "question": "What is the primary mechanism through which port corporatisation is expected to attract private investment?",
+     "question": "Why did Moody's view the Jio Platforms IPO as credit-positive for Reliance?",
      "options": [
-      "Merging smaller ports into large regional entities",
-      "Shifting to a landlord model with market-based tariffs",
-      "Transferring port ownership directly to state governments",
-      "Offering tax holidays to foreign shipping companies"
+      "It guarantees a sovereign credit rating upgrade for India",
+      "It signals Reliance plans to exit the telecom business",
+      "It replaces the need for any future bond issuances",
+      "It enables debt reduction and improves financial flexibility"
      ],
-     "answer_index": 1,
-     "explanation": "The story describes the landlord model and market-based tariff setting as the core structural changes that would make ports commercially attractive to private operators and eventual stock market investors."
+     "story_id": "b914ca6f4f",
+     "answer_index": 3,
+     "explanation": "Moody's highlighted that the IPO proceeds would help Reliance repay debt and maintain flexibility to fund ongoing heavy capital expenditure, improving its leverage profile."
     },
     {
-     "question": "According to Goldman Sachs, what share of India's private AI companies might list publicly within five years?",
+     "question": "Which sectors were the primary drivers of India's core sector growth in September?",
      "options": [
-      "All companies that have received Series C funding or above",
-      "Fewer than ten per cent of late-stage companies",
-      "Between one-quarter and one-half of mid-to-late-stage firms",
-      "Up to three-quarters of all registered AI startups"
+      "Textiles, chemicals, and pharmaceuticals",
+      "Steel, fertilisers, and natural gas",
+      "Coal, crude oil, and refinery products",
+      "Iron ore, electricity, and cement"
      ],
-     "answer_index": 2,
-     "explanation": "Goldman Sachs estimated that 25–50 per cent of roughly 70 mid-to-late-stage private AI companies could go public, which translates to between a quarter and half of that cohort."
+     "story_id": "9e5217da0b",
+     "answer_index": 3,
+     "explanation": "The summary specifically identifies iron ore, electricity, and cement as the three sectors that drove the 7.9 percent core sector growth recorded in September."
     },
     {
-     "question": "Why is the leadership reshuffle at MHI considered a risk for India's EV policy?",
+     "question": "What makes the potential India-US trade agreement notable compared to past efforts?",
      "options": [
-      "New leadership may cancel the Auto PLI programme entirely",
-      "Continuity of subsidy compliance and programme pace may be disrupted",
-      "The ministry is being merged with the Ministry of Finance",
-      "Foreign automakers have threatened to exit the Indian market"
+      "It is structured differently from a conventional trade deal",
+      "It is the first deal India has signed with any country",
+      "It eliminates all existing bilateral trade disputes at once",
+      "It covers only agricultural tariffs and nothing else"
      ],
-     "answer_index": 1,
-     "explanation": "The story frames the reshuffle as a test of policy continuity, specifically whether the new leadership will maintain the same rigour in subsidy disbursement and compliance under PM E-DRIVE and Auto PLI."
-    },
-    {
-     "question": "What does the US-India $500 billion trade target primarily signal about bilateral relations?",
-     "options": [
-      "Washington is deepening economic ties as part of its Asia strategy",
-      "The two countries plan to launch a joint sovereign wealth fund",
-      "India has agreed to reduce tariffs on all US manufactured goods",
-      "A formal free trade agreement has already been signed"
-     ],
+     "story_id": "510738fc5a",
      "answer_index": 0,
-     "explanation": "The story frames the $500 billion target as part of the US effort to strengthen economic engagement with India in the context of its broader strategic repositioning in Asia, not a concluded trade deal."
+     "explanation": "Officials described the emerging agreement as a different kind of deal, distinguishing it from standard free trade agreements and explaining why it may break the long-running stalemate."
+    },
+    {
+     "question": "What was the immediate trigger for the RBI's tighter scrutiny of overseas investments?",
+     "options": [
+      "A surge in foreign direct investment into India",
+      "A rise in domestic inflation above the RBI's target band",
+      "New SEBI guidelines on cross-border acquisitions",
+      "Pressure on the rupee prompting capital outflow checks"
+     ],
+     "story_id": "b8be3b071d",
+     "answer_index": 3,
+     "explanation": "The summary links the RBI's move to issue a detailed checklist to banks directly to the rupee coming under pressure, indicating concern about capital leaving the country."
     }
    ],
    "dropped": [
     {
-     "headline": "India’s listed AI market could gain $100 billion from IPOs, says Goldman Sachs",
+     "headline": "Core sector growth accelerates to 7.9% in September, fastest in new series",
      "reason": "same event as another pick"
     },
     {
-     "headline": "New policy in works to boost agrivoltaics in India; enhance farmers' income via energy generation",
-     "reason": "already 10 stories"
+     "headline": "India's infrastructure output grows 7.9% year-on-year in September on strong coal, steel output",
+     "reason": "same event as another pick"
     },
     {
-     "headline": "India presents a compelling investment proposition for German firms: FICCI",
-     "reason": "already 10 stories"
+     "headline": "Fast tracking strategic petroleum reserves critical for India’s energy security",
+     "reason": "not in the top 5 (fit: strong)"
+    },
+    {
+     "headline": "Delhi to Varanasi, Mumbai to Pune: These 7 new bullet train routes might cut your travel time",
+     "reason": "not in the top 5 (fit: weak)"
     }
    ]
   },
   "ops": {
    "stories": [
     {
-     "id": "820a1adae7",
-     "headline": "India's infrastructure output grows 7.9% year-on-year in September on strong coal, steel output",
-     "link": "https://www.livemint.com/economy/indias-infrastructure-output-grows-7-9-year-on-year-in-september-on-strong-coal-steel-output-11792584370122.html",
-     "source": "Mint",
-     "published": "2026-10-21T12:14:02+00:00",
-     "summary": "India's eight core infrastructure sectors grew 7.9% in September compared to the same month last year, well above the 3.1% growth recorded in September the previous year. The improvement was driven by higher output in coal, steel, iron ore, and refinery products.",
-     "why_it_matters": "Strong core sector output signals healthy upstream supply for manufacturing and logistics firms — a key ops interview talking point."
+     "id": "50129e0d97",
+     "headline": "Eternal Q2 net profit up 92%, revenue up 77%",
+     "link": "https://www.thehindubusinessline.com/companies/eternal-q2-net-profit-up-92-revenue-up-77/article71607974.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T14:14:04+00:00",
+     "summary": "Eternal, the parent company of quick-commerce platform Blinkit, reported a sharp jump in quarterly net profit and revenue. Blinkit is aggressively expanding its dark-store network, targeting 3,500 stores by March 2027 and scaling further to 5,000 by March 2028.",
+     "why_it_matters": "Dark-store expansion is a core ops concept illustrating last-mile logistics, capacity planning, and unit-economics trade-offs in quick commerce."
     },
     {
-     "id": "cbb3332f46",
-     "headline": "Eternal, Swiggy Q2 Results Preview: Food delivery growth steady, Quick commerce to grow faster",
-     "link": "https://www.thehindubusinessline.com/companies/eternal-swiggy-q2-results-preview-food-delivery-growth-steady-quick-commerce-to-grow-faster/article71606640.ece",
-     "source": "Hindu BusinessLine",
-     "published": "2026-10-21T07:54:16+00:00",
-     "summary": "Analysts expect both Eternal and Swiggy to report steady food-delivery growth in their July–September quarter results, but quick commerce is forecast to expand at a faster pace. However, the two companies are likely to show different profitability trajectories in the quick-commerce segment.",
-     "why_it_matters": "Diverging unit economics between food delivery and quick commerce is a classic supply-chain and last-mile operations case for interviews."
-    },
-    {
-     "id": "559f44f85b",
-     "headline": "Over 100 Japanese companies expand GCCs in India, shift focus to AI and engineering",
-     "link": "https://www.thehindubusinessline.com/economy/over-100-japanese-companies-expand-gccs-in-india-shift-focus-to-ai-and-engineering/article71606665.ece",
-     "source": "Hindu BusinessLine",
-     "published": "2026-10-21T07:48:45+00:00",
-     "summary": "More than 100 Japanese companies have expanded their Global Capability Centres in India, shifting their focus from conventional outsourcing to building AI and engineering capabilities. These centres are now being used to develop technology and strengthen global operations.",
-     "why_it_matters": "GCC expansion into AI and engineering signals rising demand for tech-ops talent — directly relevant for analytics and technology track placements."
-    },
-    {
-     "id": "1e19c07690",
-     "headline": "MHI leadership reshuffle puts ₹38,000-crore auto and EV push to policy continuity test",
-     "link": "https://www.thehindubusinessline.com/companies/mhi-leadership-reshuffle-puts-38000-crore-auto-and-ev-push-to-policy-continuity-test/article71597718.ece",
-     "source": "Hindu BusinessLine",
-     "published": "2026-10-21T06:28:52+00:00",
-     "summary": "Leadership changes at the Ministry of Heavy Industries are raising questions about continuity in two major programmes — PM E-DRIVE and the Auto PLI scheme — which together involve around ₹38,000 crore in incentives for the electric vehicle and automobile sectors. The new leadership will need to balance policy consistency with strict compliance on subsidy disbursement.",
-     "why_it_matters": "Policy continuity risk in EV and auto manufacturing incentives is a key operations-strategy discussion point for supply-chain and manufacturing roles."
+     "id": "22112af745",
+     "headline": "After 79 years, Railways reaches this remote town for the first time since Independence; Rs 1,628 crore line opens, two new trains flagged off",
+     "link": "https://economictimes.indiatimes.com/industry/transportation/railways/after-79-years-railways-reaches-this-remote-town-for-the-first-time-since-independence-rs-1628-crore-line-opens-two-new-trains-flagged-off/articleshow/135081915.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T04:21:30+00:00",
+     "summary": "Indian Railways has finally connected Rowghat in Chhattisgarh to the national rail network, more than seven decades after Independence. The newly inaugurated 17.5-km Tadoki-Rowghat stretch completes a much larger 95-km project, and two new passenger train services have been launched.",
+     "why_it_matters": "New rail connectivity to resource-rich regions unlocks raw-material logistics for industries like steel and mining, a key supply-chain talking point."
     },
     {
      "id": "b5e3c19c42",
@@ -591,127 +445,97 @@
      "link": "https://economictimes.indiatimes.com/industry/energy/power/indias-power-crunch-deepens-as-96-coal-plants-face-fuel-shortages/articleshow/135081893.cms",
      "source": "Economic Times",
      "published": "2026-10-21T04:12:15+00:00",
-     "summary": "Ninety-six coal-fired power plants across India are facing critical fuel shortages, driven by unusually high electricity demand linked to hot weather and weak hydroelectric output. The Central Electricity Authority has flagged a significant rise in the number of plants running below safe fuel inventory levels.",
-     "why_it_matters": "Fuel supply-chain bottlenecks at power plants directly affect manufacturing capacity and industrial operations — a core ops-track discussion."
+     "summary": "Ninety-six coal-fired power plants across India are facing critical fuel shortages, driven by unusually high electricity demand and weak hydroelectric output. The Central Electricity Authority has flagged a significant worsening of the supply situation.",
+     "why_it_matters": "Energy supply disruptions directly affect manufacturing capacity and operational continuity — a critical risk-management concept for ops and supply-chain roles."
     },
     {
-     "id": "19d1b1a63e",
-     "headline": "Buoyed by blockbuster IPO, ESDS bets on AI chip rentals for $5 billion revenue scope in 5 years",
-     "link": "https://www.livemint.com/companies/news/buoyed-by-blockbuster-ipo-esds-bets-on-ai-chip-rentals-for-5-billion-revenue-in-5-years-11792473076889.html",
-     "source": "Mint",
-     "published": "2026-10-21T00:30:31+00:00",
-     "summary": "Cloud and data-centre company ESDS, fresh from a successful IPO, is targeting a revenue potential of five billion dollars over five years by renting out AI chips to businesses. Its CMD outlined a strategy of compounding revenue 2.5 times every year, though analysts note such growth rates are extremely rare even in the technology sector.",
-     "why_it_matters": "AI chip rental as a business model illustrates infrastructure-as-a-service trends and the economics of AI adoption — relevant for tech and analytics roles."
-    },
-    {
-     "id": "3f1869b402",
-     "headline": "Flipkart to challenge Zomato and Swiggy with ‘Eat-in by Minutes’: Launch date, features explained",
-     "link": "https://www.livemint.com/companies/news/flipkart-to-challenge-zomato-and-swiggy-with-eat-in-by-minutes-launch-date-features-explained-11792488539637.html",
-     "source": "Mint",
-     "published": "2026-10-20T10:13:28+00:00",
-     "summary": "Flipkart is piloting a food-delivery service called Eat-in by Minutes among roughly 8,000 of its own employees in Bengaluru before a wider public launch planned for the end of October 2026. The move puts Flipkart in direct competition with established players Zomato and Swiggy.",
-     "why_it_matters": "Flipkart entering quick food delivery highlights intensifying competition in last-mile logistics and quick-commerce operations — a strong interview talking point."
-    },
-    {
-     "id": "3013075615",
-     "headline": "Super Micro shares jump 12% after Q1 preliminary results top estimates. Can the AI server maker sustain its recovery?",
-     "link": "https://www.livemint.com/market/stock-market-news/super-micro-shares-jump-12-after-q1-preliminary-results-top-estimates-can-the-ai-server-maker-sustain-its-recovery-11792584229403.html",
-     "source": "Mint",
-     "published": "2026-10-21T12:51:56+00:00",
-     "summary": "AI server manufacturer Super Micro reported preliminary first-quarter fiscal 2027 revenue guidance of between $18.5 billion and $19.5 billion, well ahead of what analysts had expected, sending its shares up over 12% in pre-market trading. The strong outlook, driven by AI data-centre demand, also lifted shares of Dell and Hewlett Packard Enterprise.",
-     "why_it_matters": "Surging AI data-centre demand and server supply chains are central to understanding technology infrastructure and AI adoption in business."
-    },
-    {
-     "id": "c7b3ea088a",
-     "headline": "Eternal plans to launch privacy-focused AI assistant dark.ai this year",
-     "link": "https://www.thehindubusinessline.com/companies/eternal-plans-to-launch-privacy-focused-ai-assistant-darkai-this-year/article71607303.ece",
+     "id": "d6a07220d5",
+     "headline": "Can Bajaj’s Brazilian bet turn KTM around after its historic takeover?",
+     "link": "https://www.thehindubusinessline.com/companies/can-bajajs-brazilian-bet-turn-ktm-around-after-its-historic-takeover/article71597823.ece",
      "source": "Hindu BusinessLine",
-     "published": "2026-10-21T12:50:13+00:00",
-     "summary": "Eternal, the parent company of Zomato, has announced plans to launch a privacy-focused AI assistant called dark.ai before the end of this year. The announcement came alongside the company's July–September quarterly results, shared by its leadership in a letter to shareholders.",
-     "why_it_matters": "A quick-commerce major building its own AI assistant signals how ops-focused firms are integrating AI into customer and business operations."
+     "published": "2026-10-21T14:14:36+00:00",
+     "summary": "Bajaj Auto, which took control of KTM about a year ago, is investing 20 million Brazilian Real to set up a motorcycle assembly plant in Brazil. The move is aimed at reviving KTM's sales and improving its profitability in that market.",
+     "why_it_matters": "Offshore assembly plants illustrate global manufacturing footprint strategy, tariff arbitrage, and capacity localisation — key ops concepts for placement interviews."
     },
     {
-     "id": "dbf7fbf679",
-     "headline": "Delhi to Palwal in 45 minutes from 3 hours? How the new expressway could ease NCR traffic",
-     "link": "https://www.livemint.com/industry/infrastructure/delhi-to-palwal-in-45-minutes-from-3-hours-how-the-new-expressway-could-ease-ncr-traffic-11792583851890.html",
+     "id": "f39db4b33b",
+     "headline": "Adani Green races ahead, but a sluggish grid isn't helping",
+     "link": "https://www.livemint.com/companies/adani-green-races-ahead-sluggish-grid-renewable-energy-solar-farms-wind-mills-11792590033046.html",
      "source": "Mint",
-     "published": "2026-10-21T12:34:18+00:00",
-     "summary": "The final section of a new expressway corridor connecting Delhi to Palwal has been completed, spanning 59 kilometres. The route is expected to cut travel time between Delhi and Palwal from around three hours to roughly 45 minutes, while also reducing congestion on key roads in South Delhi.",
-     "why_it_matters": "New expressway infrastructure directly improves last-mile logistics and supply-chain connectivity in the Delhi-NCR industrial and warehousing corridor."
+     "published": "2026-10-21T14:13:38+00:00",
+     "summary": "Adani Green Energy is adding renewable capacity rapidly, but delays in expanding the transmission grid are holding back actual power delivery. Grid availability fell below 80% in the quarter, forcing the company to curtail production to prevent grid imbalance.",
+     "why_it_matters": "Grid bottlenecks causing production curtailment illustrate the operations concept of capacity mismatch between generation and transmission infrastructure."
     }
    ],
    "quiz": [
     {
-     "question": "What is the primary business model ESDS is pursuing to reach its five-billion-dollar revenue target?",
+     "question": "What is Blinkit's primary operational strategy driving its growth?",
      "options": [
-      "Offering managed IT outsourcing to enterprises",
-      "Renting AI chips to businesses on demand",
-      "Building proprietary large language models for sale",
-      "Acquiring smaller cloud data-centre companies"
+      "Partnering with kirana stores for fulfilment",
+      "Rapid expansion of its dark-store network",
+      "Acquiring rival quick-commerce platforms",
+      "Launching same-day delivery from retail stores"
      ],
+     "story_id": "50129e0d97",
      "answer_index": 1,
-     "explanation": "ESDS's strategy centres on renting out AI chips as infrastructure-as-a-service, rather than selling software, making acquisitions, or traditional outsourcing."
+     "explanation": "Blinkit's growth is anchored in aggressively scaling dark stores — from 3,500 by March 2027 to 5,000 by March 2028 — which are dedicated fulfilment hubs, not retail outlets."
     },
     {
-     "question": "Why are analysts expecting Eternal and Swiggy's Q2 results to show diverging trends?",
+     "question": "What is the primary cause of fuel shortages at India's coal plants?",
      "options": [
-      "One is exiting the food delivery segment entirely",
-      "Their profitability paths in quick commerce differ",
-      "Regulatory caps apply differently to each platform",
-      "Their food delivery volumes are moving in opposite directions"
+      "Export commitments reducing domestic coal supply",
+      "Rising demand and weak hydroelectric output",
+      "Mining strikes disrupting coal production",
+      "Government-mandated coal inventory caps"
      ],
+     "story_id": "b5e3c19c42",
      "answer_index": 1,
-     "explanation": "While both companies are forecast to grow quick commerce faster than food delivery, analysts expect their profitability trajectories in that segment to diverge."
+     "explanation": "The shortages are driven by unusually high electricity demand combined with insufficient hydroelectric generation, creating a supply-demand gap at coal-fired plants."
     },
     {
-     "question": "What is the main operational risk highlighted by India's coal plant fuel shortages?",
+     "question": "What does the Rowghat rail link primarily enable for the region?",
      "options": [
-      "Renewable energy targets will be permanently missed",
-      "Coal imports will replace all domestic production",
-      "Industrial manufacturing capacity could be constrained",
-      "Power sector privatisation will accelerate immediately"
+      "Faster passenger travel to metro cities",
+      "Reduction in road freight costs for FMCG firms",
+      "Access to raw-material logistics for resource industries",
+      "Integration with the dedicated freight corridor network"
      ],
+     "story_id": "22112af745",
      "answer_index": 2,
-     "explanation": "When coal plants run below safe fuel inventory levels, electricity supply to industries becomes unreliable, directly threatening manufacturing output and operations."
+     "explanation": "Rowghat is a resource-rich area in Chhattisgarh; rail connectivity primarily unlocks efficient movement of raw materials like iron ore, benefiting mining and steel supply chains."
     },
     {
-     "question": "What strategic shift are Japanese GCCs in India making beyond traditional outsourcing?",
+     "question": "Why is Bajaj Auto setting up a motorcycle plant in Brazil?",
      "options": [
-      "Developing AI and specialised engineering capabilities",
-      "Focusing exclusively on back-office finance functions",
-      "Reducing headcount to cut operational costs sharply",
-      "Relocating manufacturing plants from Japan to India"
+      "To boost KTM's local sales and profitability",
+      "To comply with a Brazilian localisation mandate",
+      "To reduce dependence on European KTM factories",
+      "To export finished bikes back to India cheaply"
      ],
+     "story_id": "d6a07220d5",
      "answer_index": 0,
-     "explanation": "Japanese firms are now using their Indian centres to build AI and engineering expertise, moving well beyond the cost-arbitrage outsourcing model."
+     "explanation": "Bajaj's stated goal for the Brazil assembly plant, built at 20 million Brazilian Real, is to improve KTM's sales performance and profitability in that market."
     },
     {
-     "question": "How is Flipkart approaching the launch of its food-delivery service before going public?",
+     "question": "What operational problem did Adani Green face due to grid delays?",
      "options": [
-      "Piloting it internally among its own employees first",
-      "Rolling it out simultaneously across ten major cities",
-      "Acquiring a regional food-delivery startup for scale",
-      "Partnering with Zomato for shared delivery infrastructure"
+      "Forced curtailment of power generation output",
+      "Penalty payments to state electricity boards",
+      "Cancellation of new capacity addition contracts",
+      "Higher fuel costs from backup diesel generation"
      ],
+     "story_id": "f39db4b33b",
      "answer_index": 0,
-     "explanation": "Flipkart is testing Eat-in by Minutes with around 8,000 of its own employees in Bengaluru as a controlled internal pilot before any wider public launch."
+     "explanation": "With grid availability below 80%, Adani Green had to curtail production to keep the grid balanced — a classic capacity-mismatch problem between generation and transmission."
     }
    ],
    "dropped": [
     {
-     "headline": "Eternal, Swiggy expected to report strong Q2 growth",
+     "headline": "Core sector growth accelerates to 7.9% in September, fastest in new series",
      "reason": "same event as another pick"
     },
     {
-     "headline": "SBI probes suspected data breach after 3.75 lakh records surface on dark web",
-     "reason": "same event as another pick"
-    },
-    {
-     "headline": "Netflix’s India revenue grows 18% as viewing hours rise 24% in Q3",
-     "reason": "same event as another pick"
-    },
-    {
-     "headline": "Netflix reports largest ever subscriber net adds in India in Q3",
+     "headline": "India's infrastructure output grows 7.9% year-on-year in September on strong coal, steel output",
      "reason": "same event as another pick"
     },
     {
@@ -719,88 +543,175 @@
      "reason": "same event as another pick"
     },
     {
-     "headline": "Netflix India revenue grew 18% in July-September, view hours grew 24%",
-     "reason": "already 10 stories"
+     "headline": "Core sector grew at 7.9% in September; industrial outlook remains uncertain",
+     "reason": "not in the top 5 (fit: strong)"
     },
     {
-     "headline": "SBI hit by cyberattack: All you need to know",
-     "reason": "fit: off-track"
+     "headline": "Delhi to Varanasi, Mumbai to Pune: These 7 new bullet train routes might cut your travel time",
+     "reason": "not in the top 5 (fit: weak)"
+    }
+   ]
+  },
+  "hr": {
+   "stories": [
+    {
+     "id": "31f5b7ac92",
+     "headline": "Two senior HDFC Bank executives leaked secrets? What internal probe found? What's next?",
+     "link": "https://www.livemint.com/industry/banking/hdfc-banks-internal-probe-finds-two-senior-executives-leaked-confidential-business-strategies-market-data-11792573699692.html",
+     "source": "Mint",
+     "published": "2026-10-21T09:18:03+00:00",
+     "summary": "An internal investigation at HDFC Bank uncovered evidence that two senior executives shared confidential business strategies and potentially market-sensitive information with people outside the organisation. The bank is India's largest by market capitalisation. The findings raise serious concerns about insider conduct and information security at the top levels of the firm.",
+     "why_it_matters": "Illustrates insider confidentiality risks and corporate governance failures — a key HR and compliance talking point for banking sector interviews."
+    },
+    {
+     "id": "270d28a219",
+     "headline": "India Inc braces for muted salary hikes in 2027 as costs rise, hiring slows",
+     "link": "https://www.livemint.com/industry/india-inc-muted-salary-hikes-in-2027-as-costs-rise-hiring-slows-11792480770238.html",
+     "source": "Mint",
+     "published": "2026-10-20T10:52:39+00:00",
+     "summary": "Indian companies are expected to offer subdued salary increases in 2027, with consultants projecting average hikes of around nine per cent. Factors such as geopolitical uncertainty, rising operational costs and sluggish consumer demand are restraining pay budgets. Employers are likely to reward high performers and employees with AI skills, and may prefer one-time bonuses over permanent salary increases.",
+     "why_it_matters": "Directly relevant to placement negotiations — shows how macro pressures shape appraisal strategy and the growing premium on AI skills."
+    },
+    {
+     "id": "df978ed34a",
+     "headline": "eBay layoffs: Online marketplace to cut 1,100 jobs as it reshapes operations",
+     "link": "https://www.livemint.com/companies/news/ebay-layoffs-online-marketplace-to-cut-1-100-jobs-as-it-reshapes-operations-11792589149209.html",
+     "source": "Mint",
+     "published": "2026-10-21T13:30:41+00:00",
+     "summary": "eBay has announced plans to eliminate roughly 1,100 positions, which amounts to about nine per cent of its total workforce, as part of a broader operational restructuring. This comes after the company had already cut around 800 jobs earlier in the same year. The company is simultaneously shifting focus toward high-growth segments such as luxury goods and the resale market.",
+     "why_it_matters": "A live example of workforce restructuring linked to strategic pivots — useful for discussing layoff management and business transformation in HR interviews."
+    },
+    {
+     "id": "0936e8613d",
+     "headline": "Indian mothers take 130 working days of parental leave, fathers just 7: Report",
+     "link": "https://hr.economictimes.indiatimes.com/news/workplace-4-0/indian-mothers-take-130-working-days-of-parental-leave-fathers-just-7-report/135088752",
+     "source": "ET HRWorld",
+     "published": "2026-10-21T10:04:52+00:00",
+     "summary": "A study covering nearly 5,000 parents across twelve major economies found that Indian mothers take an average of 130 working days of parental leave, while fathers take only seven days. The data reveals a wide gap between the existence of shared parental leave policies and how employees actually use them. This suggests that formal policy alone does not ensure equitable leave-taking behaviour.",
+     "why_it_matters": "Highlights the policy-versus-practice gap in DEI and parental leave — a strong talking point for HR roles focused on inclusion and workforce equity."
+    },
+    {
+     "id": "e3eff0c430",
+     "headline": "Schaeffler India CEO taken into custody over fatal June factory accident",
+     "link": "https://www.business-standard.com/companies/news/schaeffler-india-ceo-taken-into-custody-over-fatal-june-factory-accident-126102100629_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T09:24:16+00:00",
+     "summary": "The chief executive of Schaeffler India was taken into custody in connection with a fatal accident at one of the company's factories in June. Two contract workers died following an unplanned discharge of carbon dioxide gas during a routine cylinder replacement. The incident raises questions about workplace safety standards and employer liability for contract labour.",
+     "why_it_matters": "Underscores employer accountability for contract worker safety — critical for HR discussions on labour law, EHS compliance and contractor management."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What does India Inc's 2027 appraisal outlook suggest about reward strategy?",
+     "options": [
+      "All employees will receive uniform nine per cent hikes",
+      "Companies plan to freeze hiring across all sectors",
+      "One-time bonuses may replace permanent salary increases",
+      "Festive demand will drive higher variable pay for all"
+     ],
+     "story_id": "270d28a219",
+     "answer_index": 2,
+     "explanation": "The story states that employers may increasingly prefer one-time bonuses over permanent hikes, reflecting caution about locking in higher fixed costs amid economic uncertainty."
+    },
+    {
+     "question": "Why is eBay cutting jobs while also expanding into new segments?",
+     "options": [
+      "To comply with new US labour regulations on headcount",
+      "To reallocate resources toward faster-growing business areas",
+      "To reduce executive pay and improve board governance",
+      "To recover losses from a failed product launch"
+     ],
+     "story_id": "df978ed34a",
+     "answer_index": 1,
+     "explanation": "The layoffs are part of a strategic restructuring that allows eBay to streamline operations and redirect investment toward high-growth areas like luxury goods and resale."
+    },
+    {
+     "question": "What key HR insight does the parental leave data from 12 economies reveal?",
+     "options": [
+      "Formal policies alone do not ensure equitable leave use",
+      "Shared leave policies are absent in most economies studied",
+      "Mothers voluntarily opt out of available paternity support",
+      "Fathers are legally barred from taking extended leave"
+     ],
+     "story_id": "0936e8613d",
+     "answer_index": 0,
+     "explanation": "The study shows that even where shared parental leave policies exist on paper, actual behaviour remains highly unequal, pointing to a significant gap between policy design and practice."
+    },
+    {
+     "question": "What does the Schaeffler India incident highlight about contract labour management?",
+     "options": [
+      "Carbon dioxide handling is unregulated under Indian labour law",
+      "Employers can face legal liability for contractor safety failures",
+      "CEOs are rarely held accountable for shop-floor accidents",
+      "Contract workers are excluded from factory safety regulations"
+     ],
+     "story_id": "e3eff0c430",
+     "answer_index": 1,
+     "explanation": "The arrest of Schaeffler India's CEO over the deaths of contract workers demonstrates that senior leadership can be held legally accountable for workplace safety failures involving third-party employees."
+    },
+    {
+     "question": "What does the HDFC Bank internal probe primarily illustrate?",
+     "options": [
+      "The difficulty of recruiting trustworthy mid-level managers",
+      "Risks of confidentiality breaches at senior leadership levels",
+      "Weaknesses in the bank's retail customer data systems",
+      "Regulatory gaps in India's banking supervision framework"
+     ],
+     "story_id": "31f5b7ac92",
+     "answer_index": 1,
+     "explanation": "The probe found that senior executives leaked confidential strategy and potentially market-sensitive information, making it a clear example of insider confidentiality risk and corporate governance failure."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "HDFC Bank probe finds senior executives leaked secrets to outsiders",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "HDFC Bank probes alleged leak of confidential information, two under lens",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "HDFC Bank investigates two senior executives over alleged leak of business secrets",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "H-1B job ads not inherently discriminatory, US Justice Department upholds ruling",
+     "reason": "not in the top 5 (fit: strong)"
+    },
+    {
+     "headline": "Who is KC Jhanwar? UltraTech Cement Managing Director appointed as non-executive Vice Chairman from January",
+     "reason": "not in the top 5 (fit: strong)"
     }
    ]
   }
  },
- "company": {
-  "name": "Hindustan Unilever",
-  "process_date": "2026-10-28",
-  "what_it_does": "Hindustan Unilever Limited (HUL) is India's largest fast-moving consumer goods company, selling products across personal care, home care, and food and beverages to hundreds of millions of Indian households. It competes primarily with Procter & Gamble, ITC, Dabur, Marico, and Nestlé across its various categories.",
-  "business_lines": [
-   "Beauty & Wellbeing [Dove, TRESemmé, Lakmé, Simple, Dermalogica]",
-   "Personal Care [Lux, Lifebuoy, Pears, Closeup, Axe, Rexona]",
-   "Home Care [Surf Excel, Rin, Vim, Domex]",
-   "Nutrition [Horlicks, Boost, Knorr]",
-   "Ice Cream [Kwality Wall's]"
-  ],
-  "recent_news": [],
-  "talking_points": [
-   "HUL is executing a 'premiumisation' strategy — deliberately shifting its portfolio mix toward higher-margin products such as Dermalogica skincare and TRESemmé haircare to defend profitability as mass-market segments face intense price competition from regional and D2C brands.",
-   "The company faces a structural rural-urban demand divergence: urban consumers are trading up to premium SKUs while rural markets remain under pressure from inflation and private-label competition, forcing HUL to manage two very different pricing and distribution playbooks simultaneously.",
-   "Unilever's global decision to spin off its ice cream division (which includes Kwality Wall's in India) into a separate listed entity is a live strategic development that could reshape HUL's portfolio and capital allocation priorities — a strong topic to raise in any strategy or finance interview."
-  ],
-  "quiz": [
-   {
-    "question": "Which HUL brand sits in the Beauty & Wellbeing segment rather than Personal Care?",
-    "options": [
-     "Closeup toothpaste",
-     "Lifebuoy handwash",
-     "Lux soap",
-     "TRESemmé shampoo"
-    ],
-    "answer_index": 3,
-    "explanation": "TRESemmé is a premium haircare brand classified under HUL's Beauty & Wellbeing segment, whereas Lux, Closeup, and Lifebuoy all sit within the Personal Care segment."
-   },
-   {
-    "question": "Which brand did HUL acquire to strengthen its nutrition segment?",
-    "options": [
-     "Bournvita from Cadbury",
-     "Horlicks from GSK Consumer",
-     "Protinex from Danone",
-     "Complan from Heinz"
-    ],
-    "answer_index": 1,
-    "explanation": "HUL acquired the Horlicks brand (along with Boost) from GSK Consumer Healthcare, making it the cornerstone of HUL's Nutrition segment; the other brands belong to rival companies."
-   },
-   {
-    "question": "What is the primary strategic rationale behind HUL's premiumisation push?",
-    "options": [
-     "Expanding exports to South-East Asian markets",
-     "Defending margins against low-cost regional rivals",
-     "Complying with new BIS quality regulations",
-     "Matching Dabur's herbal product portfolio"
-    ],
-    "answer_index": 1,
-    "explanation": "HUL is moving up the value chain to protect profit margins as regional brands and D2C players aggressively compete on price in mass-market categories; the other options do not reflect HUL's stated strategic priorities."
-   }
-  ]
- },
+ "company": null,
  "date": "2026-10-22",
  "_run": {
   "models": {
    "au.anthropic.claude-haiku-4-5-20251001-v1:0": {
-    "input": 30649,
-    "output": 19108,
-    "calls": 6,
-    "approx_usd": 0.1262
+    "input": 38020,
+    "output": 23656,
+    "calls": 7,
+    "approx_usd": 0.1563
+   },
+   "global.anthropic.claude-haiku-4-5-20251001-v1:0": {
+    "input": 1555,
+    "output": 335,
+    "calls": 1,
+    "approx_usd": 0.0032
    },
    "au.anthropic.claude-sonnet-4-6": {
-    "input": 12681,
-    "output": 13068,
-    "calls": 6,
-    "approx_usd": 0.2341
+    "input": 9302,
+    "output": 8938,
+    "calls": 5,
+    "approx_usd": 0.162
    }
   },
-  "items": 421,
-  "seconds": 84,
-  "calls": 12,
-  "approx_usd": 0.3603
+  "items": 452,
+  "seconds": 106,
+  "calls": 13,
+  "approx_usd": 0.3215
  }
 }

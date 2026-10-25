@@ -13,11 +13,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="IMT Pulse">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=__V__">
 </head>
 <body>
   <header class="topbar" id="topbar" hidden>
-    <a href="#/home" class="brand"><img src="icons/icon-192.png" alt="" width="28" height="28"> IMT Pulse</a>
+    <a href="#/home" class="brand"><img src="icons/icon-192.png" alt="" width="28" height="28"><span>IMT Pulse<small>by Raj Srivastava</small></span></a>
     <span class="streak-chip" id="streakChip" hidden></span>
   </header>
   <main id="app" aria-live="polite"><div class="center muted">Loading…</div></main>
@@ -29,9 +29,10 @@
     <a href="#/admin" data-tab="admin" id="adminTab" hidden><svg viewBox="0 0 24 24"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M19 12a7 7 0 0 0-.1-1.2l2-1.6-2-3.4-2.4 1a7 7 0 0 0-2-1.2L14 3h-4l-.5 2.6a7 7 0 0 0-2 1.2l-2.4-1-2 3.4 2 1.6a7 7 0 0 0 0 2.4l-2 1.6 2 3.4 2.4-1a7 7 0 0 0 2 1.2L10 21h4l.5-2.6a7 7 0 0 0 2-1.2l2.4 1 2-3.4-2-1.6c.1-.4.1-.8.1-1.2z"/></svg>Admin</a>
   </nav>
   <div class="toast" id="toast" role="status" hidden></div>
-  <script src="config.js"></script>
-  <script src="auth.js"></script>
-  <script src="app.js"></script>
-  <script src="admin.js"></script>
+  <!-- ?v= is stamped by deploy.sh so phones always load the latest code -->
+  <script src="config.js?v=__V__"></script>
+  <script src="auth.js?v=__V__"></script>
+  <script src="app.js?v=__V__"></script>
+  <script src="admin.js?v=__V__"></script>
 </body>
 </html>

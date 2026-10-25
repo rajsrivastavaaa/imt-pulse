@@ -77,7 +77,7 @@ def tag_items(items, batch_size=70):
             print(f"tag batch failed ({len(batch)} items): {e}")
             return None
 
-    with ThreadPoolExecutor(6) as pool:
+    with ThreadPoolExecutor(3) as pool:   # gentle on Bedrock capacity
         results = list(pool.map(safe, batches))
     if all(r is None for r in results):
         raise llm.LLMError("every tagging batch failed")
@@ -85,7 +85,7 @@ def tag_items(items, batch_size=70):
 
 
 def pick_for_track(track, items, tags, df):
-    """Top 12 distinct events for a track, by importance then recency."""
+    """Top 7 distinct events for a track, by importance then recency (5 are shown)."""
     cands = [i for i in items if i["id"] in tags and track in tags[i["id"]]["tracks"] and tags[i["id"]]["importance"] >= 2]
     cands.sort(key=lambda i: i["published"], reverse=True)          # newest first...
     cands.sort(key=lambda i: -tags[i["id"]]["importance"])          # ...within each importance level
@@ -97,7 +97,7 @@ def pick_for_track(track, items, tags, df):
             continue
         seen.add(key)
         picked.append(i)
-        if len(picked) == 12:
+        if len(picked) == 7:
             break
     return picked, dropped[:10]
 
@@ -108,13 +108,16 @@ def _shuffle_options(quiz, rng):
         correct = q["options"][q["answer_index"]]
         opts = list(q["options"])
         rng.shuffle(opts)
-        out.append({"question": q["question"].strip(), "options": [o.strip() for o in opts],
+        out.append({"question": q["question"].strip(), "options": [o.strip() for o in opts], "story_id": q.get("story_id"),
                     "answer_index": opts.index(correct), "explanation": q["explanation"].strip()})
     return out
 
 
 def write_track(track, picked, rng):
+    if not picked:
+        raise llm.LLMError("no stories for this track in today's feeds")
     ids = [i["id"] for i in picked]
+    n_q = min(5, len(picked))
     prompt = (
         f"Track: {TRACKS[track]}\n\nStories (id | source | headline — teaser):\n"
         + "\n".join(_line(i, 300) for i in picked)
@@ -124,28 +127,25 @@ def write_track(track, picked, rng):
         "(e.g. a talking point, a concept it illustrates, or what it means for companies hiring).\n"
         "- fit: 'strong' if people in this track would clearly discuss it, 'weak' if only loosely related, "
         "'off-track' if it belongs to a different track or is not business news.\n\n"
-        "Then write exactly 5 multiple-choice questions that can be answered from your summaries alone, "
-        "only about stories with fit 'strong'. "
+        f"Then write exactly {n_q} multiple-choice questions, each about a DIFFERENT story (give its id as story_id), "
+        f"answerable from your summary of that story alone. Choose the {n_q} most useful stories, preferring fit 'strong'; "
+        f"only those {n_q} stories will be shown to students. "
         "Each has 4 plausible, distinct options of at most 8 words each, one correct answer (answer_index 0-3) "
         "and a one-sentence explanation. Test understanding of the business point, not trivia like exact share prices. "
-        "Cover 5 different stories. "
         "MCQ rules: all 4 options must be similar in length, style and level of detail, and the correct one must NOT be the longest "
         "or the only specific one. Wrong options must be plausible to someone who skimmed the news. "
         "Do not repeat words from the question in only the correct option. "
     )
-    obj = llm.call_json(SYSTEM, prompt, TRACK_SCHEMA, lambda o: validate_track(o, ids))
+    obj = llm.call_json(SYSTEM, prompt, TRACK_SCHEMA, lambda o: validate_track(o, ids, n_q))
     by_id = {s["id"]: s for s in obj["stories"]}
-    rank = {"strong": 0, "weak": 1}
-    keep = sorted((i for i in picked if by_id[i["id"]].get("fit") in rank),
-                  key=lambda i: rank[by_id[i["id"]]["fit"]])[:10]
-    keep_ids = {i["id"] for i in keep}
+    # The 5 stories shown are exactly the ones the 5 questions are about, so every question is answerable.
+    keep_ids = {q["story_id"] for q in obj["quiz"]}
     stories = [{
         "id": i["id"], "headline": i["headline"], "link": i["link"], "source": i["source"],
         "published": i["published"], "summary": by_id[i["id"]]["summary"].strip(),
         "why_it_matters": by_id[i["id"]]["why_it_matters"].strip(),
     } for i in picked if i["id"] in keep_ids]  # keep the editor's original order
-    dropped = [{"headline": i["headline"],
-                "reason": "already 10 stories" if by_id[i["id"]].get("fit") in rank else f'fit: {by_id[i["id"]].get("fit")}'}
+    dropped = [{"headline": i["headline"], "reason": f'not in the top 5 (fit: {by_id[i["id"]].get("fit")})'}
                for i in picked if i["id"] not in keep_ids]
     return {"stories": stories, "quiz": _shuffle_options(obj["quiz"], rng), "_dropped": dropped}
 
@@ -231,6 +231,6 @@ def build_day(date, items, company=None):
             result["company"] = {"name": company["name"], "process_date": company["process_date"], "error": str(e)}
     sections = list(result["tracks"].values()) + ([result["company"]] if result["company"] else [])
     for sec in sections:
-        if not sec.get("error") and "stories" in sec and len(sec["stories"]) < 8:
+        if not sec.get("error") and "stories" in sec and len(sec["stories"]) < 5:
             sec["warning"] = f"only {len(sec['stories'])} on-track stories today"
     return result

@@ -230,8 +230,10 @@ def quiz_start(event, claims, body):
         qs = build_questions(track, secs)
         if not qs:
             raise HttpError(409, "Today's quiz isn't available.")
+        # Freeze the questions in the attempt, so a content regeneration mid-quiz can't change them.
         a = {**attempt_key(p["sub"], date), "sub": p["sub"], "date": date, "track": track,
-             "qids": [q for q, _ in qs], "served": {}, "answers": {}, "opened_at": now_ist().isoformat()}
+             "qids": [q for q, _ in qs], "questions": dict(qs), "served": {}, "answers": {},
+             "opened_at": now_ist().isoformat()}
         try:
             table().put_item(Item=a, ConditionExpression="attribute_not_exists(PK)")
             log_event(p["sub"], "quiz_started", {"track": track})
@@ -239,7 +241,7 @@ def quiz_start(event, claims, body):
             if e.response["Error"]["Code"] != "ConditionalCheckFailedException":
                 raise
             a = get_attempt(p["sub"], date)
-    qmap = dict(build_questions(a["track"], secs))
+    qmap = a.get("questions") or dict(build_questions(a["track"], secs))
     qid = next_qid(a)
     if qid is None:   # every question answered but finishing was interrupted
         return {"finished": True, "result": finish(a, p)}
@@ -261,8 +263,7 @@ def quiz_answer(event, claims, body):
         raise HttpError(409, "That question isn't the current one. Please reload.")
     if choice not in (0, 1, 2, 3):
         raise HttpError(400, "Pick an option")
-    secs = day_sections(date)
-    qmap = dict(build_questions(a["track"], secs))
+    qmap = a.get("questions") or dict(build_questions(a["track"], day_sections(date)))
     q = qmap[qid]
     taken = max(0.0, time.time() - float(a["served"][qid]))
     correct = choice == int(q["answer_index"])

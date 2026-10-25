@@ -7,7 +7,9 @@
     finance: { name: "Finance", blurb: "Markets, banking, IPOs, deals, RBI" },
     consulting: { name: "Consulting / Strategy", blurb: "Strategy, policy, economy, deals" },
     ops: { name: "Ops / Analytics", blurb: "Supply chain, manufacturing, tech, AI" },
+    hr: { name: "HR", blurb: "Hiring, pay, layoffs, labour law, HR tech" },
   };
+  const CREDIT = `<p class="credit">IMT Pulse by Raj Srivastava · Created 21 Oct 2026</p>`;
   const state = { me: null, lastResult: null };
 
   // ---------- helpers ----------
@@ -76,11 +78,11 @@
   function authShell(title, sub, inner) {
     chrome(false);
     render(`<div class="auth"><img class="logo" src="icons/icon-192.png" alt="">
-      <h1>${title}</h1>${sub ? `<p class="muted">${sub}</p>` : ""}${inner}</div>`);
+      <h1>${title}</h1>${sub ? `<p class="muted">${sub}</p>` : ""}${inner}${CREDIT}</div>`);
   }
 
   function viewLogin() {
-    authShell("IMT Pulse", "Your 5-minute morning business brief and quiz for placement season.", `
+    authShell(`IMT Pulse <span class="by">by Raj Srivastava</span>`, "Your 5-minute morning business brief and quiz for placement season.", `
       <form id="f"><label for="email">IMT email</label>
         <input id="email" name="email" type="email" autocomplete="username" placeholder="pgp25yourname@imt.ac.in" required>
         <label for="pw">Password</label>
@@ -191,7 +193,7 @@
     chrome(false);
     let pick = state.me.track;
     render(`<div class="auth"><h1>Welcome, ${esc(state.me.first)} 👋</h1>
-      <p class="muted">Pick the track you're preparing for. You'll get 8–10 stories and a 5-question quiz for it every morning at 8:00. You can change it later.</p>
+      <p class="muted">Pick the track you're preparing for. You'll get the 5 stories that matter most for it, plus a quick quiz, every morning at 8:00. You can change it later.</p>
       <form id="f">${trackPicker(pick)}
         <label for="dn">Name on the leaderboard</label>
         <input id="dn" name="display_name" maxlength="30" value="${esc(state.me.display_name)}" required>
@@ -269,7 +271,7 @@
       <h2>Today's stories</h2><div class="chips">${chips}</div>
       ${d.track !== mine ? `<p class="muted small">Peeking at ${TRACKS[d.track].name}. Your quiz is on ${TRACKS[mine].name}.</p>` : ""}
       ${(d.stories || []).map(storyCard).join("") || `<div class="card muted">No stories for this track today.</div>`}
-      <p class="muted small center" style="padding:16px">Summaries are AI-written from headlines. Tap a headline to read the original article.</p>`);
+      <p class="muted small center" style="padding:16px 16px 0">Summaries are AI-written from headlines. Tap a headline to read the original article.</p>${CREDIT}`);
     $app.querySelectorAll(".chip").forEach((b) => (b.onclick = () => go(b.dataset.t === mine ? "home" : `home?track=${b.dataset.t}`)));
     $app.querySelectorAll("[data-story]").forEach((a) => a.addEventListener("click", () => logEvent("story_open", { id: a.dataset.story, track: d.track })));
   }
@@ -344,7 +346,7 @@
         <div class="stats"><div><b>${r.correct}/${r.total}</b><span>correct</span></div>
           <div><b>${r.rank ? "#" + r.rank : "–"}</b><span>of ${r.players} today</span></div>
           <div><b>🔥 ${r.streak}</b><span>day streak</span></div></div>
-        <div class="foot"><span>${r.base} base${bonus}</span><span>${Math.round(r.total_secs)}s total</span></div></div>
+        <div class="foot"><span>${r.base} base${bonus} · ${Math.round(r.total_secs)}s</span><span>IMT Pulse by Raj Srivastava</span></div></div>
       <button class="btn block accent" id="share">Share on WhatsApp</button>
       <a class="btn block ghost" href="#/leaderboard">See the leaderboard</a>
       <p class="muted small center" style="padding:12px">Tip: screenshot the card above to share it as an image.</p>`);
@@ -392,7 +394,7 @@
         <div class="row" style="margin-top:12px"><div><b>Hide me from the leaderboard</b><div class="muted small">You'll still see your own rank.</div></div>
           <label class="switch"><input type="checkbox" id="hidden" ${me.hidden ? "checked" : ""}><i></i></label></div></form>
       <p class="muted small">Scoring: 10 points per correct answer, plus up to 3 for speed. Streaks multiply your daily score: 1.1x at 3+ days, 1.25x at 7+ days.</p>
-      <button class="btn block ghost" id="logout">Log out</button>`);
+      <button class="btn block ghost" id="logout">Log out</button>${CREDIT}`);
     $app.querySelectorAll(".track").forEach((b) => (b.onclick = async () => {
       try { state.me = await api("PUT", "/me", { track: b.dataset.track });
         $app.querySelectorAll(".track").forEach((x) => x.classList.toggle("on", x === b)); toast(`Track set to ${TRACKS[b.dataset.track].name}`); }

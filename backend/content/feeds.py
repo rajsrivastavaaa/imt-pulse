@@ -28,6 +28,9 @@ FEEDS = [
     ("Hindu BusinessLine", "https://www.thehindubusinessline.com/companies/feeder/default.rss"),
     ("Hindu BusinessLine", "https://www.thehindubusinessline.com/markets/feeder/default.rss"),
     ("Hindu BusinessLine", "https://www.thehindubusinessline.com/economy/feeder/default.rss"),
+    ("ET HRWorld", "https://hr.economictimes.indiatimes.com/rss/topstories"),
+    ("ET HRWorld", "https://hr.economictimes.indiatimes.com/rss/recentstories"),
+    ("Economic Times", "https://economictimes.indiatimes.com/jobs/rssfeeds/107115.cms"),
 ]
 
 UA = "Mozilla/5.0 (compatible; IMTPulse/1.0; student news digest)"

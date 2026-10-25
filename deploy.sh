@@ -24,12 +24,18 @@ window.PULSE_CONFIG = {
 CFG
 
 BUCKET=$(out WebBucketName)
-# HTML, service worker and config must never be stale; everything else can cache.
-aws s3 sync frontend/ "s3://$BUCKET/" --delete --region "$REGION" \
-  --exclude "*.html" --exclude "sw.js" --exclude "config.js" --exclude "*.webmanifest" \
-  --cache-control "public,max-age=86400"
-aws s3 sync frontend/ "s3://$BUCKET/" --region "$REGION" \
-  --exclude "*" --include "*.html" --include "sw.js" --include "config.js" --include "*.webmanifest" \
-  --cache-control "no-cache"
+# Stage the web app with a version stamp on its asset links (cache-busting for phones that cached old code).
+WEB=.aws-sam/web
+rm -rf "$WEB" && mkdir -p "$WEB" && cp -R frontend/. "$WEB/"
+V=$(date +%Y%m%d%H%M%S)
+sed -i '' "s/__V__/$V/g" "$WEB/index.html"
+# Browsers must revalidate app files on every load (cheap 304s), so updates show up immediately.
+# Only icons can be cached for a day. `cp` (not sync) so every file gets the header each deploy.
+aws s3 sync "$WEB"/ "s3://$BUCKET/" --delete --region "$REGION" --size-only >/dev/null   # removes deleted files
+aws s3 cp "$WEB"/ "s3://$BUCKET/" --recursive --region "$REGION" --exclude "icons/*" --exclude "*.webmanifest" \
+  --cache-control "no-cache" >/dev/null
+aws s3 cp "$WEB"/manifest.webmanifest "s3://$BUCKET/manifest.webmanifest" --region "$REGION" \
+  --content-type "application/manifest+json" --cache-control "no-cache" >/dev/null
+aws s3 cp "$WEB"/icons/ "s3://$BUCKET/icons/" --recursive --region "$REGION" --cache-control "public,max-age=86400" >/dev/null
 aws cloudfront create-invalidation --distribution-id "$(out DistributionId)" --paths "/*" >/dev/null
 echo "Deployed. App: $(out AppUrl)"

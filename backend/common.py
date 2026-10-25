@@ -17,7 +17,7 @@ from decimal import Decimal
 import boto3
 
 IST = timezone(timedelta(hours=5, minutes=30))
-TRACKS = ["marketing", "finance", "consulting", "ops"]
+TRACKS = ["marketing", "finance", "consulting", "ops", "hr"]
 PUBLISH_HOUR = 8          # content and quiz go live at 08:00 IST
 SPEED_FULL_SECS = 10      # answer within 10s -> full 3-point bonus
 SPEED_ZERO_SECS = 40      # bonus falls linearly to 0 at 40s

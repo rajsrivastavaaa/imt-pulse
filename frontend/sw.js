@@ -1,6 +1,6 @@
 // App-shell service worker: network first (so deploys show up immediately), cache as offline fallback.
 // API calls go to another origin and are never cached.
-const CACHE = "pulse-shell-v1";
+const CACHE = "pulse-shell-v2";
 const SHELL = ["./", "index.html", "styles.css", "config.js", "auth.js", "app.js", "admin.js", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
@@ -20,6 +20,6 @@ self.addEventListener("fetch", (e) => {
     fetch(e.request).then((res) => {
       if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); }
       return res;
-    }).catch(() => caches.match(e.request).then((hit) => hit || caches.match("index.html")))
+    }).catch(() => caches.match(e.request, { ignoreSearch: true }).then((hit) => hit || caches.match("index.html")))
   );
 });

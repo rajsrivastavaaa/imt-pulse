@@ -35,6 +35,9 @@ def handler(event, context):
         if old and (old.get("edited") or old.get("status") == "approved") and not event.get("force"):
             kept.append(sk)
             return
+        if old and section.get("error") and not old.get("error"):
+            kept.append(sk)   # never replace good content with a failed run
+            return
         t.put_item(Item=to_ddb({"PK": f"DAY#{date}", "SK": sk, "date": date, "status": "draft",
                                 "edited": False, "generated_at": stamp, **section}))
         written.append(sk)

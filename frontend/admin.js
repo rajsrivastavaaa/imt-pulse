@@ -1,6 +1,6 @@
 // Admin screens (admin Cognito group only; the API enforces this too).
 (function () {
-  const TRACK_NAMES = { marketing: "Marketing", finance: "Finance", consulting: "Consulting / Strategy", ops: "Ops / Analytics" };
+  const TRACK_NAMES = { marketing: "Marketing", finance: "Finance", consulting: "Consulting / Strategy", ops: "Ops / Analytics", hr: "HR" };
   let U;   // helpers passed in from app.js
 
   function istToday() {

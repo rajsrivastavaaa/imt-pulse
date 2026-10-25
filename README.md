@@ -1,7 +1,9 @@
-# IMT Pulse (pilot)
+# IMT Pulse (pilot), by Raj Srivastava
+
+Created 21 Oct 2026.
 
 A daily business-news brief + quiz PWA for IMT Ghaziabad students during placement season.
-Every morning: 8–10 AI-summarised stories for your track, a Company of the Day brief, and an 8-question quiz
+Every morning: the 5 most useful AI-summarised stories for your track, a Company of the Day brief, and a quiz (5 track questions, one per story, plus 2–3 on the company)
 that feeds daily and weekly leaderboards. Only `@imt.ac.in` emails can sign up.
 
 **App:** https://d3csy05k0pa2ub.cloudfront.net  ·  **AWS region:** `ap-southeast-2` (Sydney)
@@ -27,11 +29,12 @@ EventBridge Scheduler 05:30 IST ──► GenerateFunction ──► RSS feeds +
 - **Code**: [backend/api/app.py](backend/api/app.py) (all API routes), [backend/content/](backend/content/)
   (feeds, prompts, JSON validation, daily job), [backend/auth/presignup.py](backend/auth/presignup.py),
   [frontend/](frontend/) (the PWA).
+- **Tracks**: Marketing, Finance, Consulting/Strategy, Ops/Analytics, HR (HR news comes mainly from ET HRWorld).
 - **Data** (single DynamoDB table): daily content per track, Company of the Day, company schedule,
   user profiles, quiz attempts, analytics events (auto-expire after 180 days).
 - **Publishing**: the job saves everything as *draft* at 05:30. Students see it from **08:00 IST** automatically.
   Whatever you edit or approve before then is what goes out, and a regeneration never overwrites your edits.
-- **Quiz**: 5 track questions + 2–3 Company of the Day questions, open 08:00–23:59 IST, one attempt per day.
+- **Quiz**: 5 track questions (one per story shown) + 2–3 Company of the Day questions, open 08:00–23:59 IST, one attempt per day.
   Answers are checked on the server and never sent to the phone in advance. Each question is timed on the
   server from the moment it is shown.
 - **Scoring**: 10 points per correct answer + up to 3 speed points (full under 10s, zero at 40s).
@@ -76,7 +79,7 @@ company after 05:30, go to **Review → Generate now**.
 ## Review the daily content
 
 **Admin → Review** (defaults to today):
-- Each section (Company + 4 tracks) shows *Draft / Approved / Edited* and any *Failed* or warning flag.
+- Each section (Company + 5 tracks) shows *Draft / Approved / Edited* and any *Failed* or warning flag.
 - Edit any summary, "why it matters", quiz question, option, correct answer or explanation. You can also remove a story.
 - **Save & approve** locks a section, so later regenerations won't replace it.
 - **Generate now** reruns the pipeline for that date in about 2 minutes. Tick the box to replace sections you edited too.
@@ -130,4 +133,5 @@ app) and waits until it's gone. Two leftovers it tells you about: the SAM deploy
 
 - In a lot of questions the correct option is still the longest one. Fix individual questions on the Review page.
 - Feeds sometimes carry several articles about one event. The pipeline removes most duplicates, but not all.
+- If Bedrock's Australia profile is out of capacity, calls fall back to the global profile automatically.
 - Content is generated once per day. Breaking news after 05:30 IST appears the next morning.

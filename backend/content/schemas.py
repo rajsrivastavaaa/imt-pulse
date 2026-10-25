@@ -7,6 +7,7 @@ TRACKS = {
     "finance": "Finance (markets, banking, NBFCs, RBI and monetary policy, IPOs, M&A, earnings, fundraising, insurance)",
     "consulting": "Consulting/Strategy (corporate strategy, policy and regulation, deals, competition, industry shifts, macro economy)",
     "ops": "Ops/Analytics (supply chain, manufacturing capacity, logistics, quick commerce and e-commerce operations, technology, AI and data adoption in business)",
+    "hr": "HR (hiring and campus placements, layoffs, salaries and appraisals, labour codes and employment law, attrition, workplace policy, leadership changes, HR tech)",
 }
 
 MCQ = {
@@ -35,6 +36,9 @@ TAG_SCHEMA = {
     "required": ["items"],
 }
 
+TRACK_MCQ = {**MCQ, "properties": {**MCQ["properties"], "story_id": {"type": "string"}},
+             "required": MCQ["required"] + ["story_id"]}
+
 TRACK_SCHEMA = {
     "type": "object",
     "properties": {
@@ -48,7 +52,7 @@ TRACK_SCHEMA = {
             },
             "required": ["id", "summary", "why_it_matters", "fit"],
         }},
-        "quiz": {"type": "array", "items": MCQ},
+        "quiz": {"type": "array", "items": TRACK_MCQ},
     },
     "required": ["stories", "quiz"],
 }
@@ -116,7 +120,7 @@ def validate_tags(obj, valid_ids):
     return p
 
 
-def validate_track(obj, expected_ids):
+def validate_track(obj, expected_ids, n_questions=5):
     p = []
     stories = obj.get("stories")
     if not isinstance(stories, list):
@@ -128,7 +132,13 @@ def validate_track(obj, expected_ids):
         if not isinstance(s, dict) or not str(s.get("summary", "")).strip() or not str(s.get("why_it_matters", "")).strip():
             p.append("every story needs summary and why_it_matters")
             break
-    return p + _check_mcqs(obj.get("quiz"), 5, 5)
+    quiz = obj.get("quiz") if isinstance(obj.get("quiz"), list) else []
+    sids = [q.get("story_id") for q in quiz if isinstance(q, dict)]
+    if any(s not in expected_ids for s in sids):
+        p.append("every question's story_id must be one of the story ids")
+    elif len(set(sids)) != len(sids):
+        p.append(f"the {n_questions} questions must each be about a different story")
+    return p + _check_mcqs(obj.get("quiz"), n_questions, n_questions)
 
 
 def validate_company(obj, valid_ids):
