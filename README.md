@@ -6,10 +6,44 @@ A daily business-news brief + quiz PWA for IMT Ghaziabad students during placeme
 Every morning: the 5 most useful AI-summarised stories for your track, a Company of the Day brief, and a quiz (5 track questions, one per story, plus 2–3 on the company)
 that feeds daily and weekly leaderboards. Only `@imt.ac.in` emails can sign up.
 
-**App:** https://d3csy05k0pa2ub.cloudfront.net  ·  **AWS region:** `ap-southeast-2` (Sydney)
+> **Status (22 Oct 2026): shut down.** Everything on AWS was deleted on purpose. The code, a data backup and
+> these instructions are all that's needed to bring it back. See [Restart from scratch](#restart-from-scratch).
+
+**Former app URL:** https://d3csy05k0pa2ub.cloudfront.net (gone; a restart gets a new URL)  ·  **AWS region:** `ap-southeast-2` (Sydney)
 
 > Why Sydney and not Mumbai: this AWS account sits in an AWS-managed Organization whose policy blocks every
 > region except `ap-southeast-2`. CloudFront still serves the app from edge locations in India.
+
+## Restart from scratch
+
+Takes about 10 minutes. Everything is recreated from this folder.
+
+1. Sign in to AWS: `aws login`
+2. Deploy (creates the database, login, API, daily job and website, and prints the new app URL):
+   ```bash
+   ./deploy.sh
+   ```
+3. Bring back the company schedule and past daily content from the backup:
+   ```bash
+   .venv/bin/python scripts/restore_backup.py backups/table-2026-10-22.json
+   ```
+4. Recreate the budget alerts (they were deleted with the app). AWS Billing console → Budgets → Create budget →
+   *Monthly cost budget* of $20, with email alerts at 25%, 50% and 100% to pgp25rajsrivastava@imt.ac.in.
+   Untick "include credits" so the alerts track real spend.
+5. Sign up in the app with your IMT email, then make yourself admin (the user pool ID is in the deploy output,
+   or run `aws cloudformation describe-stacks --stack-name imt-pulse --region ap-southeast-2`):
+   ```bash
+   aws cognito-idp admin-add-user-to-group --region ap-southeast-2 --user-pool-id <NEW_POOL_ID> --username pgp25rajsrivastava@imt.ac.in --group-name admin
+   ```
+6. Share the new URL. **Everyone must sign up again.** Passwords can't be exported, so old accounts don't carry over.
+   `backups/users-2026-10-22.json` lists who had signed up (9 students plus you) if you want to re-invite them.
+7. Optional: to get today's content without waiting for 05:30 IST, use Admin → Review → **Generate now**.
+
+What's in `backups/` (kept out of git because it contains student emails):
+- `table-2026-10-22.json`: the full database (company schedule, daily content, profiles, scores, events).
+- `users-2026-10-22.json`: the sign-up list (emails, dates).
+
+If the SAM CLI is missing (e.g. the `.venv` folder was deleted): `python3 -m venv .venv && .venv/bin/pip install aws-sam-cli`.
 
 ## Architecture
 
@@ -60,10 +94,10 @@ outputs, uploads the web app to S3 and clears the CloudFront cache. Takes 1–3 
 Admins see the **Admin** tab (review drafts, schedule companies, stats). After the person has signed up:
 
 ```bash
-aws cognito-idp admin-add-user-to-group --region ap-southeast-2 --user-pool-id ap-southeast-2_qtVCFWhZY --username pgp25rajsrivastava@imt.ac.in --group-name admin
+aws cognito-idp admin-add-user-to-group --region ap-southeast-2 --user-pool-id <POOL_ID> --username pgp25rajsrivastava@imt.ac.in --group-name admin
 ```
 
-They need to log out and back in once for the Admin tab to appear.
+They need to log out and back in once for the Admin tab to appear. The pool ID changes on every fresh deploy (see the stack outputs).
 
 ## Add companies (Company of the Day)
 
