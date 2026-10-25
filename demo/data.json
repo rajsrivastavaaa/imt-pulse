@@ -1,0 +1,562 @@
+{
+ "date": "2026-10-22",
+ "tracks": {
+  "consulting": {
+   "stories": [
+    {
+     "headline": "Inflation risks overshadow 7.8% growth as MPC raises repo rate; majority favours calibrated tightening",
+     "link": "https://www.thehindubusinessline.com/economy/inflation-risks-overshadow-78-growth-as-mpc-raises-repo-rate-majority-favours-calibrated-tightening/article71608313.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T15:45:13+00:00",
+     "summary": "India's Monetary Policy Committee raised the repo rate in response to supply-side shocks and strong domestic demand that are stoking inflation. The majority of MPC members backed a calibrated tightening approach even as the economy is projected to grow at 7.8%. The committee signalled that keeping inflation in check takes priority over sustaining peak growth.",
+     "why_it_matters": "Illustrates the classic growth-inflation trade-off and central bank policy tools — a core consulting and macro interview topic."
+    },
+    {
+     "headline": "US court orders Meta to pay $25 bn for misleading users on data privacy",
+     "link": "https://www.business-standard.com/companies/news/us-court-orders-meta-to-pay-25-bn-for-misleading-users-on-data-privacy-126102200010_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T18:45:28+00:00",
+     "summary": "A US court in New Mexico directed Meta to pay 25 billion dollars after a jury concluded the company had committed 43 million violations of state consumer protection laws. The ruling is connected to the Cambridge Analytica scandal, in which user data was harvested without proper consent. This is one of the largest privacy-related penalties imposed on a technology firm.",
+     "why_it_matters": "Highlights regulatory and reputational risk for tech platforms — relevant to strategy discussions on data governance and corporate liability."
+    },
+    {
+     "headline": "Trump says India deal 'pretty close’ and 'much different'",
+     "link": "https://www.thehindubusinessline.com/economy/trump-says-india-deal-pretty-close-and-much-different/article71608068.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T14:26:55+00:00",
+     "summary": "US President Donald Trump indicated that a trade deal with India is nearly finalised and would be structured differently from other agreements. Indian officials noted that the deal's viability depends on securing tariff advantages that are durable enough to keep India ahead of competing nations. Negotiations are still ongoing, with both sides working through the final terms.",
+     "why_it_matters": "A live trade-policy case study on bilateral deal-making, tariff strategy, and India's competitive positioning — directly relevant to strategy interviews."
+    },
+    {
+     "headline": "Are numbers enough to justify India's growth?",
+     "link": "https://economictimes.indiatimes.com/news/economy/indicators/indias-growth-story-needs-jobs-to-match-the-numbers-says-ex-rbi-governor-d-subbarao/articleshow/135088129.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T10:58:46+00:00",
+     "summary": "Analysts are questioning whether India's strong GDP growth figures alone are sufficient to tell the full story of economic health. Concerns are being raised about the quality and inclusiveness of growth, suggesting that aggregate numbers can mask structural weaknesses. The debate points to the need for a more nuanced reading of economic performance.",
+     "why_it_matters": "Tests ability to think beyond headline metrics — a key consulting skill when assessing market attractiveness or country-entry strategies."
+    },
+    {
+     "headline": "Jio Platforms' IPO-linked inflows boost rupee; elevated oil prices spur caution",
+     "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/jio-platforms-ipo-linked-inflows-boost-rupee-elevated-oil-prices-spur-caution/articleshow/135089592.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T10:37:48+00:00",
+     "summary": "The Indian rupee strengthened notably as Jio Platforms' IPO drew substantial foreign capital inflows into the country. However, traders remained cautious because elevated global oil prices threatened to widen India's import bill and reverse the currency's gains. The rupee eventually settled at 94.46 against the US dollar after paring earlier highs.",
+     "why_it_matters": "Links capital market events to currency dynamics and commodity risk — useful for macro and deals-track discussions on FX exposure."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What is India's primary condition for the US trade deal to be viable?",
+     "options": [
+      "Gaining preferential access to US technology exports",
+      "Securing lasting tariff benefits over competitor nations",
+      "Removing all non-tariff barriers on US goods",
+      "Finalising the deal before the next US election"
+     ],
+     "answer_index": 1,
+     "explanation": "Indian officials stated that the deal must deliver durable tariff advantages over rival countries to be considered feasible, making competitive positioning the central condition."
+    },
+    {
+     "question": "Why did the MPC choose to raise the repo rate despite strong growth?",
+     "options": [
+      "Foreign capital outflows were destabilising bond markets",
+      "The rupee had weakened sharply against the dollar",
+      "Fiscal deficit had exceeded the budgeted target",
+      "Supply shocks and demand pressures were stoking inflation"
+     ],
+     "answer_index": 3,
+     "explanation": "The MPC acted pre-emptively because both supply-side disruptions and robust domestic demand were pushing up prices, making inflation control the overriding concern."
+    },
+    {
+     "question": "What was the primary legal basis for the $25 bn penalty against Meta?",
+     "options": [
+      "Non-compliance with court-ordered data deletion",
+      "Breach of a federal data-sharing agreement",
+      "Antitrust abuse in the social media market",
+      "Violations of state consumer protection statutes"
+     ],
+     "answer_index": 3,
+     "explanation": "The jury found 43 million violations of New Mexico's consumer protection laws linked to the Cambridge Analytica data privacy scandal, which formed the legal foundation for the penalty."
+    },
+    {
+     "question": "What factor offset the rupee's gains from Jio Platforms' IPO inflows?",
+     "options": [
+      "Rising global crude oil prices widening the import bill",
+      "RBI intervention to build up forex reserves",
+      "Weak domestic manufacturing output data released",
+      "A sudden reversal of foreign portfolio equity flows"
+     ],
+     "answer_index": 0,
+     "explanation": "Traders trimmed their bullish rupee positions because higher oil prices threatened to increase India's import costs, counteracting the positive effect of foreign IPO-related inflows."
+    },
+    {
+     "question": "What concern do analysts raise about India's GDP growth numbers?",
+     "options": [
+      "Growth is driven mainly by government capital spending",
+      "Export competitiveness is declining despite high GDP",
+      "Private consumption has fallen below pre-pandemic levels",
+      "Aggregate figures may hide structural economic weaknesses"
+     ],
+     "answer_index": 3,
+     "explanation": "Analysts argue that strong headline growth rates can obscure underlying structural problems, and that a more nuanced assessment is needed to judge true economic health."
+    }
+   ]
+  },
+  "finance": {
+   "stories": [
+    {
+     "headline": "RBI puts rate cuts on ice",
+     "link": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-flags-widening-inflation-risks-puts-rate-cuts-on-ice/articleshow/135100146.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T19:52:04+00:00",
+     "summary": "The Reserve Bank of India has decided to pause its rate-cutting cycle, signalling a more cautious stance on monetary easing. Policymakers appear concerned about persistent inflation and global uncertainties that could complicate further cuts. This puts borrowers and markets on hold regarding any near-term relief on interest rates.",
+     "why_it_matters": "Tests knowledge of RBI's monetary policy stance — a core topic in finance interviews covering interest rate cycles."
+    },
+    {
+     "headline": "Inflation risks overshadow 7.8% growth as MPC raises repo rate; majority favours calibrated tightening",
+     "link": "https://www.thehindubusinessline.com/economy/inflation-risks-overshadow-78-growth-as-mpc-raises-repo-rate-majority-favours-calibrated-tightening/article71608313.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T15:45:13+00:00",
+     "summary": "India's Monetary Policy Committee raised the repo rate amid inflation pressures driven by supply disruptions and robust domestic demand. The MPC majority backed a calibrated tightening approach rather than aggressive hikes. Despite strong GDP growth of 7.8%, the committee chose to act pre-emptively against rising prices.",
+     "why_it_matters": "Illustrates the classic growth-inflation trade-off and MPC decision-making — essential talking points for macro and banking interviews."
+    },
+    {
+     "headline": "Reliance Jio IPO subscription status day 1: QIB, NII, Retail, Employees, RIL Shareholders; category wise investor detail",
+     "link": "https://www.livemint.com/market/ipo/reliance-jio-ipo-subscription-status-day-1-qib-nii-retail-employees-ril-shareholders-category-wise-investor-detail-11792584622711.html",
+     "source": "Mint",
+     "published": "2026-10-21T14:04:42+00:00",
+     "summary": "Jio Platforms' IPO was subscribed more than three times on its opening day, with institutional investors showing the strongest appetite at nearly 9.5 times their allotted portion. Non-institutional and retail investors were more measured in their response. The issue remained open through October 23.",
+     "why_it_matters": "Demonstrates IPO subscription dynamics and investor category behaviour — directly relevant for capital markets and investment banking roles."
+    },
+    {
+     "headline": "SBI investigates dark web leak of 3.8 lakh records",
+     "link": "https://economictimes.indiatimes.com/industry/banking/finance/banking/sbi-investigates-dark-web-leak-of-3-8-lakh-records/articleshow/135100154.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T19:40:10+00:00",
+     "summary": "India's largest public sector bank, SBI, is probing a suspected breach in which roughly 375,000 customer records containing personal information reportedly surfaced online. The bank activated its cybersecurity protocols and brought in external experts to evaluate the damage. The incident underscores growing data security vulnerabilities in the banking sector.",
+     "why_it_matters": "Raises critical issues of data governance and cyber risk in PSU banks — a talking point for banking, risk, and fintech interviews."
+    },
+    {
+     "headline": "G-sec yield hits over 3-year high of 7.44% as oil back to $110 a barrel",
+     "link": "https://www.thehindubusinessline.com/markets/g-sec-yields-hits-over-3-year-high-of-744-as-oil-back-to-110-a-barrel/article71606338.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T14:28:25+00:00",
+     "summary": "The yield on India's benchmark ten-year government security climbed to 7.44%, a level last seen in early 2023, as crude oil prices returned to around 110 dollars per barrel. Rising oil prices stoke inflation fears, which in turn push bond yields higher. This signals tightening financial conditions across the economy.",
+     "why_it_matters": "Connects oil prices, inflation, and bond yield movements — a fundamental concept tested in fixed income and macro finance interviews."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Why did the MPC raise the repo rate despite 7.8% GDP growth?",
+     "options": [
+      "To align India's rates with US Federal Reserve decisions",
+      "To slow down excessive foreign capital inflows into India",
+      "To pre-emptively contain inflation from supply shocks and demand",
+      "To reduce the fiscal deficit by increasing government revenues"
+     ],
+     "answer_index": 2,
+     "explanation": "The MPC acted pre-emptively against rising prices caused by supply disruptions and strong domestic demand, even though growth remained robust — a classic example of prioritising price stability over short-term growth."
+    },
+    {
+     "question": "Which investor category showed the weakest demand in Jio's IPO on Day 1?",
+     "options": [
+      "Retail individual investors",
+      "Qualified institutional buyers (QIBs)",
+      "Non-institutional investors (NIIs)",
+      "RIL shareholders applying under their reserved portion"
+     ],
+     "answer_index": 0,
+     "explanation": "Retail investors subscribed only 0.73 times their allotted portion, the only category that remained under-subscribed on Day 1, reflecting typical retail caution in large, high-profile IPOs."
+    },
+    {
+     "question": "What primarily drove the 10-year G-sec yield to a 3-year high of 7.44%?",
+     "options": [
+      "RBI announcing an open market sale of government bonds",
+      "A sudden downgrade of India's sovereign credit rating",
+      "A sharp rise in crude oil prices stoking inflation fears",
+      "Heavy foreign institutional selling in the debt market"
+     ],
+     "answer_index": 2,
+     "explanation": "Crude oil returning to around $110 a barrel renewed inflation concerns, which pushed up bond yields — illustrating the direct link between commodity prices and fixed-income markets."
+    },
+    {
+     "question": "What was the approximate scale of the suspected SBI data breach?",
+     "options": [
+      "Nearly 1 million transaction records compromised",
+      "Around 375,000 customer records exposed online",
+      "Roughly 50,000 employee credentials leaked",
+      "Approximately 2 million account numbers accessed"
+     ],
+     "answer_index": 1,
+     "explanation": "The breach reportedly involved about 375,000 records containing personally identifiable information, prompting SBI to activate cybersecurity protocols and engage external experts."
+    },
+    {
+     "question": "What does the RBI pausing its rate-cut cycle most directly signal to markets?",
+     "options": [
+      "Near-term borrowing costs are unlikely to fall further",
+      "The central bank plans to increase the CRR immediately",
+      "Foreign exchange reserves have dropped to critical levels",
+      "India's GDP growth has slipped below the RBI's target"
+     ],
+     "answer_index": 0,
+     "explanation": "A pause in rate cuts means the RBI is holding its policy rate steady, signalling that borrowers and bond markets should not expect cheaper credit in the immediate future."
+    }
+   ]
+  },
+  "hr": {
+   "stories": [
+    {
+     "headline": "HDFC Bank probe finds senior executives leaked secrets to outsiders",
+     "link": "https://www.business-standard.com/companies/news/hdfc-bank-probe-finds-senior-executives-leaked-secrets-to-outsiders-126102100566_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T08:31:42+00:00",
+     "summary": "HDFC Bank's internal inquiry confirmed that senior executives had been leaking confidential information to people outside the organisation. The probe was initiated after leadership noticed warning signs of a possible information breach. The findings point to a serious failure of trust and professional ethics at a senior level.",
+     "why_it_matters": "Highlights how breaches of confidentiality by senior employees lead to formal HR action and reputational risk for firms."
+    },
+    {
+     "headline": "EBay to lay off 9% of workforce in push to simplify operations",
+     "link": "https://hr.economictimes.indiatimes.com/news/workplace-4-0/talent-management/ebay-to-lay-off-9-of-workforce-in-push-to-simplify-operations/135099524",
+     "source": "ET HRWorld",
+     "published": "2026-10-21T18:56:41+00:00",
+     "summary": "eBay announced it will cut approximately nine percent of its total workforce as part of a drive to simplify its business operations. The company had around 12,300 employees at the close of last year. This follows an earlier round of cuts in February, when about 800 roles were eliminated.",
+     "why_it_matters": "A live example of workforce restructuring and layoff strategy, directly relevant to HR planning and organisational design discussions."
+    },
+    {
+     "headline": "Flipkart promotes Renuka Singaram to SVP amid quick commerce push, ESOP concerns",
+     "link": "https://www.thehindubusinessline.com/companies/flipkart-promotes-renuka-singaram-to-svp-amid-quick-commerce-push-esop-concerns/article71608153.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T15:26:09+00:00",
+     "summary": "Flipkart has elevated Renuka Singaram to the position of Senior Vice President as the company accelerates its quick commerce ambitions. At the same time, more than a thousand former Flipkart employees are pushing Walmart and Flipkart's board for more equitable access to ESOP liquidity programmes. The dual development highlights both talent recognition and unresolved compensation equity concerns.",
+     "why_it_matters": "Covers leadership promotion and ESOP disputes — key HR topics around talent retention, compensation fairness, and employee relations."
+    },
+    {
+     "headline": "Over 20% Indian college students already started business: IIT Mandi survey",
+     "link": "https://economictimes.indiatimes.com/industry/services/education/over-20-indian-college-students-already-started-business-iit-mandi-survey/articleshow/135093790.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T13:40:26+00:00",
+     "summary": "A survey by IIT Mandi found that 22 percent of Indian college students have already launched their own ventures. The share of students planning to start a business after graduation has grown to 16.2 percent. Notably, nearly a third of these student-run businesses were started in 2025 itself.",
+     "why_it_matters": "Signals a shift in campus talent preferences toward entrepreneurship, which could affect the supply of candidates for traditional campus placements."
+    },
+    {
+     "headline": "DA hike: Why is there delay in announcement?",
+     "link": "https://economictimes.indiatimes.com/wealth/save/da-hike-announcement-has-government-announced-dearness-allowance-increase-for-central-employees/articleshow/135092134.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T12:25:58+00:00",
+     "summary": "There appears to be an unexplained delay in the announcement of the Dearness Allowance hike for government employees. No further details about the reasons for the delay or the expected timeline are available from the teaser provided.",
+     "why_it_matters": "DA revisions directly affect compensation benchmarking and pay expectations for public sector and allied roles."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What triggered HDFC Bank's internal investigation into information leaks?",
+     "options": [
+      "Concerns raised by leadership about possible data being shared outside",
+      "A whistleblower complaint filed by a junior employee",
+      "A regulatory order from the RBI to audit staff conduct",
+      "A media report exposing confidential bank documents"
+     ],
+     "answer_index": 0,
+     "explanation": "The probe began after senior leaders within HDFC grew concerned that information might be leaking to outsiders, not because of any external trigger."
+    },
+    {
+     "question": "What was eBay's primary stated reason for cutting 9% of its workforce?",
+     "options": [
+      "A merger requiring elimination of duplicate roles",
+      "Declining revenues and poor quarterly earnings",
+      "Pressure from investors to reduce executive headcount",
+      "A drive to simplify its business operations"
+     ],
+     "answer_index": 3,
+     "explanation": "eBay explicitly linked the layoffs to a push to simplify operations, not to financial losses, a merger, or investor pressure on leadership."
+    },
+    {
+     "question": "What compensation-related concern have former Flipkart employees raised with its board?",
+     "options": [
+      "Delayed payment of final settlement dues after exit",
+      "Reduction in variable pay during the last appraisal cycle",
+      "Non-disclosure of salary bands during hiring",
+      "Unequal access to ESOP liquidity programmes"
+     ],
+     "answer_index": 3,
+     "explanation": "Over a thousand former employees are seeking fairer access to ESOP liquidity programmes, making this a dispute about equity compensation rather than salaries or settlements."
+    },
+    {
+     "question": "According to the IIT Mandi survey, what share of Indian college students have already started a business?",
+     "options": [
+      "About one in five students surveyed",
+      "Approximately one in three students surveyed",
+      "Nearly one in two students surveyed",
+      "Roughly one in six students surveyed"
+     ],
+     "answer_index": 0,
+     "explanation": "The survey found that 22 percent — roughly one in five — of Indian college students had already launched a venture, not one in three or one in two."
+    },
+    {
+     "question": "Why is the delay in the DA hike announcement relevant to HR professionals?",
+     "options": [
+      "It changes the tax treatment of employee allowances",
+      "It affects private sector variable pay revision timelines",
+      "It signals a freeze on all government recruitment drives",
+      "It impacts compensation benchmarking and pay expectations"
+     ],
+     "answer_index": 3,
+     "explanation": "Dearness Allowance revisions are a key input for compensation benchmarking, so delays affect how organisations and employees calibrate pay expectations."
+    }
+   ]
+  },
+  "marketing": {
+   "stories": [
+    {
+     "headline": "Fabindia looks beyond its 'heritage' to revive growth and cash flow",
+     "link": "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/fabindia-looks-beyond-its-heritage-to-revive-growth-and-cash-flow/articleshow/135100067.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T19:35:31+00:00",
+     "summary": "Fabindia grew its revenue by 6.3% to Rs 1,313 crore in FY ending March, and its core operating profit jumped 24.4%. However, reported net profit dropped sharply because the previous year had included a one-time gain from selling its stake in Organic India.",
+     "why_it_matters": "Illustrates how exceptional items distort net profit, and how heritage brands must reinvent to sustain growth."
+    },
+    {
+     "headline": "FSSAI issues notices to Nestle, Zydus over 'misleading' claims",
+     "link": "https://economictimes.indiatimes.com/industry/cons-products/food/fssai-issues-notices-to-nestle-zydus-over-misleading-claims/articleshow/135096403.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T16:37:27+00:00",
+     "summary": "India's food regulator FSSAI sent notices to Nestle and Zydus for making claims on product labels that it considered misleading to consumers. Specifically, Nestle's assertion that a certain ingredient supports the immune system was flagged as implying suitability for a specific health condition.",
+     "why_it_matters": "A key example of regulatory risk in FMCG marketing; health claims on packaging must comply with food labelling laws."
+    },
+    {
+     "headline": "Flipkart's Big Billion Days draws 9 in 10 shoppers as orders rise 20-22%",
+     "link": "https://www.business-standard.com/companies/news/flipkart-s-big-billion-days-draws-9-in-10-shoppers-as-orders-rise-20-22-126102101427_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T16:37:03+00:00",
+     "summary": "Flipkart's Big Billion Days festive sale, which ran for eleven days, saw orders, units sold, and buyer count all grow by 20–22% compared to the previous year. Nearly half of all buyers were from Gen Z, and around 60% came from Tier 2 and smaller cities.",
+     "why_it_matters": "Demonstrates how D2C and e-commerce platforms are winning on festive demand through Tier 2 penetration and Gen Z targeting."
+    },
+    {
+     "headline": "We have to change the conversation from media costs to business value: Publicis Media's Lalatendu Das",
+     "link": "https://economictimes.indiatimes.com/industry/media/entertainment/media/we-have-to-change-the-conversation-from-media-costs-to-business-value-publicis-medias-lalatendu-das/articleshow/135095779.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T15:47:28+00:00",
+     "summary": "Publicis Media's India head argues that the advertising industry must shift its focus from negotiating media costs to demonstrating measurable business outcomes for clients. He points to artificial intelligence and the growing creator economy as the two biggest forces reshaping Indian advertising.",
+     "why_it_matters": "Directly relevant for media and advertising roles; the shift from cost-efficiency to business-value metrics is a live industry debate."
+    },
+    {
+     "headline": "Netflix reports largest ever subscriber net adds in India in Q3",
+     "link": "https://www.thehindubusinessline.com/info-tech/netflix-reports-largest-ever-subscriber-net-adds-in-india-in-q3/article71606291.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T15:44:07+00:00",
+     "summary": "Netflix recorded its highest-ever quarterly subscriber additions in India in Q3, with total viewing hours rising 24% year on year. Revenue in India also grew 18% on a constant-currency and content-adjusted basis.",
+     "why_it_matters": "Signals strong consumer appetite for streaming, relevant for media planning, content marketing, and OTT advertising strategy discussions."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What best explains why Flipkart's Big Billion Days saw strong order growth?",
+     "options": [
+      "Deep discounts attracted only metro-based shoppers",
+      "Tier 2+ cities and Gen Z drove broad-based demand",
+      "Seller count doubled compared to the previous year",
+      "Premium electronics were the sole growth category"
+     ],
+     "answer_index": 1,
+     "explanation": "The summary specifically highlights that ~60% of buyers came from Tier 2+ cities and nearly half were Gen Z, indicating geographically and demographically broad demand rather than any single category or discount driver."
+    },
+    {
+     "question": "Why did FSSAI object to Nestle's immunity-related label claim?",
+     "options": [
+      "It suggested the product treated a specific condition",
+      "Nestle had not registered the product with FSSAI",
+      "The claim lacked approval from a foreign regulator",
+      "The ingredient listed was banned under food law"
+     ],
+     "answer_index": 0,
+     "explanation": "FSSAI's concern was that the claim implied the product was suitable for supporting immunity in relation to a specific physiological condition, which crosses the line from a general health claim into a therapeutic one."
+    },
+    {
+     "question": "Why did Fabindia's net profit fall sharply despite stronger core performance?",
+     "options": [
+      "Revenue growth was too modest to cover fixed costs",
+      "The company paid a special dividend to shareholders",
+      "Raw material costs eroded all operating gains",
+      "A large one-time gain in the prior year inflated the base"
+     ],
+     "answer_index": 3,
+     "explanation": "The previous year's net profit was boosted by an exceptional gain from the sale of its stake in Organic India; removing that one-time item reveals that the underlying business actually improved significantly."
+    },
+    {
+     "question": "What shift in advertiser priorities does Publicis Media's India head highlight?",
+     "options": [
+      "Preferring agencies that deliver measurable business results",
+      "Moving budgets from digital back to traditional media",
+      "Focusing on reach metrics over engagement metrics",
+      "Reducing spends due to economic slowdown concerns"
+     ],
+     "answer_index": 0,
+     "explanation": "The core argument is that marketers now want agencies to demonstrate tangible business outcomes rather than simply optimising media costs or maximising reach."
+    },
+    {
+     "question": "What does Netflix's Q3 India performance primarily indicate?",
+     "options": [
+      "Consumer demand for streaming content is accelerating",
+      "Advertising revenue overtook subscription revenue",
+      "Price cuts were the main driver of subscriber growth",
+      "Netflix surpassed all rivals in total screen time"
+     ],
+     "answer_index": 0,
+     "explanation": "Record subscriber additions combined with 24% growth in viewing hours point to rising consumer appetite for streaming, which is the key marketing insight — not pricing, ad revenue mix, or competitive rank."
+    }
+   ]
+  },
+  "ops": {
+   "stories": [
+    {
+     "headline": "Eternal Q2FY27 net profit jumps 92% to ₹125 crore, revenue rises 78%",
+     "link": "https://www.business-standard.com/companies/quarterly-results/eternal-q2fy27-net-profit-jumps-92-to-125-crore-revenue-rises-78-126102101130_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T13:21:32+00:00",
+     "summary": "Eternal, the parent company of Zomato and Blinkit, reported a near-doubling of net profit in the second quarter of FY27, with revenues growing by over three-quarters year-on-year. Both the food delivery and quick commerce arms contributed to a near-tripling of consolidated adjusted EBITDA. The results signal strong operating leverage in India's quick commerce and food-tech sector.",
+     "why_it_matters": "Illustrates unit economics improvement and operating leverage in quick commerce — a hot topic for ops and e-commerce roles."
+    },
+    {
+     "headline": "Zetwerk heads for stock market debut as alumni build manufacturing startups",
+     "link": "https://www.business-standard.com/companies/start-ups/zetwerk-heads-for-stock-market-debut-as-alumni-build-manufacturing-startups-126102101105_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T13:10:21+00:00",
+     "summary": "Several startups founded by ex-Zetwerk employees are replicating the asset-light manufacturing model that Zetwerk pioneered — coordinating third-party factories instead of owning production facilities. Together, these ventures have raised over $130 million in funding. Zetwerk itself is now preparing for a stock market listing.",
+     "why_it_matters": "Asset-light contract manufacturing is a key supply chain strategy concept relevant to ops roles and manufacturing sector interviews."
+    },
+    {
+     "headline": "SRF Q2 profit rises 31% to ₹509 crore; to invest ₹600 crore to set up aluminium foil plant in MP",
+     "link": "https://www.thehindubusinessline.com/companies/srf-q2-profit-rises-31-to-509-crore-to-invest-600-crore-to-set-up-aluminium-foil-plant-in-mp/article71607274.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T12:22:42+00:00",
+     "summary": "Specialty chemicals and packaging firm SRF posted a 31% rise in quarterly profit and announced a ₹600 crore investment to build an aluminium foil manufacturing plant in Madhya Pradesh. The company's total income for the first half of FY27 crossed ₹9,996 crore, up significantly from the prior year. The new plant signals capacity expansion in industrial packaging materials.",
+     "why_it_matters": "Demonstrates capital allocation for manufacturing capacity expansion — relevant for supply chain and operations strategy discussions."
+    },
+    {
+     "headline": "Industries in Gujarat start curtailing power use despite State’s 79.5 GW installed capacity",
+     "link": "https://www.thehindubusinessline.com/economy/industries-in-gujarat-start-curtailing-power-use-despite-states-795-gw-installed-capacity/article71604323.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T12:42:45+00:00",
+     "summary": "Industries in Gujarat have begun voluntarily reducing electricity consumption even though the state has an installed power capacity of 79.5 GW. The trigger is a record peak demand of nearly 30,000 MW recorded in October, which was over 36% higher than the same period last year. This mismatch between installed capacity and peak demand is straining industrial operations.",
+     "why_it_matters": "Energy availability as an operational constraint for manufacturing is a critical supply chain risk concept for ops-track interviews."
+    },
+    {
+     "headline": "Meta raises AI spending forecast to $145 billion, plans new share issue; Q3 revenue beats estimates",
+     "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/meta-raises-ai-spending-forecast-to-145-billion-plans-new-share-issue-q3-revenue-beats-estimates/articleshow/135100437.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T20:12:20+00:00",
+     "summary": "Meta has raised its 2026 capital expenditure guidance to between $135 billion and $145 billion, primarily to fund AI infrastructure expansion. The company also announced plans to issue non-voting shares and reported third-quarter revenue that exceeded analyst expectations. This comes despite ongoing legal challenges and growing competition in the AI space.",
+     "why_it_matters": "Meta's AI capex scale illustrates how technology firms are treating AI infrastructure as a core operational investment — relevant for tech and analytics roles."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What primarily explains Eternal's sharp EBITDA improvement in Q2 FY27?",
+     "options": [
+      "Entry into new international markets by Zomato",
+      "Strong growth in both food delivery and quick commerce",
+      "A one-time asset sale boosting reported profits",
+      "Significant reduction in delivery partner headcount"
+     ],
+     "answer_index": 1,
+     "explanation": "The summary states that both Zomato and Blinkit recorded strong growth, driving a near-tripling of consolidated adjusted EBITDA — a classic case of operating leverage across two business lines."
+    },
+    {
+     "question": "What is the core business model that Zetwerk alumni startups are replicating?",
+     "options": [
+      "Building large captive manufacturing facilities",
+      "Coordinating third-party factories without owning them",
+      "Acquiring distressed industrial assets at low cost",
+      "Licensing proprietary technology to factory owners"
+     ],
+     "answer_index": 1,
+     "explanation": "The asset-light model of orchestrating factories rather than owning them is explicitly described as Zetwerk's playbook, and the alumni startups are borrowing exactly this approach."
+    },
+    {
+     "question": "Why is SRF investing ₹600 crore in a new plant in Madhya Pradesh?",
+     "options": [
+      "To expand its specialty chemicals export capacity",
+      "To set up a renewable energy generation unit",
+      "To build aluminium foil manufacturing capacity",
+      "To establish a new packaging R&D centre"
+     ],
+     "answer_index": 2,
+     "explanation": "The summary clearly states the ₹600 crore investment is directed at setting up an aluminium foil manufacturing plant, representing a capacity expansion in industrial packaging materials."
+    },
+    {
+     "question": "Why are Gujarat industries cutting power use despite high installed capacity?",
+     "options": [
+      "Peak demand surged well beyond manageable grid levels",
+      "Renewable energy output dropped due to monsoon season",
+      "Industries shifted production to night shifts voluntarily",
+      "The state government mandated industrial power cuts"
+     ],
+     "answer_index": 0,
+     "explanation": "Peak demand hit a record high of nearly 30,000 MW — over 36% above the prior year — creating a gap between installed capacity and actual peak load that strained the grid."
+    },
+    {
+     "question": "What does Meta's revised 2026 capex guidance primarily reflect?",
+     "options": [
+      "Accelerated investment in AI infrastructure expansion",
+      "Expansion of physical retail and hardware product lines",
+      "Costs related to ongoing legal settlements globally",
+      "Acquisition spending on competing social media platforms"
+     ],
+     "answer_index": 0,
+     "explanation": "The summary explicitly states that the raised capex forecast of $135–145 billion is primarily to accelerate AI expansion, making it a strategic operational investment decision."
+    }
+   ]
+  }
+ },
+ "company": {
+  "name": "Deloitte",
+  "what_it_does": "Deloitte is a global professional services network that sells audit, consulting, tax, and advisory services primarily to large corporations, governments, and financial institutions. In India, it operates as one of the dominant players among the Big Four, competing closely with PwC, EY, and KPMG across audit and consulting mandates.",
+  "business_lines": [
+   "Audit & Assurance [statutory audit, financial statement reviews]",
+   "Consulting [technology transformation, human capital, strategy under Deloitte Consulting]",
+   "Financial Advisory [mergers & acquisitions advisory, forensic investigations, valuation]",
+   "Risk Advisory [internal audit, cyber risk, regulatory compliance]",
+   "Tax & Legal [direct tax, indirect tax/GST, transfer pricing]"
+  ],
+  "recent_news": [],
+  "talking_points": [
+   "Deloitte India has been aggressively expanding its technology consulting practice, positioning itself as a rival to pure-play IT firms like Infosys and Wipro on large digital transformation deals — a direct competitive overlap that interviewers love to probe.",
+   "The firm faces a structural tension in India between its audit and consulting arms, since global regulators increasingly scrutinise independence rules that restrict cross-selling both services to the same audit client — a governance challenge unique to the Big Four model.",
+   "Deloitte's global push into AI-powered service delivery, including embedding generative AI tools into tax, audit, and advisory workflows, is reshaping its talent pyramid and reducing demand for entry-level repetitive work — a talking point directly relevant to campus recruits."
+  ],
+  "quiz": [
+   {
+    "question": "Which of the following is a service line under Deloitte's Risk Advisory segment?",
+    "options": [
+     "Mergers and acquisitions valuation",
+     "Statutory audit and financial reviews",
+     "Transfer pricing and GST compliance",
+     "Cyber risk and regulatory compliance"
+    ],
+    "answer_index": 3,
+    "explanation": "Cyber risk management and regulatory compliance sit within Risk Advisory, whereas transfer pricing belongs to Tax, M&A valuation to Financial Advisory, and statutory audit to Audit & Assurance."
+   },
+   {
+    "question": "Which set of firms are Deloitte's direct Big Four rivals in India?",
+    "options": [
+     "PwC, EY, and KPMG",
+     "BCG, Oliver Wyman, and Roland Berger",
+     "Grant Thornton, BDO, and RSM",
+     "Accenture, McKinsey, and Bain"
+    ],
+    "answer_index": 0,
+    "explanation": "PwC, EY, and KPMG are the other three members of the Big Four professional services network, making them Deloitte's closest competitors across audit and advisory in India."
+   },
+   {
+    "question": "Deloitte's consulting arm competing with Infosys and Wipro signals overlap in which kind of work?",
+    "options": [
+     "Large-scale digital transformation projects",
+     "Forensic investigation and fraud detection",
+     "Transfer pricing and cross-border tax advisory",
+     "Statutory audit and assurance mandates"
+    ],
+    "answer_index": 0,
+    "explanation": "Deloitte Consulting pursues large digital transformation deals, which puts it in direct competition with Indian IT majors like Infosys and Wipro that traditionally dominate that space."
+   }
+  ]
+ }
+}
