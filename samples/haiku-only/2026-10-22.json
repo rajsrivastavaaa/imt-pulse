@@ -1,0 +1,786 @@
+{
+ "tracks": {
+  "marketing": {
+   "stories": [
+    {
+     "id": "8d2f4af51a",
+     "headline": "Navratri vehicle sales hit a speed bump, but EVs race ahead 27%: FADA",
+     "link": "https://economictimes.indiatimes.com/industry/auto/auto-news/navratri-vehicle-sales-hit-a-speed-bump-but-evs-race-ahead-27-fada/articleshow/135092324.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T12:33:23+00:00",
+     "summary": "Vehicle retail sales fell 6.52% year-on-year during Navratri, dragged down by passenger cars and two-wheelers. However, electric vehicles surged 27%, and sales recovered 26.76% compared to the same festival period last year.",
+     "why_it_matters": "Shows how consumer preferences shift toward sustainable products even during economic slowdowns."
+    },
+    {
+     "id": "e66c7f40c6",
+     "headline": "State of Joy strengthens India footprint with 4,000+ retail touchpoints and plans for exclusive brand outlets",
+     "link": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/state-of-joy-strengthens-india-footprint-with-4000-retail-touchpoints-and-plans-for-exclusive-brand-outlets/articleshow/135090118.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T12:02:28+00:00",
+     "summary": "State of Joy launched Anatom, a comfort-focused footwear brand with school shoes for children. The company is expanding through 4,000+ retail outlets and plans exclusive brand stores.",
+     "why_it_matters": "Illustrates niche product positioning and omnichannel retail strategy in competitive footwear market."
+    },
+    {
+     "id": "10f7f0aa27",
+     "headline": "Mint explainer: Why are consumer brands resorting to cross-industry marketing?",
+     "link": "https://www.livemint.com/industry/mint-explainer-why-are-consumer-brands-resorting-to-cross-industry-marketing-11792566303921.html",
+     "source": "Mint",
+     "published": "2026-10-21T09:42:24+00:00",
+     "summary": "Consumer brands are increasingly partnering across different industries rather than within their own sectors. These cross-category collaborations combine businesses with distinct products and customer bases.",
+     "why_it_matters": "Demonstrates innovative marketing strategy to reach new audiences and create differentiated brand experiences."
+    },
+    {
+     "id": "afa9a6d0fc",
+     "headline": "How Bajaj Consumer Care is defying an FMCG slowdown",
+     "link": "https://www.livemint.com/companies/news/bajaj-consumer-care-share-price-growth-earnings-outlook-fmcg-11792558827613.html",
+     "source": "Mint",
+     "published": "2026-10-21T08:51:39+00:00",
+     "summary": "Bajaj Consumer Care achieved over 25% revenue growth despite FMCG sector slowdown through low-entry pricing, improved direct distribution, and portfolio diversification. The hair oil maker outperformed peers facing weak volumes.",
+     "why_it_matters": "Shows how operational excellence and pricing strategy can drive growth when market demand is sluggish."
+    },
+    {
+     "id": "f4321ceb60",
+     "headline": "Netflix India revenue grew 18% in July-September, view hours grew 24%",
+     "link": "https://www.business-standard.com/companies/quarterly-results/netflix-india-q3-revenue-viewing-hours-flipkart-bundle-126102100517_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T07:52:00+00:00",
+     "summary": "Netflix India grew revenue 18% and view hours 24% in July-September, recording its largest-ever quarter of paid subscriber additions. Strong content and a Flipkart loyalty bundle drove growth.",
+     "why_it_matters": "Highlights how bundling and content strategy drive streaming adoption in price-sensitive emerging markets."
+    },
+    {
+     "id": "744787fd54",
+     "headline": "Inditex's Bershka turns profitable in first full year in India as Zara growth stalls",
+     "link": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/inditexs-bershka-turns-profitable-in-first-full-year-in-india-as-zara-growth-stalls/articleshow/135085826.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T07:41:19+00:00",
+     "summary": "Inditex's Bershka brand turned profitable in its first full year in India with Rs 2.92 crore net profit on Rs 80.34 crore revenue. Zara's performance declined as competition intensified, contrasting with Bershka's direct-subsidiary model.",
+     "why_it_matters": "Illustrates how market entry strategy and operational structure affect profitability in competitive retail."
+    },
+    {
+     "id": "00ecc6f5e1",
+     "headline": "Paint cos riding price hikes to double-digit growth",
+     "link": "https://economictimes.indiatimes.com/industry/cons-products/paints/paint-cos-riding-price-hikes-to-double-digit-growth/articleshow/135084154.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T06:28:26+00:00",
+     "summary": "Paint companies expect 10-15% revenue growth in September quarter driven by price increases, while volume growth remains modest at 5-7%. Price hikes help offset rising raw material costs from crude oil fluctuations.",
+     "why_it_matters": "Shows how brands use pricing power to protect margins when input costs rise and demand is weak."
+    },
+    {
+     "id": "11d59d2f20",
+     "headline": "Beauty firms chase 'Ozempic face' market as weight-loss drugs boom",
+     "link": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/beauty-firms-chase-ozempic-face-market-as-weight-loss-drugs-boom/articleshow/135083660.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T06:02:30+00:00",
+     "summary": "Beauty companies including Galderma, Natura, and L'Oreal are developing treatments for facial sagging caused by rapid weight loss from GLP-1 obesity drugs. This emerging demand reflects changing consumer health trends.",
+     "why_it_matters": "Demonstrates how companies identify and capitalize on new consumer needs driven by health trends."
+    },
+    {
+     "id": "3079a67604",
+     "headline": "Consumer durables demand mixed; prefer LG, Polycab India: Motilal Oswal",
+     "link": "https://www.business-standard.com/markets/news/consumer-durables-demand-mixed-prefer-lg-electronics-polycab-india-motilal-oswal-126102100068_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T01:52:48+00:00",
+     "summary": "Consumer durables demand grew 25-30% year-on-year during Navratri after a slow Ganesh Chaturthi period. Brands like LG and Polycab India saw strong sales momentum.",
+     "why_it_matters": "Shows how festive seasons drive consumer durables purchases and brand preference patterns."
+    },
+    {
+     "id": "ed14fac733",
+     "headline": "Navratri shoppers splurge on clothes, appliances as gadgets get pricier",
+     "link": "https://economictimes.indiatimes.com/industry/services/retail/navratri-shoppers-splurge-on-clothes-appliances-as-gadgets-get-pricier/articleshow/135076472.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T00:00:00+00:00",
+     "summary": "Apparel, footwear, and consumer durables sales grew over 20% during Navratri-Dussehra. Car sales rose only 2% despite last year's GST rush, while air conditioner sales particularly surged.",
+     "why_it_matters": "Shows category-wise consumer spending patterns and seasonal demand variations across product segments."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Why did Bajaj Consumer Care outperform other FMCG companies during the sector slowdown?",
+     "options": [
+      "Low pricing, better distribution, and product variety",
+      "Exclusive partnerships with retail chains",
+      "Acquisition of competing hair oil brands",
+      "Heavy investment in digital advertising"
+     ],
+     "answer_index": 0,
+     "explanation": "The story explicitly mentions low-entry price points, revamped direct distribution, and portfolio diversification as drivers of Bajaj's 25% revenue growth."
+    },
+    {
+     "question": "What strategy did Inditex use to make Bershka profitable faster than Zara in India?",
+     "options": [
+      "Lower product prices than Zara",
+      "Exclusive focus on online sales channels",
+      "Direct-subsidiary model instead of joint venture",
+      "Partnerships with Indian fashion designers"
+     ],
+     "answer_index": 2,
+     "explanation": "The story contrasts Bershka's direct-subsidiary model with Zara's Tata Group joint venture, suggesting the direct approach contributed to Bershka's profitability."
+    },
+    {
+     "question": "How are paint companies maintaining revenue growth despite weak volume demand?",
+     "options": [
+      "By launching premium product lines",
+      "Through aggressive advertising campaigns",
+      "Through strategic price increases",
+      "By expanding into new geographic markets"
+     ],
+     "answer_index": 2,
+     "explanation": "The story states paint companies expect 10-15% revenue growth driven by price increases, offsetting low 5-7% volume growth."
+    },
+    {
+     "question": "What emerging consumer need are beauty companies addressing related to weight-loss drugs?",
+     "options": [
+      "Skin dryness from dietary changes",
+      "Facial sagging from rapid weight loss",
+      "Hair loss and scalp sensitivity",
+      "Increased acne breakouts"
+     ],
+     "answer_index": 1,
+     "explanation": "Galderma, Natura, and L'Oreal are developing treatments specifically for facial sagging caused by rapid weight loss from GLP-1 drugs."
+    },
+    {
+     "question": "Which product category showed the strongest growth during Navratri-Dussehra festivities?",
+     "options": [
+      "Smartphones and gadgets",
+      "Passenger vehicles and two-wheelers",
+      "Air conditioners and appliances",
+      "Furniture and home decor"
+     ],
+     "answer_index": 2,
+     "explanation": "The story notes that appliance sales were particularly strong, with air conditioners experiencing growth of more than 20% during the festive period."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "Netflix’s India revenue grows 18% as viewing hours rise 24% in Q3",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Gen Z drives India’s beauty boom, half from small cities: Myntra report",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Netflix reports largest ever subscriber net adds in India in Q3",
+     "reason": "already 10 stories"
+    },
+    {
+     "headline": "Match Group eyes India growth even as dating-app scams raise safety concerns",
+     "reason": "already 10 stories"
+    }
+   ]
+  },
+  "finance": {
+   "stories": [
+    {
+     "id": "6e97eef951",
+     "headline": "Rs 30,213 crore, 100 minutes, Rs 2.5 lakh crore: How Jio IPO broke 3 records even before listing",
+     "link": "https://economictimes.indiatimes.com/markets/stocks/news/rs-30213-crore-100-minutes-rs-2-5-lakh-crore-how-jio-ipo-broke-3-records-even-before-listing/articleshow/135085644.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T07:31:37+00:00",
+     "summary": "Reliance Industries' Jio Platforms launched India's largest IPO at Rs 30,213 crore, surpassing the previous record. The offering achieved full subscription in just 100 minutes, setting a new speed record for Indian public markets.",
+     "why_it_matters": "Demonstrates investor appetite for tech-enabled platforms and India's capital markets maturity."
+    },
+    {
+     "id": "44c5cde297",
+     "headline": "IMF urges currency flexibility as RBI steps up rupee defence amid oil price pressures, foreign outflows",
+     "link": "https://www.livemint.com/economy/imf-urges-currency-flexibility-as-rbi-steps-up-rupee-defence-amid-oil-price-pressures-foreign-outflows-11792582226312.html",
+     "source": "Mint",
+     "published": "2026-10-21T11:41:58+00:00",
+     "summary": "The IMF has advised the RBI that defending the rupee through currency intervention provides only temporary relief. The fund suggests allowing the rupee to move more freely in response to global economic pressures like rising oil prices.",
+     "why_it_matters": "Illustrates monetary policy trade-offs and the limits of central bank intervention in currency markets."
+    },
+    {
+     "id": "3f37796ae9",
+     "headline": "Eternal Q2 Results: Profit soars 92% YoY to Rs 125 crore; revenue zooms 78%",
+     "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/eternal-q2-results-profit-soars-92-yoy-to-rs-125-crore-revenue-surges-78/articleshow/135088651.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T10:06:28+00:00",
+     "summary": "Eternal, the parent company of Zomato and Blinkit, reported net profit growth of 92.3% year-on-year to Rs 125 crore in Q2FY27. Revenue also jumped 78% in the same period, showing strong operational momentum.",
+     "why_it_matters": "Shows how loss-making startups are achieving profitability through scale and operational efficiency."
+    },
+    {
+     "id": "70aab853ce",
+     "headline": "Carlsberg said to near public filing for $700 million India IPO",
+     "link": "https://www.thehindubusinessline.com/markets/carlsberg-said-to-near-public-filing-for-700-million-india-ipo/article71606779.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T08:20:54+00:00",
+     "summary": "Carlsberg India, the country's second-largest brewer, is preparing to launch a $700 million IPO. The company is expected to begin investor roadshows next week with a potential December listing.",
+     "why_it_matters": "Reflects strong investor interest in consumer staples and established brands entering public markets."
+    },
+    {
+     "id": "d5e1b9a17f",
+     "headline": "AI-led IPOs may add up to $100 billion to India's market-cap: Goldman Sachs",
+     "link": "https://www.business-standard.com/markets/news/ai-led-ipos-may-add-up-to-100-billion-to-india-s-market-cap-goldman-sachs-126102100382_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T06:45:24+00:00",
+     "summary": "Goldman Sachs estimates that 25 to 50 per cent of roughly 70 mid-to-late-stage AI companies in India could go public within two to five years. This wave of AI-focused IPOs could add up to $100 billion to India's market capitalisation.",
+     "why_it_matters": "Signals the emergence of AI as a major investment theme and potential wealth creation avenue."
+    },
+    {
+     "id": "9cf072f9c7",
+     "headline": "SBI hit by cyberattack: All you need to know",
+     "link": "https://economictimes.indiatimes.com/tech/technology/sbi-hit-by-cyberattack-customer-data-leaked-on-dark-web-all-you-need-to-know/articleshow/135084283.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T06:33:02+00:00",
+     "summary": "State Bank of India experienced a cyberattack affecting its systems. The bank has confirmed that customer data security measures are in place.",
+     "why_it_matters": "Highlights cybersecurity risks in banking and the importance of operational resilience."
+    },
+    {
+     "id": "22ea4770c8",
+     "headline": "G-sec yield hits over 3-year high of 7.44% as oil back to $110 a barrel",
+     "link": "https://www.thehindubusinessline.com/markets/g-sec-yields-hits-over-3-year-high-of-744-as-oil-back-to-110-a-barrel/article71606338.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T05:51:23+00:00",
+     "summary": "India's 10-year government bond yields have climbed to 7.44%, the highest level in over three years. The rise reflects pressures from elevated oil prices and broader global economic conditions.",
+     "why_it_matters": "Shows how commodity prices and global factors influence India's debt markets and borrowing costs."
+    },
+    {
+     "id": "6232561779",
+     "headline": "OYO-parent PRISM to nearly halve IPO fresh issue size to up to ₹3,350 cr: Sources",
+     "link": "https://www.thehindubusinessline.com/markets/oyo-parent-prism-to-nearly-halve-ipo-fresh-issue-size-to-up-to-3350-cr-sources/article71604229.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T11:18:35+00:00",
+     "summary": "OYO's parent company PRISM has decided to reduce its IPO fresh issue size to up to Rs 3,350 crore from the originally planned amount. The company cited strong cash generation and an improved balance sheet as reasons for needing less capital.",
+     "why_it_matters": "Demonstrates how operational improvements can reduce capital needs and affect IPO sizing decisions."
+    },
+    {
+     "id": "828e027bf0",
+     "headline": "SFC Environmental Technologies IPO opens Oct 27, price band at ₹313-330",
+     "link": "https://www.business-standard.com/markets/news/sfc-environmental-technologies-ipo-opens-oct-27-price-band-at-313-330-126102100484_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T12:26:09+00:00",
+     "summary": "SFC Environmental Technologies, a wastewater treatment solutions provider, announced its Rs 668 crore IPO opening on October 27. The company has set a price band of Rs 313-330 per share.",
+     "why_it_matters": "Shows investor appetite for environmental and sustainability-focused businesses in India."
+    },
+    {
+     "id": "fc19409363",
+     "headline": "Premji Invest, Norwest and Lok Capital back Vegafin’s majority stake in Bizloan with up to ₹1,000 crore in commitment",
+     "link": "https://www.livemint.com/companies/news/vegafin-raises-rs-1000-crore-premji-invest-norwest-lok-capital-11792581414623.html",
+     "source": "Mint",
+     "published": "2026-10-21T11:58:49+00:00",
+     "summary": "Premji Invest, Norwest, and Lok Capital are backing Vegafin's acquisition of a majority stake in Bizloan with up to Rs 1,000 crore in commitments. The capital will support the scaling of an AI-driven hybrid lending platform for MSMEs.",
+     "why_it_matters": "Illustrates how fintech and AI are reshaping MSME lending and attracting institutional capital."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Why did Jio Platforms' IPO stand out in India's capital markets?",
+     "options": [
+      "It attracted only foreign institutional investors",
+      "It offered the highest price per share",
+      "It was the largest IPO and subscribed fastest",
+      "It was the first tech platform to go public"
+     ],
+     "answer_index": 2,
+     "explanation": "The story explicitly states the IPO set records for size (Rs 30,213 crore) and speed (100 minutes to full subscription)."
+    },
+    {
+     "question": "What is the IMF's main concern about RBI's rupee defence strategy?",
+     "options": [
+      "It attracts too much foreign investment",
+      "It is too expensive for the central bank",
+      "It provides only temporary benefits and limits flexibility",
+      "It reduces India's foreign exchange reserves"
+     ],
+     "answer_index": 2,
+     "explanation": "The IMF official stated that intervention offers limited benefits beyond the near term and currencies should adjust to global shocks."
+    },
+    {
+     "question": "What does Eternal's Q2 financial performance reveal about its business model?",
+     "options": [
+      "Revenue growth is outpacing profit growth significantly",
+      "Strong profitability and revenue growth show operational scaling",
+      "The company is struggling with profitability",
+      "The company is losing market share to competitors"
+     ],
+     "answer_index": 1,
+     "explanation": "Both profit (92.3% YoY) and revenue (78% YoY) grew substantially, demonstrating successful scaling and operational efficiency."
+    },
+    {
+     "question": "What does Goldman Sachs' AI IPO forecast suggest about India's startup ecosystem?",
+     "options": [
+      "A significant wave of AI exits could create wealth",
+      "AI companies will dominate all sectors soon",
+      "Most AI startups will fail before going public",
+      "Foreign investors will control all AI IPOs"
+     ],
+     "answer_index": 0,
+     "explanation": "The forecast of 25-50% of 70 AI companies going public and adding $100 billion in market cap indicates substantial wealth creation potential."
+    },
+    {
+     "question": "Why did PRISM reduce its IPO fresh issue size?",
+     "options": [
+      "Market conditions became unfavourable for IPOs",
+      "The company faced operational challenges",
+      "Improved cash generation reduced capital needs",
+      "Regulatory authorities imposed restrictions"
+     ],
+     "answer_index": 2,
+     "explanation": "The story states the reduction followed strong cash generation and an improved balance sheet, lowering the capital required."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "Reliance Industries shares jump 3% as Jio’s Rs 30,213 crore IPO gets fully subscribed on Day 1. What lies ahead?",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "RIL's stock climbs 2% as Jio Platforms IPO achieves full subscription in just 100 minutes",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Ambani’s Jio has record India IPO fully subscribed within hours",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Jio Platforms IPO clocks ~3 times subscription on Day 1 itself",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Jio Platforms IPO fully subscribed in less than 35 minutes of opening",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Jio IPO: What brokerages say about Jio Platforms’ ₹30,213 cr IPO",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Jio Platforms' IPO-linked inflows boost rupee; elevated oil prices spur caution",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "IMF advises India to let rupee move as first defence amid oil shock",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Rupee jumps 0.5% to 94.46/$ on Jio IPO-linked inflows; elevated oil prices spur caution",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Carlsberg India prepares to file IPO papers this week, eyes $700 million",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Motor third-party insurance growth slows to 9%; Kotak flags possible impact of SC compensation ruling",
+     "reason": "already 10 stories"
+    },
+    {
+     "headline": "SBI says customer balances are safe despite data leak",
+     "reason": "already 10 stories"
+    }
+   ]
+  },
+  "consulting": {
+   "stories": [
+    {
+     "id": "1e19c07690",
+     "headline": "MHI leadership reshuffle puts ₹38,000-crore auto and EV push to policy continuity test",
+     "link": "https://www.thehindubusinessline.com/companies/mhi-leadership-reshuffle-puts-38000-crore-auto-and-ev-push-to-policy-continuity-test/article71597718.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T06:28:52+00:00",
+     "summary": "Leadership changes at Mahindra & Mahindra may affect the company's ability to maintain consistent policy support and subsidy compliance as India pushes forward with its electric vehicle and automotive incentive schemes.",
+     "why_it_matters": "Shows how executive transitions can disrupt policy alignment and regulatory strategy in capital-intensive sectors."
+    },
+    {
+     "id": "e791324d00",
+     "headline": "Rubio kicks off India visit with trade deal, Russian oil on agenda",
+     "link": "https://www.thehindubusinessline.com/news/rubio-kicks-off-india-visit-with-trade-deal-russian-oil-on-agenda/article71603927.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T05:27:02+00:00",
+     "summary": "US Secretary of State Rubio is visiting India to discuss trade agreements and energy matters, meeting with India's foreign minister and Reliance's leadership during a two-day Mumbai and Jamnagar visit.",
+     "why_it_matters": "Illustrates how geopolitical relationships shape bilateral trade and energy partnerships affecting Indian conglomerates."
+    },
+    {
+     "id": "b5ad1b470c",
+     "headline": "Jio IPO beyond telecom: Why the Ambanis are pitching AI, cloud and 7,220 patents as Jio’s tech future",
+     "link": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-beyond-telecom-why-the-ambanis-are-pitching-ai-cloud-and-7220-patents-as-jios-tech-future/articleshow/135081661.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T03:54:30+00:00",
+     "summary": "Jio Platforms is positioning its upcoming IPO around artificial intelligence, cloud services and its patent portfolio rather than just telecom connectivity, signalling a strategic pivot toward technology-driven digital services.",
+     "why_it_matters": "Demonstrates how companies reposition their value proposition to investors by emphasizing emerging tech capabilities."
+    },
+    {
+     "id": "1c2879d0a2",
+     "headline": "US wants a $500 billion bonanza with India in 3 years",
+     "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-targets-500-bn-bilateral-trade-with-india-in-three-years-says-ambassador-sergio-gor/articleshow/135079166.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T01:01:24+00:00",
+     "summary": "<UNKNOWN>",
+     "why_it_matters": "Indicates scale of potential bilateral economic engagement between major trading partners."
+    },
+    {
+     "id": "270d28a219",
+     "headline": "India Inc braces for muted salary hikes in 2027 as costs rise, hiring slows",
+     "link": "https://www.livemint.com/industry/india-inc-muted-salary-hikes-in-2027-as-costs-rise-hiring-slows-11792480770238.html",
+     "source": "Mint",
+     "published": "2026-10-20T10:52:39+00:00",
+     "summary": "Indian companies are expected to offer modest salary increases around 9% in 2027 due to rising costs and weak consumer demand, with rewards increasingly tilted toward top performers and workers with AI skills.",
+     "why_it_matters": "Shows how macro headwinds and technology shifts reshape talent strategy and compensation structures."
+    },
+    {
+     "id": "c5c14a30e7",
+     "headline": "Marco Rubio tours Jamnagar as Washington courts Reliance's refining muscle",
+     "link": "https://economictimes.indiatimes.com/industry/energy/oil-gas/marco-rubio-tours-jamnagar-as-washington-courts-reliances-refining-muscle/articleshow/135091948.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T12:04:39+00:00",
+     "summary": "US Secretary of State Rubio visited Reliance's Jamnagar refinery complex and development sites, emphasizing America's interest in India's refining capacity and Venezuelan crude processing capabilities.",
+     "why_it_matters": "Reveals how geopolitical energy strategy influences US engagement with Indian industrial champions."
+    },
+    {
+     "id": "82bc624c37",
+     "headline": "India launches state-level outreach to help MSMEs, farmers tap FTA export opportunities",
+     "link": "https://www.thehindubusinessline.com/economy/india-launches-state-level-outreach-to-help-msmes-farmers-tap-fta-export-opportunities/article71607022.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T10:25:37+00:00",
+     "summary": "India is launching state-level initiatives to help small and medium enterprises and farmers leverage free trade agreements covering 38 countries to boost exports.",
+     "why_it_matters": "Illustrates government efforts to democratize trade benefits and expand market access for smaller businesses."
+    },
+    {
+     "id": "020036160c",
+     "headline": "India presents a compelling investment proposition for German firms: FICCI",
+     "link": "https://www.thehindubusinessline.com/economy/india-presents-a-compelling-investment-proposition-for-german-firms-ficci/article71606912.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T10:10:20+00:00",
+     "summary": "Industry leaders argue that German companies should invest in India because the country offers technological expertise from Germany combined with India's scale, skilled workforce and cost advantages.",
+     "why_it_matters": "Shows how India positions itself as an attractive destination by complementing foreign tech with local strengths."
+    },
+    {
+     "id": "9f12e998df",
+     "headline": "What does UltraTech's cooled off valuation signal about cost inflation pain",
+     "link": "https://www.livemint.com/market/mark-to-market/ultratech-cement-q2-results-share-price-outlook-11792559939685.html",
+     "source": "Mint",
+     "published": "2026-10-21T07:00:54+00:00",
+     "summary": "UltraTech Cement achieved strong volume growth and market share gains but faced margin pressure from rising fuel costs, causing investors to reassess the company's valuation.",
+     "why_it_matters": "Shows how input cost inflation can offset operational success and reshape investor sentiment."
+    },
+    {
+     "id": "8e57b887cd",
+     "headline": "Nithin Kamath shares interesting story from 2015 - It has Jio, Mukesh Ambani, Reliance, Zerodha, Aadhaar, UPI and more",
+     "link": "https://www.livemint.com/market/stock-market-news/nithin-kamath-shares-interesting-story-from-2015-it-has-jio-mukesh-ambani-reliance-zerodha-aadhaar-upi-and-more-11792563373449.html",
+     "source": "Mint",
+     "published": "2026-10-21T06:55:11+00:00",
+     "summary": "Affordable mobile data from Jio and Airtel, combined with Aadhaar and UPI infrastructure, enabled fintech platforms like Zerodha to grow and helped India's investor base expand from 2 crore to over 13 crore since 2016.",
+     "why_it_matters": "Illustrates how digital infrastructure and connectivity create network effects that unlock new market opportunities."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Why might MHI's leadership changes create challenges for its EV and auto business?",
+     "options": [
+      "New leaders will abandon the electric vehicle strategy",
+      "Policy continuity and subsidy compliance may be disrupted",
+      "The company will lose all government support immediately",
+      "Competitors will automatically gain market share"
+     ],
+     "answer_index": 1,
+     "explanation": "The story highlights that leadership transitions can test the balance between maintaining policy alignment and ensuring strict compliance with government subsidy programs."
+    },
+    {
+     "question": "What is Jio Platforms emphasizing in its IPO positioning?",
+     "options": [
+      "Real estate and infrastructure development alone",
+      "AI, cloud services and patent portfolio strength",
+      "Manufacturing and automotive sector expansion",
+      "Only traditional telecom connectivity services"
+     ],
+     "answer_index": 1,
+     "explanation": "The story indicates Jio is shifting its investor narrative toward technology-driven digital services rather than relying solely on connectivity."
+    },
+    {
+     "question": "How are Indian companies adjusting compensation in 2027?",
+     "options": [
+      "Increasing base salaries for entry-level roles",
+      "Eliminating bonuses and permanent salary increases",
+      "Favoring top performers and AI-skilled talent",
+      "Offering uniform raises across all employees"
+     ],
+     "answer_index": 2,
+     "explanation": "The story shows that amid cost pressures, companies are differentiating rewards toward high performers and those with AI expertise, sometimes replacing permanent hikes with bonuses."
+    },
+    {
+     "question": "What does UltraTech's valuation reset primarily reflect?",
+     "options": [
+      "Declining cement demand across India",
+      "Margin erosion from rising fuel costs",
+      "Government policy changes affecting pricing",
+      "Loss of market share to competitors"
+     ],
+     "answer_index": 1,
+     "explanation": "Despite strong volume growth and market gains, UltraTech faced investor caution because input cost inflation compressed margins."
+    },
+    {
+     "question": "Which infrastructure elements enabled India's investor base to expand significantly?",
+     "options": [
+      "Affordable data, Aadhaar and UPI systems",
+      "Real estate development and property markets",
+      "Bank branch expansion and loan programs",
+      "Stock exchange modernization and trading fees"
+     ],
+     "answer_index": 0,
+     "explanation": "The story credits affordable mobile data from Jio and Airtel, combined with Aadhaar and UPI, as key enablers that helped fintech platforms grow and brought millions into capital markets."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "Marco Rubio meets Adani, Tata chiefs before heading to Jamnagar for Reliance refinery visit",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Rubio meets Adani, Tata Sons chiefs ahead of Reliance Jamnagar visit",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Rubio’s India visit puts energy security in focus as crude costs rise amid global disruptions: Kotak Neo’s Banerjee",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Trump says India, US trade deal to be different from earlier pacts",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Scotch imports by Pernod Ricard, Diageo under tax probe - How is it linked to India-UK trade deal? All you need to know",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Gurgaon, Noida housing demand drops 8-9% as NCR property market cools",
+     "reason": "already 10 stories"
+    },
+    {
+     "headline": "Mint Explainer | Why India wants to corporatize its major ports and what it means",
+     "reason": "already 10 stories"
+    }
+   ]
+  },
+  "ops": {
+   "stories": [
+    {
+     "id": "3f37796ae9",
+     "headline": "Eternal Q2 Results: Profit soars 92% YoY to Rs 125 crore; revenue zooms 78%",
+     "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/eternal-q2-results-profit-soars-92-yoy-to-rs-125-crore-revenue-surges-78/articleshow/135088651.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T10:06:28+00:00",
+     "summary": "Eternal, the parent company of Zomato and Blinkit, reported a 92% increase in net profit to Rs 125 crore in Q2 FY27, with revenue growing 78% year-on-year. This strong performance reflects the rapid expansion of its quick commerce and food delivery operations.",
+     "why_it_matters": "Demonstrates how quick commerce and logistics efficiency drive profitability in high-growth consumer platforms."
+    },
+    {
+     "id": "b5e3c19c42",
+     "headline": "India's power crunch deepens as 96 coal plants face fuel shortages",
+     "link": "https://economictimes.indiatimes.com/industry/energy/power/indias-power-crunch-deepens-as-96-coal-plants-face-fuel-shortages/articleshow/135081893.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T04:12:15+00:00",
+     "summary": "India's coal-fired power plants are facing critical fuel shortages due to rising electricity demand driven by unusually hot weather and low hydroelectric output. The Central Electricity Authority has flagged this as a significant supply chain challenge.",
+     "why_it_matters": "Supply chain disruptions in energy affect manufacturing capacity and operations across all industries."
+    },
+    {
+     "id": "c7b3ea088a",
+     "headline": "Eternal plans to launch privacy-focused AI assistant dark.ai this year",
+     "link": "https://www.thehindubusinessline.com/companies/eternal-plans-to-launch-privacy-focused-ai-assistant-darkai-this-year/article71607303.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T12:50:13+00:00",
+     "summary": "Eternal plans to launch a privacy-focused AI assistant called dark.ai this year, as announced by leadership in a shareholder letter following Q2 results. This marks the company's expansion into AI-driven consumer technology.",
+     "why_it_matters": "Shows how quick commerce platforms are adopting AI to enhance operations and customer experience."
+    },
+    {
+     "id": "54d6884829",
+     "headline": "PSBs step up AI adoption, cyber resilience under EASE₹ise 8.0 reforms",
+     "link": "https://economictimes.indiatimes.com/industry/banking/finance/banking/psbs-step-up-ai-adoption-cyber-resilience-under-easeise-8-0-reforms/articleshow/135092314.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T12:25:34+00:00",
+     "summary": "Public sector banks are accelerating AI adoption and cyber security improvements under the EASE₹ise 8.0 reform framework. These modernisation efforts aim to strengthen financial inclusion and customer service delivery.",
+     "why_it_matters": "Illustrates enterprise-wide AI and technology adoption trends affecting banking operations and infrastructure."
+    },
+    {
+     "id": "70ba63525a",
+     "headline": "SRF Q2 profit rises 31% to ₹509 crore; to invest ₹600 crore to set up aluminium foil plant in MP",
+     "link": "https://www.thehindubusinessline.com/companies/srf-q2-profit-rises-31-to-509-crore-to-invest-600-crore-to-set-up-aluminium-foil-plant-in-mp/article71607274.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-21T12:22:42+00:00",
+     "summary": "SRF reported a 31% increase in Q2 profit to Rs 509 crore, with total income rising significantly in H1 FY27. The company plans to invest Rs 600 crore to establish an aluminium foil manufacturing plant in Madhya Pradesh.",
+     "why_it_matters": "Capital investment in manufacturing capacity expansion reflects confidence in industrial growth and operational scaling."
+    },
+    {
+     "id": "820a1adae7",
+     "headline": "India's infrastructure output grows 7.9% year-on-year in September on strong coal, steel output",
+     "link": "https://www.livemint.com/economy/indias-infrastructure-output-grows-7-9-year-on-year-in-september-on-strong-coal-steel-output-11792584370122.html",
+     "source": "Mint",
+     "published": "2026-10-21T12:14:02+00:00",
+     "summary": "India's infrastructure output grew 7.9% year-on-year in September, driven by strong performance in coal, steel, refinery products and iron ore sectors. This growth rate exceeded the 3.1% increase recorded in the same month last year.",
+     "why_it_matters": "Infrastructure output growth indicates robust supply chain health and manufacturing capacity utilisation."
+    },
+    {
+     "id": "9e1e03d47f",
+     "headline": "Delhi: Rooftop solar registrations cross 1 lakh mark; outskirts lead adoption",
+     "link": "https://economictimes.indiatimes.com/industry/renewables/delhi-rooftop-solar-registrations-cross-1-lakh-mark-outskirts-lead-adoption/articleshow/135091379.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T11:40:42+00:00",
+     "summary": "Delhi has crossed 100,000 rooftop solar registrations, with adoption concentrated in city outskirts and industrial hubs like Bawana and Narela. The power minister highlighted this as a clean energy milestone.",
+     "why_it_matters": "Renewable energy adoption affects manufacturing operations and logistics infrastructure sustainability planning."
+    },
+    {
+     "id": "77d0dd58bf",
+     "headline": "TCS, Wipro turn to mid-market clients as AI erodes demand from large customers",
+     "link": "https://www.livemint.com/companies/news/tcs-and-wipro-join-indian-its-mid-market-onslaught-amid-ai-pressures-11792493065831.html",
+     "source": "Mint",
+     "published": "2026-10-21T10:59:53+00:00",
+     "summary": "TCS and Wipro are shifting focus towards mid-market clients as AI adoption by large enterprises reduces their traditional demand. Other IT services firms like Accenture and Cognizant have already established dedicated units for this segment.",
+     "why_it_matters": "Shows how AI adoption is reshaping demand patterns and business models in technology services."
+    },
+    {
+     "id": "12fcb0e725",
+     "headline": "Blinkit expects to cross 3,500 stores by FY27",
+     "link": "https://economictimes.indiatimes.com/industry/services/retail/blinkit-expects-to-cross-3500-stores-by-fy27-ceo-albinder-bullish-on-small-cities-growth-zomato-eternal/articleshow/135089290.cms",
+     "source": "Economic Times",
+     "published": "2026-10-21T10:51:42+00:00",
+     "summary": "Blinkit expects to expand its store network to 3,500 locations by the end of FY27. This aggressive expansion reflects the rapid growth of quick commerce infrastructure in India.",
+     "why_it_matters": "Quick commerce logistics expansion demonstrates operational scaling and supply chain infrastructure development."
+    },
+    {
+     "id": "e3eff0c430",
+     "headline": "Schaeffler India CEO taken into custody over fatal June factory accident",
+     "link": "https://www.business-standard.com/companies/news/schaeffler-india-ceo-taken-into-custody-over-fatal-june-factory-accident-126102100629_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-21T09:41:16+00:00",
+     "summary": "The CEO of Schaeffler India was taken into custody following a fatal factory accident in June where two service provider workers died from carbon dioxide gas discharge during cylinder replacement. This highlights workplace safety and operational risk management failures.",
+     "why_it_matters": "Manufacturing safety incidents reveal critical gaps in operational procedures and risk management systems."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What drove Eternal's 92% profit increase in Q2 FY27?",
+     "options": [
+      "Government subsidies for logistics companies",
+      "Expansion of quick commerce and food delivery operations",
+      "Reduction in employee compensation costs",
+      "Sale of non-core business assets"
+     ],
+     "answer_index": 1,
+     "explanation": "The summary states that Eternal's strong performance reflects rapid expansion of its quick commerce and food delivery operations, which drove the 92% profit increase."
+    },
+    {
+     "question": "Which sectors contributed most to India's 7.9% infrastructure output growth in September?",
+     "options": [
+      "Textiles, pharmaceuticals and automotive",
+      "Coal, steel, refinery products and iron ore",
+      "Agriculture, fisheries and forestry",
+      "Telecommunications, banking and insurance"
+     ],
+     "answer_index": 1,
+     "explanation": "The summary explicitly states that coal, steel, refinery products and iron ore sectors drove the 7.9% infrastructure output growth."
+    },
+    {
+     "question": "Why are TCS and Wipro targeting mid-market clients?",
+     "options": [
+      "Mid-market clients offer higher profit margins",
+      "Government policy mandates this segment focus",
+      "AI adoption by large enterprises reduced traditional demand",
+      "Large clients are relocating to other countries"
+     ],
+     "answer_index": 2,
+     "explanation": "The summary indicates that TCS and Wipro are shifting focus to mid-market clients because AI adoption by large enterprises has reduced their traditional demand."
+    },
+    {
+     "question": "What is Eternal planning to launch this year to enhance operations?",
+     "options": [
+      "A privacy-focused AI assistant called dark.ai",
+      "An international expansion programme",
+      "A customer loyalty rewards platform",
+      "A new quick commerce delivery network"
+     ],
+     "answer_index": 0,
+     "explanation": "The summary states that Eternal plans to launch dark.ai, a privacy-focused AI assistant, as announced in the shareholder letter."
+    },
+    {
+     "question": "What operational challenge is highlighted by the Schaeffler India incident?",
+     "options": [
+      "Gaps in manufacturing safety and risk management procedures",
+      "Poor coordination with service providers",
+      "Insufficient worker training programmes",
+      "Inadequate factory equipment maintenance"
+     ],
+     "answer_index": 0,
+     "explanation": "The summary emphasises that the fatal accident reveals critical gaps in operational procedures and risk management systems in manufacturing."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "Half of India’s coal-fired power plants face critically low fuel stocks",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "SRF Ltd announces ₹600 crore aluminium foil manufacturing plant in Madhya Pradesh for battery applications",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Sanofi healthcare receives CDSCO approval for Qftilia therapy for haemophilia patients in India",
+     "reason": "fit: off-track"
+    },
+    {
+     "headline": "Bharat Biotech arm, VeGen Bio to manufacture advanced cancer treatment",
+     "reason": "fit: off-track"
+    }
+   ]
+  }
+ },
+ "company": {
+  "name": "Hindustan Unilever",
+  "process_date": "2026-10-28",
+  "what_it_does": "Hindustan Unilever Limited (HUL) manufactures and sells a wide range of consumer goods including personal care, home care, and foods across India. It is the market leader in many categories and competes with companies like ITC, Nestlé India, and Colgate-Palmolive in the Indian FMCG sector.",
+  "business_lines": [
+   "Personal Care (Lux, Dove, Lipton, Ponds)",
+   "Home Care (Surf, Rin, Vim)",
+   "Foods & Refreshments (Knorr, Brooke Bond, Kissan)",
+   "Beauty & Hygiene (Lakmé, Ayush)",
+   "Nutrition & Health Drinks (Horlicks, Boost)"
+  ],
+  "recent_news": [],
+  "talking_points": [
+   "HUL operates across urban and rural markets through a dual-channel distribution model, reaching consumers in both modern retail and traditional kirana stores.",
+   "The company faces intense competition from regional FMCG players and e-commerce disruption, requiring continuous innovation in product formats and pricing strategies.",
+   "HUL has been expanding its portfolio in health-conscious and premium segments to capture growing consumer demand for wellness-focused products."
+  ],
+  "quiz": [
+   {
+    "question": "Which of these brands belongs to HUL's Home Care segment?",
+    "options": [
+     "Surf",
+     "Lakmé",
+     "Brooke Bond",
+     "Ponds"
+    ],
+    "answer_index": 0,
+    "explanation": "Surf is a laundry detergent in the Home Care segment; Brooke Bond is tea (Foods), Ponds is skincare (Personal Care), and Lakmé is cosmetics (Beauty & Hygiene)."
+   },
+   {
+    "question": "What is HUL's primary competitive advantage in rural India?",
+    "options": [
+     "Established distribution through kirana stores",
+     "Government subsidies on products",
+     "Lowest manufacturing costs globally",
+     "Exclusive online delivery network"
+    ],
+    "answer_index": 0,
+    "explanation": "HUL's extensive network of traditional kirana stores gives it deep rural penetration; the other options are either not HUL's model or not factual."
+   },
+   {
+    "question": "Which segment does Knorr belong to at HUL?",
+    "options": [
+     "Home Care solutions",
+     "Foods & Refreshments",
+     "Beauty & Hygiene",
+     "Personal Care products"
+    ],
+    "answer_index": 1,
+    "explanation": "Knorr is a food brand (soups, seasonings) in the Foods & Refreshments segment, not in personal care, home care, or beauty."
+   }
+  ]
+ },
+ "date": "2026-10-22",
+ "_run": {
+  "input": 41173,
+  "output": 27499,
+  "calls": 11,
+  "items": 421,
+  "seconds": 56,
+  "approx_usd": 0.1787
+ }
+}

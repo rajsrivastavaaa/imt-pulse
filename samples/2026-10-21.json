@@ -1,0 +1,736 @@
+{
+ "tracks": {
+  "marketing": {
+   "stories": [
+    {
+     "id": "8985bee031",
+     "headline": "PepsiCo India expects steady festive snack sales driven by new launches",
+     "link": "https://www.thehindubusinessline.com/companies/pepsico-india-expects-steady-festive-snack-sales-driven-by-new-launches/article71603620.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T07:27:02+00:00",
+     "summary": "PepsiCo India is counting on new product launches across snacks, healthier options, and premium categories to sustain sales during the festive season. The company's Chief Marketing Officer for Foods highlighted that catering to varied consumer preferences is central to this strategy.",
+     "why_it_matters": "Classic FMCG festive strategy — portfolio diversification and premiumisation are key talking points for marketing interviews."
+    },
+    {
+     "id": "94a25e3947",
+     "headline": "India Inc eyes a festive boom, but the bottom line holds a twist",
+     "link": "https://economictimes.indiatimes.com/news/company/corporate-trends/india-inc-eyes-a-festive-boom-but-the-bottom-line-holds-a-twist/articleshow/135063006.cms",
+     "source": "Economic Times",
+     "published": "2026-10-20T07:16:12+00:00",
+     "summary": "Indian companies are seeing a pickup in festive season sales across both online and offline channels, but rising costs are squeezing profit margins. Many consumers are being pulled in by discounts and easy payment options rather than full-price purchases.",
+     "why_it_matters": "Shows the tension between top-line festive growth and bottom-line pressure — critical for pricing and profitability discussions in interviews."
+    },
+    {
+     "id": "354bcc7957",
+     "headline": "Nepal bans import, sales of Priyagold biscuits",
+     "link": "https://www.thehindubusinessline.com/companies/nepal-bans-import-sales-of-priyagold-biscuits/article71602863.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-19T15:47:59+00:00",
+     "summary": "Nepal has banned the import and sale of Priyagold biscuits made by Surya Food & Agro. India's food regulator FSSAI has separately initiated legal action against the company for allegedly using cattle feed bran as an ingredient in the biscuits.",
+     "why_it_matters": "A product quality and regulatory compliance crisis — directly relevant to FMCG brand management and consumer trust discussions."
+    },
+    {
+     "id": "e4b1653339",
+     "headline": "GenZ driving Amazon's fashion & beauty sales: Senior exec Nikhil Sinha",
+     "link": "https://www.business-standard.com/companies/news/gen-z-makes-up-52-of-amazon-s-fashion-and-beauty-customer-base-in-india-126101900984_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-19T13:15:03+00:00",
+     "summary": "Gen Z shoppers are emerging as a key growth driver for Amazon's fashion and beauty categories during the festive season. Premium brands have doubled their share of sales to 20%, and more than half of all fashion and beauty orders are now coming from non-metro cities.",
+     "why_it_matters": "Highlights premiumisation, Gen Z consumer behaviour, and the rise of non-metro demand — all hot topics in D2C and retail marketing interviews."
+    },
+    {
+     "id": "26e2e7a0f9",
+     "headline": "FSSAI directs nutraceutical makers to ensure mandatory warning statements on products with herbal extracts",
+     "link": "https://www.thehindubusinessline.com/companies/fssai-directs-nutraceutical-makers-to-ensure-mandatory-warning-statements-on-products-with-herbal-extracts/article71604130.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T10:34:29+00:00",
+     "summary": "FSSAI has directed companies making nutraceuticals and health supplements to review their product labels and ensure mandatory warning statements are present on items containing herbal extracts. Non-compliance could lead to licence suspension and financial penalties.",
+     "why_it_matters": "Regulatory labelling compliance affects product launches and marketing claims in the health and wellness FMCG segment."
+    },
+    {
+     "id": "ec1e72716f",
+     "headline": "Winning WRPs this season",
+     "link": "https://brandequity.economictimes.indiatimes.com/news/research/advertising/winning-wrps-this-season/135043177",
+     "source": "ET BrandEquity",
+     "published": "2026-10-19T09:52:17+00:00",
+     "summary": "A commentary piece argues that WhatsApp Rating Points (WRPs) — a measure of brand engagement on WhatsApp — are more valuable than traditional TV Rating Points (TRPs) during this festive season. The piece positions WhatsApp as a more effective advertising medium for reaching consumers.",
+     "why_it_matters": "Raises the shift from traditional to conversational/digital media metrics — a relevant talking point for advertising and media strategy interviews."
+    },
+    {
+     "id": "6847356140",
+     "headline": "ABD fires up Moradabad bottling plant, deepens UP bet with ₹600 crore outlay",
+     "link": "https://www.thehindubusinessline.com/markets/stock-markets/abd-fires-up-moradabad-bottling-plant-deepens-up-bet-with-600-crore-outlay/article71602350.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-19T08:11:41+00:00",
+     "summary": "Allied Blenders and Distillers (ABD) has commissioned a new bottling plant in Moradabad, Uttar Pradesh, as part of a ₹600 crore investment in the state. The move signals the company's intent to deepen its presence in one of India's largest alcohol markets.",
+     "why_it_matters": "Distribution expansion and manufacturing investment in FMCG/spirits — relevant to marketing track as it reflects go-to-market and distribution strategy."
+    },
+    {
+     "id": "1cd73136b1",
+     "headline": "Luggage makers pin hopes on the festive, wedding seasons to drive growth",
+     "link": "https://www.livemint.com/industry/luggage-makers-festive-season-sales-raw-material-costs-11792381500273.html",
+     "source": "Mint",
+     "published": "2026-10-19T06:59:28+00:00",
+     "summary": "Luggage manufacturers are banking on the festive and wedding seasons to revive sales after a period of sluggish demand. However, industry observers caution that seasonal tailwinds alone may not be enough to fully offset the weakness seen earlier in the year.",
+     "why_it_matters": "Illustrates how consumer durables brands rely on seasonal demand cycles and the limits of that strategy — useful for demand forecasting discussions."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "What is the primary strategy PepsiCo India is using to drive festive snack sales?",
+     "options": [
+      "Focusing exclusively on rural distribution expansion",
+      "Partnering with quick-commerce platforms for faster delivery",
+      "Launching new products across snacks, healthier and premium segments",
+      "Cutting prices across its existing product range"
+     ],
+     "answer_index": 2,
+     "explanation": "PepsiCo India's CMO stated that the company is expanding its portfolio across snacks, better-for-you products, and premium offerings to serve diverse consumer preferences during the festive season."
+    },
+    {
+     "question": "What key tension does India Inc's festive season performance reveal?",
+     "options": [
+      "Premium segment growth but mass-market category stagnation",
+      "Strong rural demand but weak urban consumer sentiment",
+      "Higher sales volumes but shrinking profit margins due to costs",
+      "Growing online sales but declining offline retail footfall"
+     ],
+     "answer_index": 2,
+     "explanation": "While festive demand is picking up across channels, companies are facing rising costs that are squeezing profitability, even as consumers are attracted by discounts and easy payment options."
+    },
+    {
+     "question": "Why did Nepal ban Priyagold biscuits, and what action did India's regulator take?",
+     "options": [
+      "Use of cattle feed bran; FSSAI initiated legal proceedings",
+      "Undeclared allergens; FSSAI imposed an export restriction",
+      "Excess sugar content; FSSAI issued a product recall notice",
+      "Misleading health claims; FSSAI suspended the brand's licence"
+     ],
+     "answer_index": 0,
+     "explanation": "Nepal banned the import and sale of Priyagold biscuits, while FSSAI launched legal action against manufacturer Surya Food & Agro for allegedly using cattle feed bran as an ingredient."
+    },
+    {
+     "question": "What does Amazon's festive season data reveal about fashion and beauty shoppers?",
+     "options": [
+      "International brands are outperforming domestic labels in sales share",
+      "Metro cities account for the majority of premium brand orders",
+      "Gen Z is leading growth, with non-metros contributing over half of orders",
+      "Value-seeking buyers dominate, pulling down average order size"
+     ],
+     "answer_index": 2,
+     "explanation": "Amazon's data shows Gen Z shoppers are the primary growth driver, premium brands have doubled their sales share to 20%, and more than half of fashion and beauty orders originate from non-metro cities."
+    },
+    {
+     "question": "What challenge do luggage makers face despite festive and wedding season demand?",
+     "options": [
+      "Raw material shortages are limiting production capacity",
+      "Increased competition from D2C brands is eroding market share",
+      "Premium segment growth is cannibalising mass-market volumes",
+      "Seasonal demand alone may not recover earlier sales weakness"
+     ],
+     "answer_index": 3,
+     "explanation": "While luggage companies are hopeful about festive and wedding season tailwinds, industry observers note that this seasonal boost may not be strong enough to fully offset the sluggish demand seen earlier in the year."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "Prestige Estates to launch ₹40K cr worth homes for sale in H2 of FY27",
+     "reason": "fit: off-track"
+    },
+    {
+     "headline": "Oberoi Realty open to land buys, joint development deals across Delhi-NCR",
+     "reason": "fit: off-track"
+    },
+    {
+     "headline": "Sobha Q2 profit plunges 54.5% to ₹33 crore even as H1 sales hit record",
+     "reason": "fit: off-track"
+    },
+    {
+     "headline": "India rice exporters' conference books 2,038 buyer meetings ahead of Oct 23 opening",
+     "reason": "fit: off-track"
+    }
+   ]
+  },
+  "finance": {
+   "stories": [
+    {
+     "id": "6caefadc34",
+     "headline": "Jio IPO anchor book sees over 30x demand, draws record bids worth ₹2.5 trn",
+     "link": "https://www.business-standard.com/markets/ipo/jio-ipo-anchor-book-sees-over-30x-demand-draws-record-bids-worth-2-5-trn-126101901316_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-19T18:24:36+00:00",
+     "summary": "Jio Platforms' anchor book for its upcoming IPO attracted bids worth over ₹2.5 trillion against an allocation of ₹8,110 crore, implying demand of more than 30 times the available allocation. Global investors, mutual funds, and insurance companies all participated. The overall IPO size stands at ₹30,213 crore.",
+     "why_it_matters": "Illustrates anchor investor mechanics, IPO demand signals, and how institutional appetite is gauged before a large public issue."
+    },
+    {
+     "id": "4a64d913c1",
+     "headline": "FM Sitharaman flags global capital moving towards US, AI-linked markets as a ‘concern’ for India in 2027",
+     "link": "https://www.livemint.com/economy/fm-sitharaman-flags-global-capital-moving-towards-us-ai-linked-markets-as-a-concern-for-india-in-2027-11792402978461.html",
+     "source": "Mint",
+     "published": "2026-10-19T10:43:51+00:00",
+     "summary": "Finance Minister Nirmala Sitharaman identified the movement of global capital toward the United States and artificial-intelligence-linked markets as a significant risk for India heading into 2027. Sustained outflows could weigh on domestic investment and currency stability. Her remarks highlight the external vulnerabilities India's economy faces.",
+     "why_it_matters": "Connects macro capital-flow dynamics to India's investment climate — a key talking point in banking and markets interviews."
+    },
+    {
+     "id": "6232561779",
+     "headline": "OYO-parent PRISM to nearly halve IPO fresh issue size to up to ₹3,350 cr: Sources",
+     "link": "https://www.thehindubusinessline.com/markets/oyo-parent-prism-to-nearly-halve-ipo-fresh-issue-size-to-up-to-3350-cr-sources/article71604229.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T11:18:35+00:00",
+     "summary": "OYO's parent company PRISM is planning to cut the fresh-issue portion of its IPO to roughly ₹3,350 crore, nearly half of what was originally planned. The company cited stronger-than-expected cash generation and a healthier balance sheet as reasons for needing less external capital. The decision reflects improved financial discipline at the firm.",
+     "why_it_matters": "Shows how improved cash flows and balance-sheet strength directly influence IPO structuring decisions — relevant for capital-raising discussions."
+    },
+    {
+     "id": "762d61d3ee",
+     "headline": "EAAA India Alternatives to float ₹1,200-crore IPO on Oct 26",
+     "link": "https://www.thehindubusinessline.com/markets/eaaa-india-alternatives-to-float-1200-crore-ipo-on-oct-26/article71603713.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T07:58:48+00:00",
+     "summary": "EAAA India Alternatives, backed by the Edelweiss Group, is set to launch a ₹1,200 crore IPO on 26 October. The entire issue is structured as an Offer for Sale, meaning no fresh capital will flow into the company. All proceeds will go to the selling shareholder, Edelweiss Group.",
+     "why_it_matters": "Distinguishes OFS from fresh-issue IPOs — a fundamental concept in capital markets that frequently comes up in finance interviews."
+    },
+    {
+     "id": "f3e9f66b65",
+     "headline": "SLMG Beverages eyes ₹20,000 cr turnover in 5 years, IPO in 3-4 years",
+     "link": "https://www.thehindubusinessline.com/markets/slmg-beverages-eyes-20000-cr-turnover-in-5-years-ipo-in-3-4-years/article71603673.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T07:55:26+00:00",
+     "summary": "SLMG Beverages, which bottles Coca-Cola products in Uttar Pradesh and Bihar, has set a target of reaching ₹20,000 crore in annual turnover within five years. The company also plans to explore overseas markets and is eyeing a public listing in three to four years. Its growth strategy is anchored in India's rising consumption story.",
+     "why_it_matters": "Illustrates pre-IPO growth planning and how consumer-sector companies leverage domestic demand narratives to attract future investors."
+    },
+    {
+     "id": "9a926721e9",
+     "headline": "OpenAI seeks $30 billion funding at $1.4 trillion valuation ahead of Anthropic IPO",
+     "link": "https://www.thehindubusinessline.com/info-tech/openai-seeks-30-billion-funding-at-14-trillion-valuation-ahead-of-anthropic-ipo/article71603118.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T02:03:41+00:00",
+     "summary": "OpenAI is in discussions to raise $30 billion in fresh funding at a valuation of $1.4 trillion, approaching both existing backers and institutional investors. The fundraising push comes as competition for AI capital intensifies globally. The timing also coincides with a potential IPO by rival AI company Anthropic.",
+     "why_it_matters": "Highlights private-market valuation dynamics and competitive fundraising in the AI sector — useful context for M&A and venture finance discussions."
+    },
+    {
+     "id": "78a1050458",
+     "headline": "Piramal Finance Q2FY27 results: Net profit zooms 67% to ₹545 crore",
+     "link": "https://www.business-standard.com/companies/news/piramal-finance-q2fy27-results-net-profit-zooms-67-to-545-crore-126101901131_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-19T17:58:08+00:00",
+     "summary": "Piramal Finance, a non-banking financial company, reported a 67 per cent rise in net profit to ₹545 crore for the July–September quarter. Its core net interest income grew 35 per cent to ₹1,530 crore, supported by a 24 per cent expansion in assets under management. Both income growth and cost improvements drove the strong performance.",
+     "why_it_matters": "Demonstrates key NBFC performance metrics — NII growth, AUM expansion, and profitability — essential for banking and NBFC sector interviews."
+    },
+    {
+     "id": "be2ba6788f",
+     "headline": "Punjab & Sind Bank Q2 net profit surges 40% to ₹412 cr on improved income",
+     "link": "https://www.business-standard.com/companies/news/punjab-sind-bank-q2-net-profit-surges-40-pc-to-rs-412-cr-on-improved-income-126101700865_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-19T17:51:42+00:00",
+     "summary": "Punjab and Sind Bank, a public sector lender, posted a 40 per cent increase in net profit to ₹412 crore in the second quarter compared to ₹295 crore a year earlier. The improvement was driven by stronger core income and a reduction in bad assets. The results reflect the ongoing asset-quality recovery in public sector banking.",
+     "why_it_matters": "Highlights the link between NPA reduction and profitability improvement in PSU banks — a recurring theme in banking sector interviews."
+    },
+    {
+     "id": "91566d5c97",
+     "headline": "Q2 Results Today Highlights: UltraTech Q2 profit declines q-o-q, Hindustan Zinc, Union Bank & HFCL Q2 PAT up; Bajaj Finance, LTTS, IREDA announce Q2 results",
+     "link": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-bajaj-finance-ultratech-cement-hindustan-zinc-union-bank-of-india-ltts-piramal-finance-ireda-company-results-hdfc-bank-axis-bank-yes-icici-results-19-october-2026/article71599553.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-19T15:52:55+00:00",
+     "summary": "Several major companies released their July–September quarter results on 19 October 2026. UltraTech Cement saw a sequential profit decline, while Hindustan Zinc, Union Bank, and HFCL reported profit growth. Bajaj Finance, LTTS, and IREDA also announced their quarterly numbers on the same day.",
+     "why_it_matters": "Broad earnings-season awareness is useful for interviews, as recruiters often ask candidates to comment on recent corporate performance trends."
+    },
+    {
+     "id": "aa6c151bc0",
+     "headline": "Even Healthcare raises $50 mn in Series B round led by Khosla Ventures",
+     "link": "https://www.thehindubusinessline.com/companies/even-healthcare-raises-50-mn-in-series-b-round-led-by-khosla-ventures/article71602824.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-19T14:11:12+00:00",
+     "summary": "Even Healthcare has closed a $50 million Series B funding round led by Khosla Ventures. The company intends to use the capital to open five new hospitals in Bengaluru over the next six months, beginning with a facility in Indiranagar. The raise signals continued investor confidence in India's private healthcare infrastructure.",
+     "why_it_matters": "Illustrates Series B fundraising dynamics and deployment strategy — useful for discussions on private equity, venture capital, and healthcare finance."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Why is PRISM reducing the fresh-issue size of its IPO to around ₹3,350 crore?",
+     "options": [
+      "Weak investor demand forced a smaller fundraise",
+      "Promoters wanted to retain a higher stake",
+      "Stronger cash flows reduced the capital needed",
+      "Regulatory caps limited the issue size"
+     ],
+     "answer_index": 2,
+     "explanation": "The company cited better-than-expected cash generation and an improved balance sheet as reasons for needing less external capital than originally planned."
+    },
+    {
+     "question": "What does the EAAA India Alternatives IPO structure imply for the company's finances?",
+     "options": [
+      "The company will use proceeds to repay debt",
+      "Proceeds will be split between growth and promoters",
+      "No new money enters the company from the issue",
+      "Fresh capital will fund new business expansion"
+     ],
+     "answer_index": 2,
+     "explanation": "Since the IPO is entirely an Offer for Sale, all proceeds go to the selling shareholder (Edelweiss Group) and the company itself receives no fresh capital."
+    },
+    {
+     "question": "What primarily drove Piramal Finance's strong Q2FY27 profit growth?",
+     "options": [
+      "Core income growth and lower operating costs",
+      "A one-time asset sale boosted reported earnings",
+      "Government grants to NBFCs improved margins",
+      "A sharp reduction in provisioning for bad loans"
+     ],
+     "answer_index": 0,
+     "explanation": "Piramal Finance's 67 per cent profit rise was attributed to growth in core net interest income and improvements in costs, not any one-time or external factor."
+    },
+    {
+     "question": "What does the 30x oversubscription of Jio's anchor book primarily signal to the market?",
+     "options": [
+      "Strong institutional appetite exists before listing",
+      "Anchor allocations will be revised upward",
+      "The IPO price band is set too low",
+      "Retail investors are the dominant demand source"
+     ],
+     "answer_index": 0,
+     "explanation": "Anchor book demand far exceeding supply indicates that large institutional investors — mutual funds, global funds, and insurers — are highly confident in the issue ahead of the public opening."
+    },
+    {
+     "question": "What key risk did FM Sitharaman highlight for India's capital markets in 2027?",
+     "options": [
+      "Global funds shifting toward the US and AI markets",
+      "Rupee depreciation discouraging foreign investment",
+      "Rising domestic inflation eroding equity returns",
+      "Tightening RBI policy reducing market liquidity"
+     ],
+     "answer_index": 0,
+     "explanation": "The Finance Minister specifically flagged the movement of global capital toward the United States and AI-linked markets as a major external risk for India heading into 2027."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "Jio Platforms IPO draws record ₹2.50 lakh crore institutional demand",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Paras Healthcare secures ₹652 cr from anchor investors; IPO to open on Oct 21",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Tonbo Imaging India IPO subscribed nearly 136 times, led by QIB demand",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Piramal Finance Q2 net profit surges 67% to ₹545 crore on core income growth; guides towards NIM expansion",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "LTTS Q2 net profit rises 66.78% to ₹548.2 crore on one-time gain",
+     "reason": "already 10 stories"
+    },
+    {
+     "headline": "Natco Pharma launches generic cancer drug Carboplatin in US",
+     "reason": "fit: off-track"
+    }
+   ]
+  },
+  "consulting": {
+   "stories": [
+    {
+     "id": "270d28a219",
+     "headline": "India Inc braces for muted salary hikes in 2027 as costs rise, hiring slows",
+     "link": "https://www.livemint.com/industry/india-inc-muted-salary-hikes-in-2027-as-costs-rise-hiring-slows-11792480770238.html",
+     "source": "Mint",
+     "published": "2026-10-20T10:52:39+00:00",
+     "summary": "Indian companies are expected to offer salary increases of around 9% in 2027, lower than in previous years, as geopolitical uncertainty, rising operational costs and sluggish consumer demand weigh on budgets. Employers are likely to reward high performers and employees with AI skills more generously. One-time bonuses may replace permanent pay increases as firms seek cost flexibility.",
+     "why_it_matters": "Illustrates how macro headwinds shape compensation strategy — a key consulting talking point on talent and cost management."
+    },
+    {
+     "id": "9ec8ce964f",
+     "headline": "India-New Zealand FTA comes into effect, removes tariffs on Indian exports",
+     "link": "https://www.thehindubusinessline.com/news/india-new-zealand-fta-comes-into-effect-removes-tariffs-on-indian-exports/article71603109.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T02:50:35+00:00",
+     "summary": "India and New Zealand have formally activated their Free Trade Agreement, which eliminates tariffs on a range of Indian exports to New Zealand. The deal is designed to make Indian goods more price-competitive in the New Zealand market and open new export avenues for Indian businesses.",
+     "why_it_matters": "A live example of trade policy driving market access — relevant for strategy discussions on India's export competitiveness."
+    },
+    {
+     "id": "d858621940",
+     "headline": "Amitabh Kant on how India’s semiconductor future is taking shape: 6 states with 12 projects, ₹1.64 lakh cr investments",
+     "link": "https://www.livemint.com/economy/amitabh-kant-on-how-india-s-semiconductor-future-is-taking-shape-6-states-with-12-projects-1-64-lakh-cr-investments-11792420787138.html",
+     "source": "Mint",
+     "published": "2026-10-19T16:49:00+00:00",
+     "summary": "India's semiconductor ambitions are taking concrete shape, with six states hosting twelve approved projects and total committed investments of ₹1.64 lakh crore. Gujarat has emerged as the leading hub, anchored by a massive fabrication plant being set up by Tata and PSMC at a cost of over ₹91,000 crore. Former G20 Sherpa Amitabh Kant has outlined this progress as a strategic industrial push.",
+     "why_it_matters": "Demonstrates India's industrial policy in action — a strong talking point on import substitution, FDI and supply-chain strategy."
+    },
+    {
+     "id": "b9e3da4a7b",
+     "headline": "Is India’s solar power play facing its Icarus moment?",
+     "link": "https://www.livemint.com/economy/india-solar-boom-grid-challenges-11792407133953.html",
+     "source": "Mint",
+     "published": "2026-10-19T11:33:11+00:00",
+     "summary": "India's rapid expansion of solar power capacity is running ahead of the electricity grid's ability to absorb and distribute that power. Infrastructure bottlenecks — transmission lines, storage and grid balancing — risk undermining the country's clean energy targets. The government faces pressure to accelerate grid upgrades before the gap widens further.",
+     "why_it_matters": "Classic strategy case of execution risk outpacing ambition — relevant for consulting discussions on energy sector and infrastructure policy."
+    },
+    {
+     "id": "4a64d913c1",
+     "headline": "FM Sitharaman flags global capital moving towards US, AI-linked markets as a ‘concern’ for India in 2027",
+     "link": "https://www.livemint.com/economy/fm-sitharaman-flags-global-capital-moving-towards-us-ai-linked-markets-as-a-concern-for-india-in-2027-11792402978461.html",
+     "source": "Mint",
+     "published": "2026-10-19T10:43:51+00:00",
+     "summary": "Finance Minister Nirmala Sitharaman has publicly flagged the risk of global capital flowing away from India and towards the United States and AI-driven markets in 2027. She described this trend as a serious concern for India's investment climate and growth prospects. The warning signals that policymakers are watching capital account pressures closely.",
+     "why_it_matters": "Directly links global macro trends to India's investment strategy — a high-value talking point on capital flows and policy response."
+    },
+    {
+     "id": "afd665760a",
+     "headline": "Asian refiners in dispute with Saudis over 2027 oil contracts",
+     "link": "https://www.thehindubusinessline.com/markets/commodities/asian-refiners-in-dispute-with-saudis-over-2027-oil-contracts/article71603833.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T09:01:03+00:00",
+     "summary": "Several Asian oil refiners are in disagreement with Saudi Arabia over their 2027 supply contracts. The conflict stems from the West Asia war, which disrupted regional oil exports and prevented buyers from lifting their contracted volumes from Saudi Arabia.",
+     "why_it_matters": "Shows how geopolitical conflict cascades into commodity supply chains — relevant for macro and industry-shift discussions."
+    },
+    {
+     "id": "a06d8ac418",
+     "headline": "The changing template of global growth—and what it means for India",
+     "link": "https://www.livemint.com/economy/global-growth-vuca-international-monetary-fund-imf-india-gdp-growth-artificial-intelligence-11792434102444.html",
+     "source": "Mint",
+     "published": "2026-10-20T03:30:22+00:00",
+     "summary": "The global economy held up reasonably well in 2026, but analysts warn that volatility and unpredictability are far from over. These external uncertainties could dampen India's own growth momentum, making resilience planning critical for businesses and policymakers alike.",
+     "why_it_matters": "Frames the global macro backdrop for India's growth story — essential context for any strategy or consulting interview."
+    },
+    {
+     "id": "2656c61832",
+     "headline": "Surat manufacturers enter defence technical textiles sector, create jobs: ‘Earlier, these fabrics were imported’",
+     "link": "https://www.livemint.com/industry/manufacturing/surat-manufacturers-enter-defence-technical-textiles-sector-create-jobs-earlier-these-fabrics-were-imported-11792420091751.html",
+     "source": "Mint",
+     "published": "2026-10-19T15:38:12+00:00",
+     "summary": "Textile manufacturers in Surat are diversifying from traditional sarees and synthetic fabrics into specialised technical textiles used in defence applications. This shift is creating new employment and reducing India's dependence on imported defence fabrics.",
+     "why_it_matters": "Shows import substitution and industrial diversification in action — a useful example for strategy discussions on manufacturing policy."
+    },
+    {
+     "id": "da4ea5312e",
+     "headline": "IDBI Bank staff to hold hunger strike on November 2-3 against privatisation, proposed Fairfax sale",
+     "link": "https://www.livemint.com/industry/banking/idbi-bank-staff-to-hold-hunger-strike-on-november-2-3-against-privatisation-proposed-fairfax-sale-11792405601422.html",
+     "source": "Mint",
+     "published": "2026-10-19T10:57:20+00:00",
+     "summary": "Employees of IDBI Bank, organised under the UFIOE union, have announced a hunger strike to oppose the government's plan to privatise the bank and sell a stake to Canada's Fairfax group. The union is urging the government to instead increase its own shareholding by buying shares from LIC or through the open market.",
+     "why_it_matters": "A live deals and disinvestment case — relevant for discussing privatisation strategy, stakeholder resistance and public-sector reform."
+    },
+    {
+     "id": "7fc56ea9a9",
+     "headline": "Engineering exports seen at all-time high of $150 billion this fiscal",
+     "link": "https://www.thehindubusinessline.com/economy/engineering-exports-seen-at-all-time-high-of-150-billion-this-fiscal/article71602473.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-19T10:36:23+00:00",
+     "summary": "India's engineering exports are on track to reach an all-time high of 150 billion US dollars in the current financial year. The Engineering Export Promotion Council credits strong demand from the United States and other markets, with shipments growing 20% in the April-to-September period.",
+     "why_it_matters": "Concrete data point on India's export competitiveness — useful for strategy discussions on trade, manufacturing and economic growth."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Why are Indian companies expected to offer one-time bonuses rather than permanent pay hikes in 2027?",
+     "options": [
+      "To retain cost flexibility amid rising expenses and weak demand",
+      "To align with global benchmarks set by multinational firms",
+      "To redirect savings into AI infrastructure investments",
+      "To comply with new government wage regulation guidelines"
+     ],
+     "answer_index": 0,
+     "explanation": "The story states that geopolitical uncertainty, rising costs and sluggish demand are prompting firms to prefer one-time bonuses over permanent increases, preserving payroll flexibility."
+    },
+    {
+     "question": "What is the primary strategic significance of the India–New Zealand FTA coming into force?",
+     "options": [
+      "It establishes a joint manufacturing corridor between the two nations",
+      "It improves the price competitiveness of Indian goods abroad",
+      "It grants Indian firms preferential access to Australian markets",
+      "It reduces import duties on New Zealand dairy entering India"
+     ],
+     "answer_index": 1,
+     "explanation": "The agreement removes tariffs on Indian exports, directly making Indian goods cheaper and more competitive in the New Zealand market."
+    },
+    {
+     "question": "What core execution risk does India's solar power expansion currently face?",
+     "options": [
+      "Shortage of domestic solar panel manufacturing capacity",
+      "Lack of foreign investment in renewable energy projects",
+      "Regulatory uncertainty delaying new project approvals",
+      "Grid and transmission infrastructure lagging behind generation growth"
+     ],
+     "answer_index": 3,
+     "explanation": "The story highlights that India's electricity grid cannot absorb and distribute the rapidly growing solar output, creating a structural bottleneck that threatens clean energy targets."
+    },
+    {
+     "question": "What triggered the dispute between Asian refiners and Saudi Arabia over 2027 oil contracts?",
+     "options": [
+      "Asian refiners shifted purchases to cheaper Russian crude supplies",
+      "Saudi Arabia unilaterally raised contract prices above market rates",
+      "Regional conflict disrupted exports, preventing buyers from lifting contracted volumes",
+      "OPEC production cuts reduced Saudi Arabia's available export capacity"
+     ],
+     "answer_index": 2,
+     "explanation": "The West Asia war cut regional oil exports, meaning Saudi Arabia's customers could not collect the volumes they had contracted, leading to the current disputes."
+    },
+    {
+     "question": "What does FM Sitharaman's warning about capital flows primarily signal to businesses?",
+     "options": [
+      "Foreign portfolio investors are increasing allocations to Indian equities",
+      "Global investors are shifting funds toward the US and AI markets",
+      "India plans to impose capital controls to stem outflows",
+      "India's current account deficit has widened beyond sustainable levels"
+     ],
+     "answer_index": 1,
+     "explanation": "The Finance Minister flagged that global capital is moving towards the United States and AI-linked markets, posing a risk to India's investment climate and growth in 2027."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "India-New Zealand trade pact takes effect on October 20: How it benefits both sides | Key highlights",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "India-New Zealand FTA: No tariff on Indian exports from Oct 20; Textile, pharma, leather exports to gain market access",
+     "reason": "same event as another pick"
+    },
+    {
+     "headline": "Nepal bans import, sales of Priyagold biscuits",
+     "reason": "already 10 stories"
+    },
+    {
+     "headline": "Govt reworked conditions for return of goods in SEZ units from domestic tariff area",
+     "reason": "already 10 stories"
+    }
+   ]
+  },
+  "ops": {
+   "stories": [
+    {
+     "id": "b9e3da4a7b",
+     "headline": "Is India’s solar power play facing its Icarus moment?",
+     "link": "https://www.livemint.com/economy/india-solar-boom-grid-challenges-11792407133953.html",
+     "source": "Mint",
+     "published": "2026-10-19T11:33:11+00:00",
+     "summary": "India's rapid expansion in solar power generation is outpacing the grid infrastructure needed to carry that electricity to consumers. Transmission bottlenecks are emerging as a serious threat to the country's clean energy targets. The government now faces pressure to upgrade grid capacity before these gaps slow down the entire renewable energy programme.",
+     "why_it_matters": "Grid infrastructure gaps are a classic supply-chain constraint in energy transition — a key talking point for ops and logistics roles in the power sector."
+    },
+    {
+     "id": "6ec490f0cf",
+     "headline": "Industries in Gujarat start curtailing power use despite State’s 79.5 GW installed capacity",
+     "link": "https://www.thehindubusinessline.com/economy/industries-in-gujarat-start-curtailing-power-use-despite-states-795-gw-installed-capacity/article71604323.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T12:42:45+00:00",
+     "summary": "Gujarat's peak electricity demand hit a record high of nearly 29,822 MW in October, rising over 36 per cent compared to the same period last year. Despite the state having an installed capacity of 79.5 GW, industries have begun voluntarily cutting back their power consumption. The gap between installed capacity and reliable supply points to serious grid management and distribution challenges.",
+     "why_it_matters": "Demand-supply mismatches in power infrastructure directly affect manufacturing operations — a core concept for supply chain and industrial ops interviews."
+    },
+    {
+     "id": "7b18fa44e3",
+     "headline": "Mint Explainer: What do clean fuel regulations mean for car buyers?",
+     "link": "https://www.livemint.com/industry/mint-explainer-clean-fuel-regulations-car-buyers-cafe-3-bs7-cng-evs-11792493417510.html",
+     "source": "Mint",
+     "published": "2026-10-20T11:53:31+00:00",
+     "summary": "India is set to introduce stricter vehicle emission standards under CAFE 3 and BS7 norms, which will push automakers to offer more clean-fuel and hybrid options. However, the cost of complying with tighter regulations and adopting advanced engine technology is expected to raise vehicle prices for buyers. This will reshape both the product mix and the cost structure across the automobile industry.",
+     "why_it_matters": "Regulatory-driven cost increases and product portfolio shifts are important supply chain and manufacturing strategy concepts for auto-sector placement interviews."
+    },
+    {
+     "id": "1916ee8bc8",
+     "headline": "Bengaluru to Vijayawada in 6 hours? What to know about the 342-km stretch built at a cost of ₹19,000 crore",
+     "link": "https://www.livemint.com/industry/infrastructure/bengaluru-to-vijayawada-in-6-hours-what-to-know-about-the-342-km-stretch-built-at-a-cost-of-rs-19-000-crore-11792493640604.html",
+     "source": "Mint",
+     "published": "2026-10-20T11:33:02+00:00",
+     "summary": "A new 342-kilometre greenfield highway section connecting Karnataka's border near Kodikonda to Muppavaram near Addanki in Andhra Pradesh is being built at a cost of roughly ₹19,000 crore. Once complete, it is expected to cut travel time between Bengaluru and Vijayawada to around six hours. The corridor will significantly improve freight and passenger movement between two major economic regions.",
+     "why_it_matters": "New highway corridors reduce logistics costs and transit times — a direct talking point for supply chain and last-mile distribution strategy discussions."
+    },
+    {
+     "id": "93f7a8bb7d",
+     "headline": "Hindustan Zinc plans 10-mtpa tailings recycling plant to recover zinc, critical minerals",
+     "link": "https://www.thehindubusinessline.com/companies/hindustan-zinc-plans-10-mtpa-tailings-recycling-plant-to-recover-zinc-critical-minerals/article71603657.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T11:30:58+00:00",
+     "summary": "Hindustan Zinc is planning to set up a facility capable of processing ten million tonnes of mining tailings per year to recover zinc and other critical minerals, including germanium. The plant is expected to be ready within approximately two years. This move reflects a broader industry push to extract value from waste material while also securing critical mineral supply chains.",
+     "why_it_matters": "Circular economy and critical mineral recovery are emerging supply chain priorities — relevant for ops roles in mining, manufacturing, and sustainability-focused firms."
+    },
+    {
+     "id": "3f1869b402",
+     "headline": "Flipkart to challenge Zomato and Swiggy with ‘Eat-in by Minutes’: Launch date, features explained",
+     "link": "https://www.livemint.com/companies/news/flipkart-to-challenge-zomato-and-swiggy-with-eat-in-by-minutes-launch-date-features-explained-11792488539637.html",
+     "source": "Mint",
+     "published": "2026-10-20T10:13:28+00:00",
+     "summary": "Flipkart is piloting a food-delivery service called Eat-in by Minutes, currently being tested with roughly 8,000 of its own employees in Bengaluru. A public launch is planned by the end of October 2026. The move puts Flipkart in direct competition with established players Zomato and Swiggy in the quick-commerce food delivery space.",
+     "why_it_matters": "Flipkart's entry into food delivery illustrates platform diversification and quick-commerce operational scaling — a strong talking point for e-commerce and ops interviews."
+    },
+    {
+     "id": "ada66068d4",
+     "headline": "UltraTech Cement expands in AP with ₹2,650 crore",
+     "link": "https://www.thehindubusinessline.com/companies/ultratech-cement-expands-in-ap-with-2650-crore/article71603448.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-20T06:23:01+00:00",
+     "summary": "UltraTech Cement has invested ₹2,650 crore to set up a new plant in Nandyal district's Rayalaseema region of Andhra Pradesh. Construction of the facility began in May 2025. The expansion signals continued capacity build-out by India's largest cement maker in a region with growing infrastructure demand.",
+     "why_it_matters": "Greenfield capacity expansion decisions in capital-intensive industries are a core manufacturing strategy concept for ops and supply chain interviews."
+    },
+    {
+     "id": "2656c61832",
+     "headline": "Surat manufacturers enter defence technical textiles sector, create jobs: ‘Earlier, these fabrics were imported’",
+     "link": "https://www.livemint.com/industry/manufacturing/surat-manufacturers-enter-defence-technical-textiles-sector-create-jobs-earlier-these-fabrics-were-imported-11792420091751.html",
+     "source": "Mint",
+     "published": "2026-10-19T15:38:12+00:00",
+     "summary": "Textile manufacturers in Surat are diversifying from traditional sarees and synthetic fabrics into specialised technical textiles used in defence applications. This shift is helping create new jobs in the region. Producers note that these fabrics were previously imported, meaning domestic manufacturing is now substituting foreign supply.",
+     "why_it_matters": "Import substitution in technical textiles is a supply chain localisation story — relevant for ops roles in manufacturing and defence-linked industries."
+    },
+    {
+     "id": "e4b1653339",
+     "headline": "GenZ driving Amazon's fashion & beauty sales: Senior exec Nikhil Sinha",
+     "link": "https://www.business-standard.com/companies/news/gen-z-makes-up-52-of-amazon-s-fashion-and-beauty-customer-base-in-india-126101900984_1.html",
+     "source": "Business Standard",
+     "published": "2026-10-19T13:15:03+00:00",
+     "summary": "Amazon India says Gen Z consumers are a key driver of its fashion and beauty sales, particularly during the festive season. Premium brands have doubled their share of sales to 20 per cent, and more than half of all fashion and beauty orders are now coming from non-metro cities. This points to a significant shift in both the customer profile and geographic spread of e-commerce demand.",
+     "why_it_matters": "Premiumisation and non-metro demand growth are reshaping e-commerce fulfilment and inventory planning — directly relevant for ops and analytics roles in retail."
+    },
+    {
+     "id": "7fc56ea9a9",
+     "headline": "Engineering exports seen at all-time high of $150 billion this fiscal",
+     "link": "https://www.thehindubusinessline.com/economy/engineering-exports-seen-at-all-time-high-of-150-billion-this-fiscal/article71602473.ece",
+     "source": "Hindu BusinessLine",
+     "published": "2026-10-19T10:36:23+00:00",
+     "summary": "India's engineering exports are on track to reach an all-time high of 150 billion US dollars in the current financial year, according to the EEPC chairman. Shipments grew by 20 per cent in the April-to-September period, with the United States and other markets showing healthy demand. This performance reflects strong momentum in one of India's most important manufactured-goods export categories.",
+     "why_it_matters": "Record engineering exports signal supply chain competitiveness and global demand trends — a strong data point for ops and trade-focused placement interviews."
+    }
+   ],
+   "quiz": [
+    {
+     "question": "Why are Gujarat industries cutting power use despite the state having 79.5 GW of installed capacity?",
+     "options": [
+      "Renewable energy output has dropped due to poor weather",
+      "State government has mandated conservation targets for industry",
+      "Industries are shifting to captive solar generation instead",
+      "Reliable supply is not keeping pace with surging demand"
+     ],
+     "answer_index": 3,
+     "explanation": "The story highlights a demand-supply mismatch: peak demand jumped over 36% year-on-year, and grid management and distribution gaps mean installed capacity alone does not guarantee reliable power to industrial consumers."
+    },
+    {
+     "question": "What is the primary operational significance of the new Kodikonda–Muppavaram highway for businesses?",
+     "options": [
+      "It connects two new special economic zones in South India",
+      "It lowers freight transit times between two major economic hubs",
+      "It creates a dedicated corridor exclusively for passenger traffic",
+      "It replaces an existing toll road to reduce logistics costs"
+     ],
+     "answer_index": 1,
+     "explanation": "The 342-km greenfield corridor cuts travel time between Bengaluru and Vijayawada to around six hours, directly reducing logistics costs and improving supply chain efficiency between two economically significant regions."
+    },
+    {
+     "question": "What supply chain strategy does Hindustan Zinc's tailings recycling plant best illustrate?",
+     "options": [
+      "Expanding primary mining output to meet export demand",
+      "Extracting value from waste to secure critical mineral supply",
+      "Outsourcing mineral processing to reduce capital expenditure",
+      "Diversifying into new geographies to reduce concentration risk"
+     ],
+     "answer_index": 1,
+     "explanation": "Processing mining tailings to recover zinc and germanium is a circular economy approach that turns waste into a resource, reducing dependence on fresh extraction and strengthening critical mineral supply chains."
+    },
+    {
+     "question": "What does Flipkart's Eat-in by Minutes pilot reveal about its quick-commerce strategy?",
+     "options": [
+      "It is launching simultaneously across all major Indian metros",
+      "It is acquiring an existing food-delivery startup for rapid scale",
+      "It is partnering with Zomato to share delivery infrastructure",
+      "It is testing operations internally before a wider public rollout"
+     ],
+     "answer_index": 3,
+     "explanation": "Flipkart is using its own employee base of around 8,000 in Bengaluru as a controlled test environment, a classic internal pilot approach to validate operations before committing to a full public launch."
+    },
+    {
+     "question": "What key demand-side shift is Amazon India observing in fashion and beauty e-commerce?",
+     "options": [
+      "Discount-driven purchases are replacing premium brand sales",
+      "Metro consumers are switching from online to offline retail",
+      "Mobile commerce has overtaken desktop for all age groups",
+      "Non-metro cities now contribute over half of category orders"
+     ],
+     "answer_index": 3,
+     "explanation": "More than half of Amazon's fashion and beauty orders are coming from non-metro markets, signalling a geographic expansion of e-commerce demand that has major implications for fulfilment network design and inventory placement."
+    }
+   ],
+   "dropped": [
+    {
+     "headline": "Natco Pharma launches generic cancer drug Carboplatin in US",
+     "reason": "already 10 stories"
+    },
+    {
+     "headline": "Greenzo Energy raises ₹251 crore to fund growth plans",
+     "reason": "already 10 stories"
+    }
+   ]
+  }
+ },
+ "company": {
+  "name": "Deloitte",
+  "process_date": "2026-10-27",
+  "what_it_does": "Deloitte is a global professional services network that sells audit, consulting, tax, and advisory services primarily to large corporations, governments, and financial institutions. In India, it operates as one of the dominant players among the Big Four firms, competing closely with PwC, EY, and KPMG across all major service lines.",
+  "business_lines": [
+   "Audit & Assurance [statutory audit, financial statement review, regulatory assurance]",
+   "Consulting [technology transformation, strategy, operations, human capital]",
+   "Financial Advisory [mergers & acquisitions advisory, forensic investigations, valuations]",
+   "Risk Advisory [enterprise risk, cyber risk, internal audit services]",
+   "Tax & Legal [direct tax, indirect tax/GST, transfer pricing, legal advisory]"
+  ],
+  "recent_news": [],
+  "talking_points": [
+   "Deloitte has been aggressively expanding its technology consulting practice in India, positioning its local delivery centres as global hubs for AI, cloud, and digital transformation work — making India a strategic back-end for its worldwide client engagements, not just a cost centre.",
+   "The firm faces a structural tension between its audit and consulting arms: global regulators, including those in the EU and UK, have pushed for stricter separation of audit and non-audit services at the Big Four, which could force Deloitte to restructure how it cross-sells to the same clients in India.",
+   "Deloitte India competes intensely with the other Big Four firms for campus talent, but also increasingly with boutique strategy firms like McKinsey, BCG, and Bain for high-end consulting mandates — meaning differentiation on specialisation (sector depth, tech credentials) matters more than ever for new hires."
+  ],
+  "quiz": [
+   {
+    "question": "Which of the following is a service line under Deloitte's Risk Advisory practice?",
+    "options": [
+     "Transfer pricing and GST compliance",
+     "Human capital and organisation design",
+     "Cyber risk and internal audit services",
+     "Mergers and acquisitions valuations"
+    ],
+    "answer_index": 2,
+    "explanation": "Cyber risk management and internal audit services sit within Deloitte's Risk Advisory segment, while transfer pricing belongs to Tax, M&A valuations to Financial Advisory, and human capital to Consulting."
+   },
+   {
+    "question": "Which regulatory pressure most directly threatens the Big Four's cross-selling model?",
+    "options": [
+     "Stricter separation of audit and non-audit services",
+     "Mandatory rotation of statutory auditors",
+     "Transfer pricing scrutiny on intercompany fees",
+     "GST compliance burden on professional firms"
+    ],
+    "answer_index": 0,
+    "explanation": "Regulators in the EU and UK have pushed for firmer walls between audit and consulting services at the same firm, which directly challenges the Big Four's practice of selling advisory work to audit clients."
+   },
+   {
+    "question": "In competing for high-end consulting mandates in India, Deloitte's primary rivals beyond the Big Four are:",
+    "options": [
+     "KPMG, EY, and PwC",
+     "Grant Thornton, BDO, and RSM",
+     "McKinsey, BCG, and Bain",
+     "Accenture, Infosys, and Wipro"
+    ],
+    "answer_index": 2,
+    "explanation": "For premium strategy consulting work, Deloitte competes with the MBB firms — McKinsey, BCG, and Bain — while KPMG, EY, and PwC are Big Four peers across all lines, not specifically high-end strategy rivals."
+   }
+  ]
+ },
+ "date": "2026-10-21",
+ "_run": {
+  "models": {
+   "au.anthropic.claude-haiku-4-5-20251001-v1:0": {
+    "input": 10239,
+    "output": 6040,
+    "calls": 2,
+    "approx_usd": 0.0404
+   },
+   "au.anthropic.claude-sonnet-4-6": {
+    "input": 10085,
+    "output": 10740,
+    "calls": 5,
+    "approx_usd": 0.1914
+   }
+  },
+  "items": 123,
+  "seconds": 64,
+  "calls": 7,
+  "approx_usd": 0.2318
+ }
+}
